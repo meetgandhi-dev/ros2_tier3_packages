@@ -1,0 +1,17 @@
+Codename: jammy
+Date: Tue, 17 Dec 2024 08:55:33 UTC
+Architectures: amd64
+Components: main
+Description: Component containing the ROS 2 Jazzy packages for Ubuntu 22.04 (Jammy).
+MD5Sum:
+ ba423c4e13ba16f5e14d9773d15c4118 319141 main/binary-amd64/Packages
+ ec5fbeb02a177443bf9a24135e7bbb74 75532 main/binary-amd64/Packages.gz
+ 908ba395588b782258d03cde728ee151 121 main/binary-amd64/Release
+SHA1:
+ 0127b2611a8325a1073f0c27b8b0c5549b8c6c84 319141 main/binary-amd64/Packages
+ 3176a7096db0cac1aa21407a7a1fe3654a4bfda6 75532 main/binary-amd64/Packages.gz
+ da0d02996d84d2afcbb945613260759f332b368e 121 main/binary-amd64/Release
+SHA256:
+ 05296f73918e6c10ecc66f59f1667934da65e97877dd7f24573708aba09f292c 319141 main/binary-amd64/Packages
+ 0e8482840592d5bfbe12e405311eb111a896649cf18f9e22e337252402e177fc 75532 main/binary-amd64/Packages.gz
+ 71ee5b0b64b4fb196a8b334f20ce1cd9117eb22a72b13e2847735182d1e62eff 121 main/binary-amd64/Release
