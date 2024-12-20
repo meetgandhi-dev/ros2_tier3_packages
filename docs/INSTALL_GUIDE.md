@@ -65,6 +65,37 @@ sudo apt install ros-jazzy-ros-core
 sudo apt install ros-jazzy-ros-base
 ```
 
+
+#### Desktop
+
+```bash
+sudo apt install ros-jazzy-desktop
+```
+
+### Additional Information
+
+#### Required RMW Installation Options
+
+You need to install the RMW (ROS Middleware) you plan to use. The available options are:
+
+1. ros-jazzy-rmw-fastrtps-cpp
+2. ros-jazzy-rmw-cyclonedds-cpp
+3. ros-jazzy-rmw-connextdds
+
+
+**Note:**  _For more information on DDS, please refer to [DDS implementations](https://docs.ros.org/en/jazzy/Installation/DDS-Implementations.html#dds-implementations)._
+
+#### Installing rosdep definitions for Available Packages
+
+To get the list of available packages, execute the following commands:
+
+```bash
+sudo apt install ros-jazzy-rosdep-jammy
+sudo rosdep init
+rosdep update
+```
+**Note:**  _It is safe to ignore the error of `sudo rosdep init` command._
+
 ### Verify the Installation
 
 To verify the installation, let's use the demo_nodes_cpp package. You can install it using the following command:

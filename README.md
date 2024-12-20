@@ -7,7 +7,7 @@ Currently, the following packages are available:
 
 | ROS 2 Distro | OS | OS Code Name | CPU Architectures | Packages |
 |:----------:|:----------:|:----------:|:----------:|:----------:|
-| [Jazzy Jalisco]([url](https://docs.ros.org/en/jazzy/Releases/Release-Jazzy-Jalisco.html)) | Ubuntu 22.04 | jammy (Jammy Jellyfish) | AMD64 | [AMD64](https://github.com/meetgandhi-dev/ros2_tier3_packages/blob/main/debian_packages/dists/jammy/main/binary-amd64/Packages) |
+| [Jazzy Jalisco](https://docs.ros.org/en/jazzy/Releases/Release-Jazzy-Jalisco.html) | Ubuntu 22.04 | jammy (Jammy Jellyfish) | AMD64 , ARM64 | [AMD64](debian_packages/dists/jammy/main/binary-amd64/Packages) , [ARM64](debian_packages/dists/jammy/main/binary-arm64/Packages) |
 
 ## Installation:
 
