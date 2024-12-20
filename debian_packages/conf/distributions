@@ -1,5 +1,5 @@
 Codename: jammy
 Components: main
-Architectures: amd64
+Architectures: amd64 arm64
 Description: Component containing the ROS 2 Jazzy packages for Ubuntu 22.04 (Jammy).
 SignWith: B1149AF2F8EC14C9B61979D2A976D367589ECEAD

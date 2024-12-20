@@ -1,0 +1,3 @@
+Component: main
+Architecture: arm64
+Description: Component containing the ROS 2 Jazzy packages for Ubuntu 22.04 (Jammy).

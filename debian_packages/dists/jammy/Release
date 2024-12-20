@@ -1,17 +1,26 @@
 Codename: jammy
-Date: Tue, 17 Dec 2024 08:55:33 UTC
-Architectures: amd64
+Date: Fri, 20 Dec 2024 19:00:06 UTC
+Architectures: amd64 arm64
 Components: main
 Description: Component containing the ROS 2 Jazzy packages for Ubuntu 22.04 (Jammy).
 MD5Sum:
- ba423c4e13ba16f5e14d9773d15c4118 319141 main/binary-amd64/Packages
- ec5fbeb02a177443bf9a24135e7bbb74 75532 main/binary-amd64/Packages.gz
+ 7170f9999a673e1d90c6a137c33a486e 319141 main/binary-amd64/Packages
+ c7ee5ef931646ea1a4762d71270f0a1c 75532 main/binary-amd64/Packages.gz
  908ba395588b782258d03cde728ee151 121 main/binary-amd64/Release
+ 286aa540f1d415c1076ca662a096d1b1 319761 main/binary-arm64/Packages
+ 02ff3ab7eba6d05875e49787e1edb0cd 75744 main/binary-arm64/Packages.gz
+ b0cc29dff62ca4a5c3232849810de2fb 121 main/binary-arm64/Release
 SHA1:
- 0127b2611a8325a1073f0c27b8b0c5549b8c6c84 319141 main/binary-amd64/Packages
- 3176a7096db0cac1aa21407a7a1fe3654a4bfda6 75532 main/binary-amd64/Packages.gz
+ eb64d437e4bcf3d9115462b709d8b9f6fceb952a 319141 main/binary-amd64/Packages
+ 33c2ce29b0be8ece99efcceeb6f75b9dba5ae105 75532 main/binary-amd64/Packages.gz
  da0d02996d84d2afcbb945613260759f332b368e 121 main/binary-amd64/Release
+ 6b490d3bf98421d4dd17b5aa437bceee93a8c9a2 319761 main/binary-arm64/Packages
+ b75fd71f634550503387c8da0b6fb1bf9cfdf86a 75744 main/binary-arm64/Packages.gz
+ 94df938a136ef25e1efc9451f299fcff1153df07 121 main/binary-arm64/Release
 SHA256:
- 05296f73918e6c10ecc66f59f1667934da65e97877dd7f24573708aba09f292c 319141 main/binary-amd64/Packages
- 0e8482840592d5bfbe12e405311eb111a896649cf18f9e22e337252402e177fc 75532 main/binary-amd64/Packages.gz
+ 49b7aa2adb272a5084151d9406dc121197be32b38a724f10fb4e9aeaad0201a2 319141 main/binary-amd64/Packages
+ 4c5cb0c20d8900a5f1099d35db2ce5eeaf4ea1eb27ecc1625317410e31a4e4ad 75532 main/binary-amd64/Packages.gz
  71ee5b0b64b4fb196a8b334f20ce1cd9117eb22a72b13e2847735182d1e62eff 121 main/binary-amd64/Release
+ 4f53535790f002f0f8419e7830050da61d995a653d41076769f9cfe5df3b6c5d 319761 main/binary-arm64/Packages
+ d72546d71ce99f203fc47b651347c33a511493cdd938ad0dab60c9f689cafce3 75744 main/binary-arm64/Packages.gz
+ c5a61dbe3e231f262b42387cef48f761f2e08155d767b5cbbd8d3d34938a4ca2 121 main/binary-arm64/Release
