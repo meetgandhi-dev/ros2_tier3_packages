@@ -1,26 +1,26 @@
 Codename: jammy
-Date: Fri, 20 Dec 2024 19:00:06 UTC
+Date: Thu, 30 Jan 2025 06:39:56 UTC
 Architectures: amd64 arm64
 Components: main
 Description: Component containing the ROS 2 Jazzy packages for Ubuntu 22.04 (Jammy).
 MD5Sum:
- 7170f9999a673e1d90c6a137c33a486e 319141 main/binary-amd64/Packages
- c7ee5ef931646ea1a4762d71270f0a1c 75532 main/binary-amd64/Packages.gz
+ 3ae5351412abc8b0ee078cc381187e9b 444492 main/binary-amd64/Packages
+ 7c353987723a7a188aff2b3d99f52564 104208 main/binary-amd64/Packages.gz
  908ba395588b782258d03cde728ee151 121 main/binary-amd64/Release
- 286aa540f1d415c1076ca662a096d1b1 319761 main/binary-arm64/Packages
- 02ff3ab7eba6d05875e49787e1edb0cd 75744 main/binary-arm64/Packages.gz
+ daa16ba5445afa6015f4df2b4713fba3 445390 main/binary-arm64/Packages
+ 87323f6c9d337e9cae0c09a3925eae28 104532 main/binary-arm64/Packages.gz
  b0cc29dff62ca4a5c3232849810de2fb 121 main/binary-arm64/Release
 SHA1:
- eb64d437e4bcf3d9115462b709d8b9f6fceb952a 319141 main/binary-amd64/Packages
- 33c2ce29b0be8ece99efcceeb6f75b9dba5ae105 75532 main/binary-amd64/Packages.gz
+ 816a4495b4ace7145f8e1732474db5708ba53e1a 444492 main/binary-amd64/Packages
+ 75697ee666caf3a128b78e581ea2b04b2818c5e2 104208 main/binary-amd64/Packages.gz
  da0d02996d84d2afcbb945613260759f332b368e 121 main/binary-amd64/Release
- 6b490d3bf98421d4dd17b5aa437bceee93a8c9a2 319761 main/binary-arm64/Packages
- b75fd71f634550503387c8da0b6fb1bf9cfdf86a 75744 main/binary-arm64/Packages.gz
+ 3e7b655858ec881fa14d5038b3e2b9682ed33451 445390 main/binary-arm64/Packages
+ c4951b53e181e22e7bc0bf8a96deeef9ec233fdb 104532 main/binary-arm64/Packages.gz
  94df938a136ef25e1efc9451f299fcff1153df07 121 main/binary-arm64/Release
 SHA256:
- 49b7aa2adb272a5084151d9406dc121197be32b38a724f10fb4e9aeaad0201a2 319141 main/binary-amd64/Packages
- 4c5cb0c20d8900a5f1099d35db2ce5eeaf4ea1eb27ecc1625317410e31a4e4ad 75532 main/binary-amd64/Packages.gz
+ 4b48b5fedec4bdaad03faf14b1ccf4fde1a03a041d4abe6e10d264593e6d4f25 444492 main/binary-amd64/Packages
+ b99fe6764f2642832cc53892275c912204d0f2903cd44cfcb86f07309675ab67 104208 main/binary-amd64/Packages.gz
  71ee5b0b64b4fb196a8b334f20ce1cd9117eb22a72b13e2847735182d1e62eff 121 main/binary-amd64/Release
- 4f53535790f002f0f8419e7830050da61d995a653d41076769f9cfe5df3b6c5d 319761 main/binary-arm64/Packages
- d72546d71ce99f203fc47b651347c33a511493cdd938ad0dab60c9f689cafce3 75744 main/binary-arm64/Packages.gz
+ 6db0532332f98ab2aec1621b756e85ead3c4bbd653bbc2866ab42e6c81bc124d 445390 main/binary-arm64/Packages
+ 74a657a842ff1dae29224502e717eecb193c5a1f5e4bb31880b64e1d5333641d 104532 main/binary-arm64/Packages.gz
  c5a61dbe3e231f262b42387cef48f761f2e08155d767b5cbbd8d3d34938a4ca2 121 main/binary-arm64/Release
