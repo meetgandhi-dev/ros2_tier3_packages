@@ -82,6 +82,38 @@ Description: Library API for accessing glslc functionality - shared libraries
  .
  This package contains shared libraries.
 
+Package: ros-jazzy-ackermann-msgs
+Version: 2.0.2-0jammy
+Architecture: amd64
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Installed-Size: 558
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-ackermann-msgs/ros-jazzy-ackermann-msgs_2.0.2-0jammy_amd64.deb
+Size: 50726
+SHA256: 40eb3a2f7a53f900c445cd0bca378f1ea27d1d419fb1a0ccc1c6f2a81ae0445d
+SHA1: fee28da34cf0ecdbe54d5d5611e94cc2d8fcb90c
+MD5sum: 4be36e0cce2f4ae025c0a5820ba9b57f
+Description: ROS2 messages for robots using Ackermann steering.
+
+Package: ros-jazzy-ackermann-steering-controller
+Version: 4.19.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 182
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-jazzy-backward-ros, ros-jazzy-control-msgs, ros-jazzy-controller-interface, ros-jazzy-hardware-interface, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-std-srvs, ros-jazzy-steering-controllers-library, ros-jazzy-ros-workspace
+Homepage: https://control.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-ackermann-steering-controller/ros-jazzy-ackermann-steering-controller_4.19.0-0jammy_amd64.deb
+Size: 41758
+SHA256: 88f88b7da575ddd81f10fa5c5928b0ea04a0075f631c8d53a2134c38aaec5b02
+SHA1: ff49f00bf8b0cb1e80d3fa181e9e61ec297a0e48
+MD5sum: 36ddd55228c12de90d9beb0d6f6570e5
+Description: Steering controller for Ackermann kinematics.
+ Rear fixed wheels are powering the vehicle and front wheels are steering it.
+
 Package: ros-jazzy-action-msgs
 Version: 2.0.2-0jammy
 Architecture: amd64
@@ -171,6 +203,22 @@ SHA256: 587b18af2c69c811b9f5f9e61dda04e95100909c2b5c24f6959757ebe971e037
 SHA1: 8a57474d5c1e6bcf791760898ef1a7a594a8fb2b
 MD5sum: 578c551737adf7cde35c637244db51a9
 Description: ROS 2 message interface for Actuators.
+
+Package: ros-jazzy-admittance-controller
+Version: 4.19.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 1244
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-jazzy-backward-ros, ros-jazzy-control-msgs, ros-jazzy-control-toolbox, ros-jazzy-controller-interface, ros-jazzy-filters, ros-jazzy-generate-parameter-library, ros-jazzy-geometry-msgs, ros-jazzy-hardware-interface, ros-jazzy-joint-trajectory-controller, ros-jazzy-kinematics-interface, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-realtime-tools, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-kdl, ros-jazzy-tf2-ros, ros-jazzy-trajectory-msgs, ros-jazzy-ros-workspace
+Homepage: https://control.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-admittance-controller/ros-jazzy-admittance-controller_4.19.0-0jammy_amd64.deb
+Size: 288196
+SHA256: b720cde1713fd46f72f9fa5ba00cdf95c1ef327464cfdc31d8a8eefff45179ce
+SHA1: 203e2193c350cffd96a0e2a9491d87281ef509a0
+MD5sum: 125eeed07d2fde2dda02c64026e92ef4
+Description: Implementation of admittance controllers for different input and output interface.
 
 Package: ros-jazzy-ament-clang-format
 Version: 0.17.1-0jammy
@@ -1017,6 +1065,23 @@ SHA1: 7682edf01c62d8c94f1c31eeaef5d2332c47d439
 MD5sum: 43464cbda85cfc2fd5375b4afe0b46c8
 Description: This package provides the Behavior Trees core library.
 
+Package: ros-jazzy-bicycle-steering-controller
+Version: 4.19.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 169
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-jazzy-backward-ros, ros-jazzy-control-msgs, ros-jazzy-controller-interface, ros-jazzy-hardware-interface, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-std-srvs, ros-jazzy-steering-controllers-library, ros-jazzy-ros-workspace
+Homepage: https://control.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-bicycle-steering-controller/ros-jazzy-bicycle-steering-controller_4.19.0-0jammy_amd64.deb
+Size: 39638
+SHA256: 529242907994500147c3de2ba1f692e0dec56f55ef0c4ac5e2b595a1693b23aa
+SHA1: 099841902312d650f2a916f4dff69a3655ffa07e
+MD5sum: 418be06550edba4240afe9bce18197b9
+Description: Steering controller with bicycle kinematics.
+ Rear fixed wheel is powering the vehicle and front wheel is steering.
+
 Package: ros-jazzy-bond
 Version: 4.1.0-0jammy
 Architecture: amd64
@@ -1173,11 +1238,27 @@ Homepage: http://ceres-solver.org/
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-jazzy-ceres-solver/ros-jazzy-ceres-solver_2.2.0-0jammy_amd64.deb
-Size: 1341472
-SHA256: 0aa019fe5971c6c4433923be63e31c8807225b529c6923c327238fec39e944f0
-SHA1: 62c1aa0c98fb85b6ec014ffa29f48f43318b1b6b
-MD5sum: 379f71479d73bf66a9c48cf6c68d8cc0
+Size: 1341474
+SHA256: feb8a1d69bc304c45eae6c81ad93efaf59471032a5f7f3fd751f19380dd79ebe
+SHA1: 02ddf0c666b7923721cd2148c89c39ef0611ec3b
+MD5sum: 6a7bdc437c9da884804d54ce16045f0c
 Description: A large scale non-linear optimization library.
+
+Package: ros-jazzy-chomp-motion-planner
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Installed-Size: 331
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-moveit-core, ros-jazzy-moveit-common, ros-jazzy-rclcpp, ros-jazzy-rsl, ros-jazzy-trajectory-msgs, ros-jazzy-ros-workspace
+Homepage: http://ros.org/wiki/chomp_motion_planner
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-chomp-motion-planner/ros-jazzy-chomp-motion-planner_2.12.1-0jammy_amd64.deb
+Size: 105222
+SHA256: 05a9964e1da54c351602a64059255b91d71271904e347069ea8f070e2fa50dcb
+SHA1: 1d8eec775dba2669e31b565d2d8078265ad2f4d7
+MD5sum: d10e303a44d86ae377d6eff18e577a13
+Description: chomp_motion_planner
 
 Package: ros-jazzy-class-loader
 Version: 2.7.0-0jammy
@@ -1693,6 +1774,38 @@ SHA1: 7d1157e3a839e8652fbfa5a69aaaf3cb8e379fe5
 MD5sum: 18016e1f28253ebb2a9cfc9cfb0c8619
 Description: Standard implementations of the GoalChecker and TrajectoryGenerators for dwb_core
 
+Package: ros-jazzy-effort-controllers
+Version: 4.19.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 108
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-jazzy-backward-ros, ros-jazzy-forward-command-controller, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros-workspace
+Homepage: https://control.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-effort-controllers/ros-jazzy-effort-controllers_4.19.0-0jammy_amd64.deb
+Size: 23428
+SHA256: 1edc855c81dcde89a541c88669a173e56c2b822feae2f19cdb8ab29da5cb0103
+SHA1: bcf889b51238268f0de09932f5b16383e229cb4f
+MD5sum: 4c5b7686a0737004365bfdf6deb55a57
+Description: Generic controller for forwarding commands.
+
+Package: ros-jazzy-eigen-stl-containers
+Version: 1.1.0-0jammy
+Architecture: amd64
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Installed-Size: 63
+Depends: libeigen3-dev, ros-jazzy-ros-workspace
+Homepage: http://eigen.tuxfamily.org/dox/TopicUnalignedArrayAssert.html
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-eigen-stl-containers/ros-jazzy-eigen-stl-containers_1.1.0-0jammy_amd64.deb
+Size: 9884
+SHA256: 8b80df0cebb23155a6d3f6c84debab76a3ff776fc89c2ea061acbc08fd6286cf
+SHA1: 59ea5bb8046314b0d57f7e96c08f24e6a2991052
+MD5sum: e29f88b07ba209dd5619d7d4cc160498
+Description: This package provides a set of typedef's that allow using Eigen datatypes in STL containers
+
 Package: ros-jazzy-eigen3-cmake-module
 Version: 0.3.0-0jammy
 Architecture: amd64
@@ -2022,6 +2135,21 @@ SHA256: 5616b2dc88d6e68ab6b8114e893fec5e6567951de471ae1b7077232f75cd4d8a
 SHA1: cdfd9aecb1fb51b23916b7ffc742066b58bb174d
 MD5sum: c12ec8d895281ec524ce72b5e8307ed4
 Description: Conversion functions for converting ROS primitives to and from ASN.1-encoded primitives
+
+Package: ros-jazzy-etsi-its-rviz-plugins
+Version: 3.0.0-0jammy
+Architecture: amd64
+Maintainer: Jean-Pierre Busch <jean-pierre.busch@rwth-aachen.de>
+Installed-Size: 1118
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgeographic19 (>= 1.40), liborocos-kdl1.5 (>= 1.5.1), libqt5core5a (>= 5.15.1), libstdc++6 (>= 11), ros-jazzy-rviz-ogre-vendor, libqt5gui5, libqt5opengl5, libqt5widgets5, python3-pyproj, ros-jazzy-etsi-its-msgs, ros-jazzy-etsi-its-msgs-utils, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros-environment, ros-jazzy-rviz-common, ros-jazzy-rviz-default-plugins, ros-jazzy-rviz-rendering, ros-jazzy-rviz-satellite, ros-jazzy-rviz2, ros-jazzy-tf2, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-etsi-its-rviz-plugins/ros-jazzy-etsi-its-rviz-plugins_3.0.0-0jammy_amd64.deb
+Size: 205442
+SHA256: e05443a39e18d94bc2556904f3b25e92521213afee51073d271bb9e817ad52b9
+SHA1: 1d105eb62325391885f323c153d0b7d02792d60d
+MD5sum: a28c427ff32fbacdfbde1b4b8d1bfc2f
+Description: RViz plugin for ROS 2 messages based on ETSI ITS messages
 
 Package: ros-jazzy-etsi-its-spatem-ts-coding
 Version: 3.0.0-0jammy
@@ -2449,6 +2577,38 @@ SHA1: 7d2c2d2a68a18d6270e588045316355a0962baa8
 MD5sum: 0aa96a4961de305683521e80a75154d7
 Description: Foonathan/memory vendor package for Fast-RTPS.
 
+Package: ros-jazzy-force-torque-sensor-broadcaster
+Version: 4.19.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 327
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-backward-ros, ros-jazzy-controller-interface, ros-jazzy-generate-parameter-library, ros-jazzy-geometry-msgs, ros-jazzy-hardware-interface, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-realtime-tools, ros-jazzy-ros-workspace
+Homepage: https://control.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-force-torque-sensor-broadcaster/ros-jazzy-force-torque-sensor-broadcaster_4.19.0-0jammy_amd64.deb
+Size: 90476
+SHA256: a93e1cdc466aa4b4a079e8bd6e333a7544530fae6e51c7a7fb1f5be1ed713a6d
+SHA1: 87649b44432fcc0e4cc7ad185401d84812bf9d69
+MD5sum: 89dc16907bb7cc816c8bf0719f4e3f3b
+Description: Controller to publish state of force-torque sensors.
+
+Package: ros-jazzy-forward-command-controller
+Version: 4.19.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 566
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-backward-ros, ros-jazzy-controller-interface, ros-jazzy-generate-parameter-library, ros-jazzy-hardware-interface, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-realtime-tools, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Homepage: https://control.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-forward-command-controller/ros-jazzy-forward-command-controller_4.19.0-0jammy_amd64.deb
+Size: 125994
+SHA256: 4343cc45d3ef18749caba9800fb33723fd231660c12c9e4e79dc76053be756d5
+SHA1: 299cdd4192de1d6d1e18bf07dd86d8ff56bcacd1
+MD5sum: 7cc47bc78faee960ce57bbec4ff3ca7a
+Description: Generic controller for forwarding commands.
+
 Package: ros-jazzy-generate-parameter-library
 Version: 0.4.0-0jammy
 Architecture: amd64
@@ -2479,6 +2639,39 @@ SHA1: bedf6990838881ba046f734d1123e07df0caf202
 MD5sum: d420de560a7511b06de40b507c340d13
 Description: Python to generate ROS parameter library.
 
+Package: ros-jazzy-geodesy
+Version: 1.0.6-0jammy
+Architecture: amd64
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Installed-Size: 126
+Depends: python3-pyproj, ros-jazzy-angles, ros-jazzy-geographic-msgs, ros-jazzy-geometry-msgs, ros-jazzy-sensor-msgs, ros-jazzy-unique-identifier-msgs, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/geodesy
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-geodesy/ros-jazzy-geodesy_1.0.6-0jammy_amd64.deb
+Size: 21344
+SHA256: 8840fe41711bf6608b4d2f031054abd0f2f96f52d9c80f6f78397b614b72e192
+SHA1: 869175c9237f3f3b963a13b19a5b09a9fd242d61
+MD5sum: 0cb78d23a2c43838af46eaf89974029b
+Description: Python and C++ interfaces for manipulating geodetic coordinates.
+
+Package: ros-jazzy-geographic-info
+Version: 1.0.6-0jammy
+Architecture: amd64
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Installed-Size: 41
+Depends: ros-jazzy-geodesy, ros-jazzy-geographic-msgs, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/geographic_info
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-geographic-info/ros-jazzy-geographic-info_1.0.6-0jammy_amd64.deb
+Size: 5266
+SHA256: 423871ec36d91bfa289d565bc59086890249c6bb28b46a102f88634190c2f192
+SHA1: e853add251ad4373c4405dbd9104c69f0b6f2811
+MD5sum: 0379293a74a9e518f59ed47f980f857c
+Description: Geographic information metapackage.
+ Not needed for wet packages, use only to resolve dry stack dependencies.
+
 Package: ros-jazzy-geographic-msgs
 Version: 1.0.6-0jammy
 Architecture: amd64
@@ -2494,6 +2687,22 @@ SHA256: e05004d86f161b3df8f59fe2527f213b758065ef01ad82645c238b74f24f6613
 SHA1: 8875831744384838ce46802bef40d613077d1328
 MD5sum: 1602dfb2999ed09716273116087964a6
 Description: ROS messages for Geographic Information Systems.
+
+Package: ros-jazzy-geometric-shapes
+Version: 2.3.2-0jammy
+Architecture: amd64
+Maintainer: Tyler Weaver <tyler@picknik.ai>
+Installed-Size: 349
+Depends: libassimp5 (>= 5.2.2~ds0), libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfcl0.7 (>= 0.7.0), libgcc-s1 (>= 3.3.1), libqhull-r8.0 (>= 2020.1), libstdc++6 (>= 11), libassimp-dev, libboost-dev, libboost-filesystem1.74.0, libeigen3-dev, liboctomap-dev, libqhull-dev, ros-jazzy-console-bridge-vendor, ros-jazzy-eigen-stl-containers, ros-jazzy-eigen3-cmake-module, ros-jazzy-geometry-msgs, ros-jazzy-random-numbers, ros-jazzy-rclcpp, ros-jazzy-resource-retriever, ros-jazzy-rosidl-default-runtime, ros-jazzy-shape-msgs, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace
+Homepage: http://ros.org/wiki/geometric_shapes
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-geometric-shapes/ros-jazzy-geometric-shapes_2.3.2-0jammy_amd64.deb
+Size: 101872
+SHA256: e1e61c1daa61c471e6d3e816cb25e622ddb7dc3af02147d5e2636d2b6c0ddd38
+SHA1: f58e7f54a2b3c09c2f8c43ea49d8e76bce1e1f55
+MD5sum: 83f66c0e04fa67c7d797b8c5bd4ff760
+Description: This package contains generic definitions of geometric shapes and bodies.
 
 Package: ros-jazzy-geometry-msgs
 Version: 5.3.5-0jammy
@@ -2557,6 +2766,22 @@ SHA1: 7515ed68bcb36d2078795acf5f2112bec9f1ca70
 MD5sum: cf77f39befddad401d15375bd6e09280
 Description: This package provides Google Benchmark.
 
+Package: ros-jazzy-gpio-controllers
+Version: 4.19.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 623
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-control-msgs, ros-jazzy-controller-interface, ros-jazzy-generate-parameter-library, ros-jazzy-hardware-interface, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-realtime-tools, ros-jazzy-ros-workspace
+Homepage: https://control.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-gpio-controllers/ros-jazzy-gpio-controllers_4.19.0-0jammy_amd64.deb
+Size: 149790
+SHA256: 1b76ff17cf1ef1d4296dee32347514f12d5ed37048d00cd3d2aef67acb13ecab
+SHA1: f04d34909e74229d65458f8aca84428c990b153a
+MD5sum: e9856924685fbaae8a0cb32daf5c1200
+Description: Controllers to interact with gpios.
+
 Package: ros-jazzy-gps-msgs
 Version: 2.0.4-0jammy
 Architecture: amd64
@@ -2572,6 +2797,276 @@ SHA256: b43db8a065eee871e5d8b1921a5ec7a03d764e2b71ccd17bf806730a9c616fac
 SHA1: 41a5f32a3bcd343e1cd3f9a92988f2eef50772f9
 MD5sum: ae5df2b6a6dd5cdfb8834078ed276d4a
 Description: GPS messages for use in GPS drivers
+
+Package: ros-jazzy-graph-msgs
+Version: 0.2.0-0jammy
+Architecture: amd64
+Maintainer: Dave Coleman <davetcoleman@gmail.com>
+Installed-Size: 594
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-jazzy-fastcdr, ros-jazzy-geometry-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Homepage: https://github.com/davetcoleman/graph_msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-graph-msgs/ros-jazzy-graph-msgs_0.2.0-0jammy_amd64.deb
+Size: 62690
+SHA256: be31fab188bfa32b181afa52d8e77ad8dfc5ffb9f88e0e37cfbbe2abed4fe596
+SHA1: f4fa7e0ca027c9c9a5fe2951437be6fdf09e0746
+MD5sum: d055439e6facc161026c8eb67da9c410
+Description: ROS messages for publishing graphs of different data types
+
+Package: ros-jazzy-grid-map
+Version: 2.2.1-0jammy
+Architecture: amd64
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Installed-Size: 42
+Depends: ros-jazzy-grid-map-cmake-helpers, ros-jazzy-grid-map-core, ros-jazzy-grid-map-costmap-2d, ros-jazzy-grid-map-cv, ros-jazzy-grid-map-demos, ros-jazzy-grid-map-filters, ros-jazzy-grid-map-loader, ros-jazzy-grid-map-msgs, ros-jazzy-grid-map-octomap, ros-jazzy-grid-map-pcl, ros-jazzy-grid-map-ros, ros-jazzy-grid-map-rviz-plugin, ros-jazzy-grid-map-sdf, ros-jazzy-grid-map-visualization, ros-jazzy-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-grid-map/ros-jazzy-grid-map_2.2.1-0jammy_amd64.deb
+Size: 5944
+SHA256: 2542407ad9a7f20ccf633fb4188b7d1d790ba64931c2085d992116ad9440e0f4
+SHA1: fa0476489fea45a1bf08748d4ff303e39514da8b
+MD5sum: 8badb410c5c7cd4f810f84ec3b6f1ca5
+Description: Meta-package for the universal grid map library.
+
+Package: ros-jazzy-grid-map-cmake-helpers
+Version: 2.2.1-0jammy
+Architecture: amd64
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Installed-Size: 44
+Depends: ros-jazzy-ament-cmake-core, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-grid-map-cmake-helpers/ros-jazzy-grid-map-cmake-helpers_2.2.1-0jammy_amd64.deb
+Size: 6494
+SHA256: d253ee54d4d8dd10e883109bb7b2092703538468d4221b6c9f33e162930da36c
+SHA1: 432265e4284ae154937d55a17f866133da6d1e15
+MD5sum: bfdc3b941fa9b9acfac22f30e10db6ce
+Description: CMake support functionality used throughout grid_map
+
+Package: ros-jazzy-grid-map-core
+Version: 2.2.1-0jammy
+Architecture: amd64
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Installed-Size: 2407
+Depends: libeigen3-dev, ros-jazzy-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-grid-map-core/ros-jazzy-grid-map-core_2.2.1-0jammy_amd64.deb
+Size: 1866522
+SHA256: 5e6a566a87c699cb1ac3a51b55e41cc01d50fe39a6cc174b2ac2e1a7bcb8b884
+SHA1: 3b20798f64b117cdf1524b21976e912fe2af06f8
+MD5sum: 901f4d39c8f54b2d196ead8c9b471225
+Description: Universal grid map library to manage two-dimensional grid maps with multiple data layers.
+
+Package: ros-jazzy-grid-map-costmap-2d
+Version: 2.2.1-0jammy
+Architecture: amd64
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Installed-Size: 78
+Depends: ros-jazzy-geometry-msgs, ros-jazzy-grid-map-core, ros-jazzy-nav2-costmap-2d, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-grid-map-costmap-2d/ros-jazzy-grid-map-costmap-2d_2.2.1-0jammy_amd64.deb
+Size: 13066
+SHA256: 7e29947cdbe3771e004679eee996d718e4b368c8b1864ec8c06dd38e9267d265
+SHA1: cb94e757649eebe35cdae19c199e4826802cd861
+MD5sum: ea7d1e9fe5c3eec6914bff50f7739a67
+Description: Interface for grid maps to the costmap_2d format.
+
+Package: ros-jazzy-grid-map-cv
+Version: 2.2.1-0jammy
+Architecture: amd64
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Installed-Size: 343
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libopencv-photo4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), ros-jazzy-cv-bridge, ros-jazzy-filters, ros-jazzy-grid-map-core, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-grid-map-cv/ros-jazzy-grid-map-cv_2.2.1-0jammy_amd64.deb
+Size: 101594
+SHA256: 8f84d58c26cc942267ab27972e7937513628ede1c407cef6977cea0fcc1f4dcd
+SHA1: dbb29676ed51f51dbe7f5d841adb36b8a979835e
+MD5sum: 5ef8c95615f1a9f44a8a0c4ec8ca9781
+Description: Conversions between grid maps and OpenCV images.
+
+Package: ros-jazzy-grid-map-demos
+Version: 2.2.1-0jammy
+Architecture: amd64
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Installed-Size: 5772
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-highgui4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-jazzy-octomap, python3-opencv, ros-jazzy-cv-bridge, ros-jazzy-geometry-msgs, ros-jazzy-grid-map-core, ros-jazzy-grid-map-cv, ros-jazzy-grid-map-filters, ros-jazzy-grid-map-loader, ros-jazzy-grid-map-msgs, ros-jazzy-grid-map-octomap, ros-jazzy-grid-map-ros, ros-jazzy-grid-map-rviz-plugin, ros-jazzy-grid-map-visualization, ros-jazzy-octomap-msgs, ros-jazzy-octomap-rviz-plugins, ros-jazzy-octomap-server, ros-jazzy-rclcpp, ros-jazzy-rclpy, ros-jazzy-rviz2, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-grid-map-demos/ros-jazzy-grid-map-demos_2.2.1-0jammy_amd64.deb
+Size: 1854764
+SHA256: aeb1024f707d93aee3c5191bada3eb214aa4f0cdf7092c92de7009d036439774
+SHA1: f1650d60fb4aa24be546be7565d0fb47151c1ca2
+MD5sum: 364e53a3fbceb372a42fdc323144588c
+Description: Demo nodes to demonstrate the usage of the grid map library.
+
+Package: ros-jazzy-grid-map-filters
+Version: 2.2.1-0jammy
+Architecture: amd64
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Installed-Size: 2930
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtbb12 (>= 2021.4.0), libtbb-dev, ros-jazzy-filters, ros-jazzy-grid-map-core, ros-jazzy-grid-map-msgs, ros-jazzy-grid-map-ros, ros-jazzy-pluginlib, ros-jazzy-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-grid-map-filters/ros-jazzy-grid-map-filters_2.2.1-0jammy_amd64.deb
+Size: 410916
+SHA256: 1c71bc95501f486112da8a01178a2a4fd433dbe39c2c0d02595b01d010113f3a
+SHA1: 5f6a05bdfa0ef53a1ae25632b7d5a4b9486d07aa
+MD5sum: b83e05ec0096e6c5c9ad7c335fec21bc
+Description: Processing grid maps as a sequence of ROS filters.
+
+Package: ros-jazzy-grid-map-loader
+Version: 2.2.1-0jammy
+Architecture: amd64
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Installed-Size: 485
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-grid-map-msgs, ros-jazzy-grid-map-ros, ros-jazzy-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-grid-map-loader/ros-jazzy-grid-map-loader_2.2.1-0jammy_amd64.deb
+Size: 136188
+SHA256: 3163ca0f4a14c95f562d981ea6d5d250f0bfbfb5b3524b04b3205aa010f40487
+SHA1: 948a229fb40cb47cadab132967d9d92044b38621
+MD5sum: a2a14b42dbff6214a35746bf09db6489
+Description: Loading and publishing grid maps from bag files.
+
+Package: ros-jazzy-grid-map-msgs
+Version: 2.2.1-0jammy
+Architecture: amd64
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Installed-Size: 2328
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-jazzy-fastcdr, ros-jazzy-geometry-msgs, ros-jazzy-rclcpp, ros-jazzy-rosidl-default-generators, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-grid-map-msgs/ros-jazzy-grid-map-msgs_2.2.1-0jammy_amd64.deb
+Size: 183476
+SHA256: 7a6668d8da2997ac2ae7836ff6e39613f76bee0ba33a6dd3d5e8b651ba9e6872
+SHA1: ae4b36aee69c41cd48b9f32896cfdd67dc25c193
+MD5sum: a23cbf68fbaa14ebddcedc7ca177578e
+Description: Definition of the multi-layered grid map message type.
+
+Package: ros-jazzy-grid-map-octomap
+Version: 2.2.1-0jammy
+Architecture: amd64
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Installed-Size: 207
+Depends: ros-jazzy-grid-map-core, ros-jazzy-octomap, ros-jazzy-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-grid-map-octomap/ros-jazzy-grid-map-octomap_2.2.1-0jammy_amd64.deb
+Size: 42958
+SHA256: 40ef0681870267b01b36f964dd8c0d4fd834746356bbc950a37d5c5fda506283
+SHA1: f06559b5a9879df25c3a84592afaac111c62b0c3
+MD5sum: 594f05f2cfa70b800d9891a124afa4fa
+Description: Conversions between grid maps and OctoMap types.
+
+Package: ros-jazzy-grid-map-pcl
+Version: 2.2.1-0jammy
+Architecture: amd64
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Installed-Size: 1555
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libgomp1 (>= 6), libpcl-common1.12 (>= 1.12.1+dfsg), libpcl-filters1.12 (>= 1.12.1+dfsg), libpcl-io1.12 (>= 1.12.1+dfsg), libpcl-search1.12 (>= 1.12.1+dfsg), libpcl-segmentation1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), ros-jazzy-yaml-cpp-vendor, libpcl-apps1.12, libpcl-dev, libpcl-features1.12, libpcl-kdtree1.12, libpcl-keypoints1.12, libpcl-ml1.12, libpcl-octree1.12, libpcl-outofcore1.12, libpcl-people1.12, libpcl-recognition1.12, libpcl-registration1.12, libpcl-sample-consensus1.12, libpcl-stereo1.12, libpcl-surface1.12, libpcl-tracking1.12, libpcl-visualization1.12, libyaml-cpp-dev, ros-jazzy-grid-map-core, ros-jazzy-grid-map-msgs, ros-jazzy-grid-map-ros, ros-jazzy-rclcpp, ros-jazzy-rcutils, ros-jazzy-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-grid-map-pcl/ros-jazzy-grid-map-pcl_2.2.1-0jammy_amd64.deb
+Size: 759068
+SHA256: da984d83e9d968cc6b9a1939ef05005e10f5644c871d8c87e48259f1832f839f
+SHA1: 6dcd96786ad67309f8a5f284e68502ed6bcd788b
+MD5sum: 48899fd0cf9174ef6165070491310d05
+Description: Conversions between grid maps and Point Cloud Library (PCL) types.
+
+Package: ros-jazzy-grid-map-ros
+Version: 2.2.1-0jammy
+Architecture: amd64
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Installed-Size: 455
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), ros-jazzy-cv-bridge, ros-jazzy-geometry-msgs, ros-jazzy-grid-map-core, ros-jazzy-grid-map-cv, ros-jazzy-grid-map-msgs, ros-jazzy-nav-msgs, ros-jazzy-nav2-msgs, ros-jazzy-rclcpp, ros-jazzy-rcutils, ros-jazzy-rosbag2-cpp, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-tf2, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-grid-map-ros/ros-jazzy-grid-map-ros_2.2.1-0jammy_amd64.deb
+Size: 147438
+SHA256: e2cf4d80298f55b512a61826cfea50afe2f7fdbf991526d549cfac33e277fa9e
+SHA1: 05c25d55abb1586ad578b719ecf7a6fc6d4c6344
+MD5sum: c03db3d863255678d6ffab92a0508f20
+Description: ROS interface for the grid map library to manage two-dimensional grid maps with multiple data layers.
+
+Package: ros-jazzy-grid-map-rviz-plugin
+Version: 2.2.1-0jammy
+Architecture: amd64
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Installed-Size: 1212
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libstdc++6 (>= 11), ros-jazzy-rviz-ogre-vendor, libqt5gui5, libqt5widgets5, ros-jazzy-grid-map-msgs, ros-jazzy-grid-map-ros, ros-jazzy-rclcpp, ros-jazzy-rviz-common, ros-jazzy-rviz-rendering, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-grid-map-rviz-plugin/ros-jazzy-grid-map-rviz-plugin_2.2.1-0jammy_amd64.deb
+Size: 649998
+SHA256: 72e3505322c9f7efe48cefb38a5c941580a4e93b92dc5b83040a786a013333c4
+SHA1: bf7262b5af37d7a5e9212346ea0d445d889afcdf
+MD5sum: 6c31e9ff7f1523d386a87632ee8c1e2a
+Description: RViz plugin for displaying grid map messages.
+
+Package: ros-jazzy-grid-map-sdf
+Version: 2.2.1-0jammy
+Architecture: amd64
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Installed-Size: 103
+Depends: libpcl-dev, ros-jazzy-grid-map-core, ros-jazzy-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-grid-map-sdf/ros-jazzy-grid-map-sdf_2.2.1-0jammy_amd64.deb
+Size: 20608
+SHA256: 672f5ffda600a1e016c99113c90046076261cd4e1517b3fb72d23870cc771410
+SHA1: 159740b6306b747219cc13bb3c924021874cf27f
+MD5sum: 7008d215d21cc5aeb1368bf0d2eab398
+Description: Generates signed distance fields from grid maps.
+
+Package: ros-jazzy-grid-map-visualization
+Version: 2.2.1-0jammy
+Architecture: amd64
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Installed-Size: 1244
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-grid-map-core, ros-jazzy-grid-map-msgs, ros-jazzy-grid-map-ros, ros-jazzy-nav-msgs, ros-jazzy-rclcpp, ros-jazzy-sensor-msgs, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-grid-map-visualization/ros-jazzy-grid-map-visualization_2.2.1-0jammy_amd64.deb
+Size: 494140
+SHA256: ba0124a64a80803a7d2b10eeb7ee67775f9a5395fe459eaef2eecbb919be3d28
+SHA1: 8fe008873301e6970eca6f757e59ad4d652f7951
+MD5sum: 50d5fd6a1e4b940c24b11d600658bce3
+Description: Configurable tool to visualize grid maps in RViz.
+
+Package: ros-jazzy-gripper-controllers
+Version: 4.19.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 344
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-backward-ros, ros-jazzy-control-msgs, ros-jazzy-control-toolbox, ros-jazzy-controller-interface, ros-jazzy-generate-parameter-library, ros-jazzy-hardware-interface, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-action, ros-jazzy-realtime-tools, ros-jazzy-ros-workspace
+Homepage: https://control.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-gripper-controllers/ros-jazzy-gripper-controllers_4.19.0-0jammy_amd64.deb
+Size: 85356
+SHA256: 22ffa8dbef5babf89ef057af80fe18329716886b4b3fe685b9e770e3c84c81a5
+SHA1: 20af1fa2264537d72b9997d0c2d266227798c141
+MD5sum: 647c4ee654d84df3d91653110f1541fc
+Description: The gripper_controllers package
 
 Package: ros-jazzy-gtest-vendor
 Version: 1.14.9000-0jammy
@@ -2763,6 +3258,21 @@ SHA256: 27377dc35bfe6a15c44da35467b7eafa1722ead9fbce7e3c34e71a05879ad5fb
 SHA1: fde80cb8cc44cf91592445cdeefb11dde8d559b8
 MD5sum: 108865929cdaa90ee280b99023bdef01
 Description: Vendor package for: gz-rendering8 8.2.1 Gazebo Rendering: Rendering library for robot applications
+
+Package: ros-jazzy-gz-ros2-control
+Version: 1.2.10-0jammy
+Architecture: amd64
+Maintainer: Alejandro Hernández <alejandro@openrobotics.com>
+Installed-Size: 782
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-jazzy-gz-common-vendor, ros-jazzy-gz-msgs-vendor, ros-jazzy-gz-sim-vendor, ros-jazzy-gz-transport-vendor, ros-jazzy-sdformat-vendor, ros-jazzy-ament-index-cpp, ros-jazzy-controller-manager, ros-jazzy-gz-plugin-vendor, ros-jazzy-hardware-interface, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-yaml-cpp-vendor, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-gz-ros2-control/ros-jazzy-gz-ros2-control_1.2.10-0jammy_amd64.deb
+Size: 220996
+SHA256: f25ed6670121ecf63032a15b0e6ddf7eaf9aa9bb60f002ae818cd97e898836d6
+SHA1: 537d0e4801baf64d46bd22ef1a5e01831430ddf4
+MD5sum: 9c06f36d92c101a3dffc14f0b5722ac1
+Description: Gazebo ros2_control package allows to control simulated robots using ros2_control framework.
 
 Package: ros-jazzy-gz-sensors-vendor
 Version: 0.0.5-0jammy
@@ -3122,6 +3632,22 @@ MD5sum: 546f350f1d68b1d51d1d62cbb67820a6
 Description: Filter which fuses angular velocities, accelerations, and (optionally) magnetic readings from a generic IMU device into an orientation.
  Based on code by Sebastian Madgwick, http://www.x-io.co.uk/node/8#open_source_ahrs_and_imu_algorithms.
 
+Package: ros-jazzy-imu-sensor-broadcaster
+Version: 4.19.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 284
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-backward-ros, ros-jazzy-controller-interface, ros-jazzy-generate-parameter-library, ros-jazzy-hardware-interface, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-realtime-tools, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Homepage: https://control.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-imu-sensor-broadcaster/ros-jazzy-imu-sensor-broadcaster_4.19.0-0jammy_amd64.deb
+Size: 81422
+SHA256: f6e28ad5bf39ef267bc28d6504d0cab9c638f387c66b7745b79b1806ddabacb8
+SHA1: d031ed0c4924e07061dcc8ca3c389ac2f85394a9
+MD5sum: 9b91e687a0f204714d20dbbd1c13d407
+Description: Controller to publish readings of IMU sensors.
+
 Package: ros-jazzy-imu-tools
 Version: 2.1.5-0jammy
 Architecture: amd64
@@ -3218,6 +3744,38 @@ SHA1: b3d405dcbb34d39a8341001e6660590d927493e9
 MD5sum: a3d0775845897e114a0f6d1e47e3db7f
 Description: This package contains a tool for setting and publishing joint state values for a given URDF.
 
+Package: ros-jazzy-joint-state-publisher-gui
+Version: 2.4.0-0jammy
+Architecture: amd64
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Installed-Size: 65
+Depends: ros-jazzy-joint-state-publisher, ros-jazzy-python-qt-binding, ros-jazzy-rclpy, ros-jazzy-ros-workspace
+Homepage: http://www.ros.org/wiki/joint_state_publisher
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-joint-state-publisher-gui/ros-jazzy-joint-state-publisher-gui_2.4.0-0jammy_amd64.deb
+Size: 15412
+SHA256: deed4a120b22c727543bbcbc63b84b411dbf047081a55b51ac1b3e94722b848e
+SHA1: 89603d7db7725816d0d0d29f59e6b40ae234cf47
+MD5sum: f55d086d3440aeb2d99b07db306f0b05
+Description: This package contains a GUI tool for setting and publishing joint state values for a given URDF.
+
+Package: ros-jazzy-joint-trajectory-controller
+Version: 4.19.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 1086
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-angles, ros-jazzy-backward-ros, ros-jazzy-control-msgs, ros-jazzy-control-toolbox, ros-jazzy-controller-interface, ros-jazzy-generate-parameter-library, ros-jazzy-hardware-interface, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-realtime-tools, ros-jazzy-rsl, ros-jazzy-tl-expected, ros-jazzy-trajectory-msgs, ros-jazzy-urdf, ros-jazzy-ros-workspace
+Homepage: https://control.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-joint-trajectory-controller/ros-jazzy-joint-trajectory-controller_4.19.0-0jammy_amd64.deb
+Size: 265774
+SHA256: 0dfbcb65c8b43e380b83a39bb7109955870af4314ea9e6de2ef863b920182b9f
+SHA1: 406493158a372b8a377c71bba44c8e83ecc58eaf
+MD5sum: 8999c7cf01fdd1ebc1971df088ab7516
+Description: Controller for executing joint-space trajectories on a group of joints
+
 Package: ros-jazzy-joy
 Version: 3.3.0-0jammy
 Architecture: amd64
@@ -3264,6 +3822,36 @@ SHA256: b12755a5d9caf7341bd4de807123d2fd1cf8deff2899438cf0ea2a02c70b2c08
 SHA1: 05fdae4c91e04396bffbb49754e8969222785d22
 MD5sum: 2864f6965f55d81c21790dad00554927
 Description: Handler for input from keyboard
+
+Package: ros-jazzy-kinematics-interface
+Version: 1.2.1-0jammy
+Architecture: amd64
+Maintainer: Denis Štogl <denis@stogl.de>
+Installed-Size: 84
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), libeigen3-dev, ros-jazzy-rclcpp-lifecycle, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-kinematics-interface/ros-jazzy-kinematics-interface_1.2.1-0jammy_amd64.deb
+Size: 15160
+SHA256: e10071cbb33309ce9f5b9af77b9b680247c2fd543b6898b33fb7699b7dd5250b
+SHA1: b1736a2c063f89fb201e1c1e1a0f9da8bc8e7404
+MD5sum: 21735a602640f229218d60bb27a9c454
+Description: Kinematics interface for ROS 2 control
+
+Package: ros-jazzy-kinematics-interface-kdl
+Version: 1.2.1-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 168
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), libeigen3-dev, ros-jazzy-kdl-parser, ros-jazzy-kinematics-interface, ros-jazzy-pluginlib, ros-jazzy-tf2-eigen-kdl, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-kinematics-interface-kdl/ros-jazzy-kinematics-interface-kdl_1.2.1-0jammy_amd64.deb
+Size: 48796
+SHA256: 02a6a82fc11043e9479970892ae50b365d332a5be35ba465b49148181ddfe883
+SHA1: 00888afef0d72c338eb57c7a0c54d80cc4dd51ed
+MD5sum: 213efd25a262251c0556aaf449f5789b
+Description: KDL implementation of ros2_control kinematics interface
 
 Package: ros-jazzy-lanelet2
 Version: 1.2.1-0jammy
@@ -3477,6 +4065,21 @@ SHA256: 7f90a1ebe29339a3f06b7d7e8f8dbf6ce27369cc1e81def92c52ed4cfbcffce2
 SHA1: 8075ace4ecee218c31fe4d644b70d9f0ceebe978
 MD5sum: 282018682cbb80c9b3d76086a2432b30
 Description: The ROS launch tool.
+
+Package: ros-jazzy-launch-param-builder
+Version: 0.1.1-0jammy
+Architecture: amd64
+Maintainer: Jafar Abdi <jafar@picknik.ai>
+Installed-Size: 63
+Depends: python3-yaml, ros-jazzy-ament-index-python, ros-jazzy-rclpy, ros-jazzy-xacro, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-launch-param-builder/ros-jazzy-launch-param-builder_0.1.1-0jammy_amd64.deb
+Size: 8208
+SHA256: 37f0d79ad9c328f08c5a310855668ed7f4ff44ed6d25dab110013463d22552e5
+SHA1: 031c2e0786951148fcf56f76a7a7551bebcb5279
+MD5sum: 12205ef75ab5ad74a5b609ccee1bf244
+Description: Python library for loading parameters in launch files
 
 Package: ros-jazzy-launch-ros
 Version: 0.26.6-0jammy
@@ -3707,6 +4310,22 @@ SHA1: 045d8f8979db47ae130c242afacb474370435455
 MD5sum: 698f19c82b83ed56baea3363431830df
 Description: mcap vendor package
 
+Package: ros-jazzy-mecanum-drive-controller
+Version: 4.19.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 828
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-control-msgs, ros-jazzy-controller-interface, ros-jazzy-geometry-msgs, ros-jazzy-hardware-interface, ros-jazzy-nav-msgs, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-rcpputils, ros-jazzy-realtime-tools, ros-jazzy-std-srvs, ros-jazzy-tf2, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-msgs, ros-jazzy-ros-workspace
+Homepage: https://control.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-mecanum-drive-controller/ros-jazzy-mecanum-drive-controller_4.19.0-0jammy_amd64.deb
+Size: 183318
+SHA256: 79cec9f31fab1a8fea301df1bdd7e10cbfe94f6c3c421d6b7a938efcbec46a22
+SHA1: 60bf57558476875fab7333e53908218014fba30b
+MD5sum: fa5a2410b12681e0b80fa1ae4683c33a
+Description: Implementation of mecanum drive controller for 4 wheel drive.
+
 Package: ros-jazzy-menge-vendor
 Version: 1.2.1-0jammy
 Architecture: amd64
@@ -3754,6 +4373,594 @@ SHA256: 88121928d089f8afb5383dc0226a5cd064ab0a0b3ac0d59534a0d15055dbfd08
 SHA1: a02546a270025032d6298483feca30d2c6c8237e
 MD5sum: 5cc5755405833bccc7599353ce534efa
 Description: Wrapper around mimick, it provides an ExternalProject build of mimick.
+
+Package: ros-jazzy-moveit
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 50
+Depends: ros-jazzy-moveit-core, ros-jazzy-moveit-planners, ros-jazzy-moveit-plugins, ros-jazzy-moveit-ros, ros-jazzy-moveit-setup-assistant, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit/ros-jazzy-moveit_2.12.1-0jammy_amd64.deb
+Size: 13536
+SHA256: 0ea0453ac74f78ae592002ddceabbb28bc9f72aef89c0085df06be5c5dd46599
+SHA1: f10c534325b47cbea737e2b2179ec6ee40d3095b
+MD5sum: d92f488a63ed4ed04a9c11ecc333eb9b
+Description: Meta package that contains all essential packages of MoveIt 2
+
+Package: ros-jazzy-moveit-common
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 49
+Depends: ros-jazzy-backward-ros, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-common/ros-jazzy-moveit-common_2.12.1-0jammy_amd64.deb
+Size: 8914
+SHA256: 635ca5b470e77b157678654c2e90d4c18a5c9b58cb81071d167e14ccb68e0925
+SHA1: b8c801f78347159cacb60c2a3ae0a8c68c7226bd
+MD5sum: 771b65beea84fce85e2084f0a5bf8d95
+Description: Common support functionality used throughout MoveIt
+
+Package: ros-jazzy-moveit-configs-utils
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Installed-Size: 120
+Depends: ros-jazzy-ament-index-python, ros-jazzy-launch, ros-jazzy-launch-param-builder, ros-jazzy-launch-ros, ros-jazzy-srdfdom, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-configs-utils/ros-jazzy-moveit-configs-utils_2.12.1-0jammy_amd64.deb
+Size: 24962
+SHA256: 56951dc1aea0d9e93966095028d0d645e35e918536043ce5c787948680dd147e
+SHA1: 3a74f319c6c846edd984c613b236ff877f0a3da0
+MD5sum: d346b894e67361d59d78cf15235cbed5
+Description: Python library for loading moveit config parameters in launch files
+
+Package: ros-jazzy-moveit-core
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 5611
+Depends: libboost-iostreams1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libbullet3.06 (>= 3.06+dfsg), libc6 (>= 2.35), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfcl0.7 (>= 0.7.0), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 4.0), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-jazzy-geometric-shapes, ros-jazzy-octomap, ros-jazzy-srdfdom, ros-jazzy-urdfdom, libassimp-dev, libboost-all-dev, libbullet-dev, libeigen3-dev, libfcl-dev, liboctomap-dev, ros-jazzy-angles, ros-jazzy-common-interfaces, ros-jazzy-eigen-stl-containers, ros-jazzy-eigen3-cmake-module, ros-jazzy-generate-parameter-library, ros-jazzy-geometry-msgs, ros-jazzy-google-benchmark-vendor, ros-jazzy-kdl-parser, ros-jazzy-moveit-common, ros-jazzy-moveit-msgs, ros-jazzy-octomap-msgs, ros-jazzy-osqp-vendor, ros-jazzy-pluginlib, ros-jazzy-random-numbers, ros-jazzy-rclcpp, ros-jazzy-rsl, ros-jazzy-ruckig, ros-jazzy-sensor-msgs, ros-jazzy-shape-msgs, ros-jazzy-std-msgs, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-kdl, ros-jazzy-trajectory-msgs, ros-jazzy-urdf, ros-jazzy-urdfdom-headers, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-core/ros-jazzy-moveit-core_2.12.1-0jammy_amd64.deb
+Size: 1339726
+SHA256: 5845975f6fbd0f321f1c3f9105a908eac7759676f2010b526de8aaa0a63b49fc
+SHA1: abf2f27cd1afb2c71413f75b2634204081dcf07b
+MD5sum: ae91f497ff6c26f3ced76f103d33e2e9
+Description: Core libraries used by MoveIt
+
+Package: ros-jazzy-moveit-kinematics
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 1908
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-jazzy-moveit-core, ros-jazzy-moveit-ros-planning, ros-jazzy-urdfdom, libeigen3-dev, python3-lxml, ros-jazzy-class-loader, ros-jazzy-generate-parameter-library, ros-jazzy-moveit-common, ros-jazzy-moveit-msgs, ros-jazzy-orocos-kdl-vendor, ros-jazzy-pluginlib, ros-jazzy-rsl, ros-jazzy-tf2, ros-jazzy-tf2-kdl, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-kinematics/ros-jazzy-moveit-kinematics_2.12.1-0jammy_amd64.deb
+Size: 556832
+SHA256: c80f06ef1e29a16f7c258492f69f99bf997ecdf4e3c0a407169b5d476d91a001
+SHA1: fdf074338c2264c4104084f0d56546a01f51a35a
+MD5sum: 543a87c5ca4147bea601220535a85ec2
+Description: Package for all inverse kinematics solvers in MoveIt
+
+Package: ros-jazzy-moveit-msgs
+Version: 2.6.0-0jammy
+Architecture: amd64
+Maintainer: Dave Coleman <dave@dav.ee>
+Installed-Size: 33500
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-jazzy-fastcdr, ros-jazzy-action-msgs, ros-jazzy-geometry-msgs, ros-jazzy-object-recognition-msgs, ros-jazzy-octomap-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-shape-msgs, ros-jazzy-std-msgs, ros-jazzy-trajectory-msgs, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-msgs/ros-jazzy-moveit-msgs_2.6.0-0jammy_amd64.deb
+Size: 2034404
+SHA256: f5a999085de71b8127d8d887e281fc3507d53e7f173023568c7a98fabee15ccc
+SHA1: 2abc99dea00e7d2fb07772cb980253c0b5b41492
+MD5sum: 3057dd65de148bd863f699a2d809cea4
+Description: Messages, services and actions used by MoveIt
+
+Package: ros-jazzy-moveit-planners
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 43
+Depends: ros-jazzy-chomp-motion-planner, ros-jazzy-moveit-planners-ompl, ros-jazzy-moveit-planners-stomp, ros-jazzy-pilz-industrial-motion-planner, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-planners/ros-jazzy-moveit-planners_2.12.1-0jammy_amd64.deb
+Size: 6822
+SHA256: ceace49b9a6ca79db13271a21513949911773b377e14a47953a5eae802255b15
+SHA1: 3d6d12e6b838222f1dbd1f0b475c0b6f735d5aed
+MD5sum: 53dd44f7ea58f66c1a09af18197653af
+Description: Meta package that installs all available planners for MoveIt
+
+Package: ros-jazzy-moveit-planners-ompl
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 1585
+Depends: libboost-serialization1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-moveit-core, ros-jazzy-moveit-ros-planning, ros-jazzy-ompl, libomp-dev, ros-jazzy-moveit-common, ros-jazzy-moveit-msgs, ros-jazzy-pluginlib (>= 1.11.2), ros-jazzy-rclcpp, ros-jazzy-tf2-eigen, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-planners-ompl/ros-jazzy-moveit-planners-ompl_2.12.1-0jammy_amd64.deb
+Size: 348652
+SHA256: 913639c0956eb7c6ad8a509ae2873f6ba68574fe9a0c9d25849b2c121113d24f
+SHA1: a68b1893d98946ac260b6a636308f0a6a283a125
+MD5sum: 1b59c75b8ecc8daab99782f0d3241c76
+Description: MoveIt interface to OMPL
+
+Package: ros-jazzy-moveit-planners-stomp
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 439
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-moveit-core, ros-jazzy-generate-parameter-library, ros-jazzy-moveit-common, ros-jazzy-rsl, ros-jazzy-std-msgs, ros-jazzy-stomp, ros-jazzy-tf2-eigen, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-planners-stomp/ros-jazzy-moveit-planners-stomp_2.12.1-0jammy_amd64.deb
+Size: 139604
+SHA256: 09ed99733ebc33735e071bd270fb3e1c62069243b4d421025a0d39fd247fb4da
+SHA1: 31bd75e68697bb3b84b22b8b577a281834520642
+MD5sum: 6955dbeee55b634f22dee0697ad4356a
+Description: STOMP Motion Planner for MoveIt
+
+Package: ros-jazzy-moveit-plugins
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 43
+Depends: ros-jazzy-moveit-simple-controller-manager, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-plugins/ros-jazzy-moveit-plugins_2.12.1-0jammy_amd64.deb
+Size: 6582
+SHA256: 2b61b70a40d990e0d64c5ee7431f45ac52c9e748a44723196e52973eb9887993
+SHA1: 3099a897c2313f78bf5edb6aa8441765c6ddb63a
+MD5sum: 53fc1c3869a35673e816afc75972f007
+Description: Metapackage for MoveIt plugins.
+
+Package: ros-jazzy-moveit-resources
+Version: 3.1.0-0jammy
+Architecture: amd64
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Installed-Size: 43
+Depends: ros-jazzy-joint-state-publisher, ros-jazzy-moveit-resources-fanuc-description, ros-jazzy-moveit-resources-fanuc-moveit-config, ros-jazzy-moveit-resources-panda-description, ros-jazzy-moveit-resources-panda-moveit-config, ros-jazzy-moveit-resources-pr2-description, ros-jazzy-robot-state-publisher, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-resources/ros-jazzy-moveit-resources_3.1.0-0jammy_amd64.deb
+Size: 6654
+SHA256: 23b419abf72dc19741c40ec00629825fc77e60298ab4ede43e707551501b7089
+SHA1: 5e2cb4b5dd0ce003da244c1ac547b7b60d5dcc1d
+MD5sum: c9e7895a6911bd7a2c0e7568ed4ba051
+Description: Resources used for MoveIt testing
+
+Package: ros-jazzy-moveit-resources-fanuc-description
+Version: 3.1.0-0jammy
+Architecture: amd64
+Maintainer: Dave Coleman <dave@dav.ee>
+Installed-Size: 736
+Depends: ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-resources-fanuc-description/ros-jazzy-moveit-resources-fanuc-description_3.1.0-0jammy_amd64.deb
+Size: 128120
+SHA256: bddbb6a542dfdee2d06abf136dd7d4b5a4defcc3653e33c8b76afa92c2a8a11d
+SHA1: 75d405584e35d0bc9cf7f1b52e3d96992b32ccc4
+MD5sum: 23e0a7bcbe2736ea05662104b1b7dc00
+Description: Fanuc Resources used for MoveIt testing
+
+Package: ros-jazzy-moveit-resources-fanuc-moveit-config
+Version: 3.1.0-0jammy
+Architecture: amd64
+Maintainer: Dave Coleman <dave@dav.ee>
+Installed-Size: 91
+Depends: ros-jazzy-controller-manager, ros-jazzy-joint-state-publisher, ros-jazzy-moveit-resources-fanuc-description, ros-jazzy-position-controllers, ros-jazzy-robot-state-publisher, ros-jazzy-ros2cli-common-extensions, ros-jazzy-tf2-ros, ros-jazzy-xacro, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-resources-fanuc-moveit-config/ros-jazzy-moveit-resources-fanuc-moveit-config_3.1.0-0jammy_amd64.deb
+Size: 15772
+SHA256: db0d0dcfc428aa219936a90be348c05f00df41399872010b52ef956de62bd972
+SHA1: 58da55fb00b31b5582e61220af833eac8dac9559
+MD5sum: b785833a75e32891848b4b2e50141238
+Description: MoveIt Resources for testing: Fanuc M-10iA.
+ A project-internal configuration for testing in MoveIt.
+
+Package: ros-jazzy-moveit-resources-panda-description
+Version: 3.1.0-0jammy
+Architecture: amd64
+Maintainer: Dave Coleman <dave@dav.ee>
+Installed-Size: 10458
+Depends: ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-resources-panda-description/ros-jazzy-moveit-resources-panda-description_3.1.0-0jammy_amd64.deb
+Size: 3136910
+SHA256: 4ec672fc13181fbd38dcd3565f9ec347813356facd2a20a91e85fe844f40ab9b
+SHA1: 813a30687a3841c1ede8dcb3f6f15e768aed2cee
+MD5sum: 103e40a398eee3f31160db0c67062d97
+Description: panda Resources used for MoveIt testing
+
+Package: ros-jazzy-moveit-resources-panda-moveit-config
+Version: 3.1.0-0jammy
+Architecture: amd64
+Maintainer: Mike Lautman <mike@picknik.ai>
+Installed-Size: 138
+Depends: ros-jazzy-controller-manager, ros-jazzy-gripper-controllers, ros-jazzy-joint-state-publisher, ros-jazzy-joint-state-publisher-gui, ros-jazzy-moveit-resources-panda-description, ros-jazzy-position-controllers, ros-jazzy-robot-state-publisher, ros-jazzy-ros2cli-common-extensions, ros-jazzy-topic-tools, ros-jazzy-xacro, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org/
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-resources-panda-moveit-config/ros-jazzy-moveit-resources-panda-moveit-config_3.1.0-0jammy_amd64.deb
+Size: 19802
+SHA256: e02e635b1ddfecebd8a8ebca14928400f362017a645209b31a13b86c63dd656c
+SHA1: 54a64937ea9a315a16c1347bbb4c6b8ddf59c1c8
+MD5sum: 547d2a014233cb7e4cd5412ca4df6dff
+Description: MoveIt Resources for testing: Franka Emika Panda A project-internal configuration for testing in MoveIt.
+
+Package: ros-jazzy-moveit-resources-pr2-description
+Version: 3.1.0-0jammy
+Architecture: amd64
+Maintainer: Dave Coleman <dave@dav.ee>
+Installed-Size: 48624
+Depends: ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-resources-pr2-description/ros-jazzy-moveit-resources-pr2-description_3.1.0-0jammy_amd64.deb
+Size: 24385666
+SHA256: 0008c0ea95fc57069820fd4bcd2413e54764f9892af40a472110e80cdd1ad7af
+SHA1: beeb9a45988a75d4eb88faa02d6cb4e1ac49454e
+MD5sum: 198a080a06d70ac2c2cc6742501fe072
+Description: PR2 Resources used for MoveIt! testing
+
+Package: ros-jazzy-moveit-resources-prbt-ikfast-manipulator-plugin
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Installed-Size: 485
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 4.0), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), ros-jazzy-moveit-core, ros-jazzy-generate-parameter-library, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-kdl, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-resources-prbt-ikfast-manipulator-plugin/ros-jazzy-moveit-resources-prbt-ikfast-manipulator-plugin_2.12.1-0jammy_amd64.deb
+Size: 133186
+SHA256: e28efb26abbc69999b0bc3348f1b35542360e81344b493309ada1aedc1d70384
+SHA1: ef879580f2c9865bde7bc747ec8ce90796a2278f
+MD5sum: 369537ed12bbdefc7212bf563cc813ed
+Description: The prbt_ikfast_manipulator_plugin package
+
+Package: ros-jazzy-moveit-resources-prbt-moveit-config
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Installed-Size: 84
+Depends: ros-jazzy-joint-state-publisher, ros-jazzy-moveit-resources-prbt-ikfast-manipulator-plugin, ros-jazzy-moveit-resources-prbt-support, ros-jazzy-moveit-ros-move-group, ros-jazzy-robot-state-publisher, ros-jazzy-rviz2, ros-jazzy-xacro, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-resources-prbt-moveit-config/ros-jazzy-moveit-resources-prbt-moveit-config_2.12.1-0jammy_amd64.deb
+Size: 14802
+SHA256: 078b57ff1a327d5ee39474e4fa77295da264e769302518a2f4a18bde47a511ff
+SHA1: 032f53488193aa4cb043f9a0e038120987de801a
+MD5sum: 7b206742d4af4f9b1ec5a5eb47523203
+Description: MoveIt Resources for testing: Pilz PRBT 6 A project-internal configuration for testing in MoveIt.
+
+Package: ros-jazzy-moveit-resources-prbt-pg70-support
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Installed-Size: 935
+Depends: ros-jazzy-moveit-resources-prbt-ikfast-manipulator-plugin, ros-jazzy-moveit-resources-prbt-moveit-config, ros-jazzy-moveit-resources-prbt-support, ros-jazzy-xacro, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-resources-prbt-pg70-support/ros-jazzy-moveit-resources-prbt-pg70-support_2.12.1-0jammy_amd64.deb
+Size: 162694
+SHA256: 33a8e6229df6efae4446161d509bb97092b3868c53d62abae4f9c8936110a34d
+SHA1: d857b984b46640a6d0eb9ae7ce227fddf612a008
+MD5sum: 080154f2e8595df447b52db6d3fad292
+Description: PRBT support for Schunk pg70 gripper.
+
+Package: ros-jazzy-moveit-resources-prbt-support
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Installed-Size: 3862
+Depends: ros-jazzy-xacro, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-resources-prbt-support/ros-jazzy-moveit-resources-prbt-support_2.12.1-0jammy_amd64.deb
+Size: 790792
+SHA256: 9281643f4896a14940714775e440356176eb97e0a900bc58983ab88080880e71
+SHA1: d3d1f7b5ca56ed623d5f5f7404ddbeb2531894cb
+MD5sum: e65d99581329d5718c1cef2d0f69d505
+Description: Mechanical, kinematic and visual description of the Pilz light weight arm PRBT.
+
+Package: ros-jazzy-moveit-ros
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Michael Görner <me@v4hn.de>
+Installed-Size: 43
+Depends: ros-jazzy-moveit-ros-benchmarks, ros-jazzy-moveit-ros-move-group, ros-jazzy-moveit-ros-planning, ros-jazzy-moveit-ros-planning-interface, ros-jazzy-moveit-ros-robot-interaction, ros-jazzy-moveit-ros-visualization, ros-jazzy-moveit-ros-warehouse, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-ros/ros-jazzy-moveit-ros_2.12.1-0jammy_amd64.deb
+Size: 7210
+SHA256: 7ba5df03a81dab7970d0010682bc84b9f87f61e174af9e77ebc7342d2b6fbb89
+SHA1: cee43dc747339e297658f3b47f05b8540ccdacc2
+MD5sum: a96405f0ba9dd78dd78dd50337270b9d
+Description: Components of MoveIt that use ROS
+
+Package: ros-jazzy-moveit-ros-benchmarks
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 665
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-jazzy-moveit-core, ros-jazzy-moveit-ros-planning, ros-jazzy-moveit-ros-warehouse, libboost-date-time1.74.0, libboost-filesystem1.74.0, ros-jazzy-launch-param-builder, ros-jazzy-moveit-common, ros-jazzy-moveit-configs-utils, ros-jazzy-pluginlib (>= 1.11.2), ros-jazzy-rclcpp, ros-jazzy-tf2-eigen, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-ros-benchmarks/ros-jazzy-moveit-ros-benchmarks_2.12.1-0jammy_amd64.deb
+Size: 211426
+SHA256: 76cc1d0a2bff2da52b216951179a510156d00d28887a51fbc25ecbf8f5fe9486
+SHA1: d58ccad5161c116115b07bd6f0fbb5e5ee1d9024
+MD5sum: 1aeb18199b224d519807cd0117f3e58c
+Description: Enhanced tools for benchmarks in MoveIt
+
+Package: ros-jazzy-moveit-ros-move-group
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Michael Görner <me@v4hn.de>
+Installed-Size: 1712
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-jazzy-moveit-core, ros-jazzy-moveit-ros-planning, ros-jazzy-urdfdom, libfmt-dev, ros-jazzy-moveit-common, ros-jazzy-moveit-kinematics, ros-jazzy-moveit-ros-occupancy-map-monitor, ros-jazzy-pluginlib (>= 1.11.2), ros-jazzy-rclcpp, ros-jazzy-rclcpp-action, ros-jazzy-std-srvs, ros-jazzy-tf2, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-ros-move-group/ros-jazzy-moveit-ros-move-group_2.12.1-0jammy_amd64.deb
+Size: 407654
+SHA256: d81fe93d004f28c006ad07fb61cd3083b19b37553777aaa31adea5aa4164671a
+SHA1: 703e9c84e79add9c7fc4e0197b5dc5dacf13efd5
+MD5sum: 0f29e291717ede3a0d8b73c6ebbcafed
+Description: The move_group node for MoveIt
+
+Package: ros-jazzy-moveit-ros-occupancy-map-monitor
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 1034
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-jazzy-moveit-core, ros-jazzy-octomap, libeigen3-dev, liboctomap-dev, ros-jazzy-eigen3-cmake-module, ros-jazzy-geometric-shapes, ros-jazzy-moveit-common, ros-jazzy-moveit-msgs, ros-jazzy-pluginlib (>= 1.11.2), ros-jazzy-rclcpp, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-ros-occupancy-map-monitor/ros-jazzy-moveit-ros-occupancy-map-monitor_2.12.1-0jammy_amd64.deb
+Size: 260306
+SHA256: f707bc13f47f1a3d1e974c6185dcec82d3f4111540bd8b1e2628e972106a2935
+SHA1: e66cfdd2c72618a2d6b3fe722b4f2c6cb6835b20
+MD5sum: a9a07ae9383ce8298b3047888de790e4
+Description: Components of MoveIt connecting to occupancy map
+
+Package: ros-jazzy-moveit-ros-planning
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 6655
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 12), libtinyxml2-9 (>= 8.0.0), ros-jazzy-geometric-shapes, ros-jazzy-moveit-core, ros-jazzy-moveit-ros-occupancy-map-monitor, ros-jazzy-srdfdom, libeigen3-dev, libfmt-dev, ros-jazzy-ament-index-cpp, ros-jazzy-eigen3-cmake-module, ros-jazzy-generate-parameter-library, ros-jazzy-message-filters, ros-jazzy-moveit-common, ros-jazzy-moveit-msgs, ros-jazzy-pluginlib (>= 1.11.2), ros-jazzy-rclcpp, ros-jazzy-rclcpp-action, ros-jazzy-rclcpp-components, ros-jazzy-std-msgs, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-msgs, ros-jazzy-tf2-ros, ros-jazzy-urdf, ros-jazzy-ros-workspace
+Conflicts: ros-jazzy-moveit-ros-planning-interface (<< 2.1.5)
+Replaces: ros-jazzy-moveit-ros-planning-interface (<< 2.1.5)
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-ros-planning/ros-jazzy-moveit-ros-planning_2.12.1-0jammy_amd64.deb
+Size: 1239510
+SHA256: 85fb9eead24478bc3768045dd84ec5a1bc0e1741f2c017d4782ea71c6484b7b2
+SHA1: 72813c2fa0e6b0dba0f7d0d222e361d4d171bb5f
+MD5sum: 9a37838635b01e56a14459e53a2fc356
+Description: Planning components of MoveIt that use ROS
+
+Package: ros-jazzy-moveit-ros-planning-interface
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 1137
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), ros-jazzy-moveit-core, ros-jazzy-moveit-ros-planning, ros-jazzy-moveit-ros-warehouse, python3-dev, ros-jazzy-geometry-msgs, ros-jazzy-moveit-common, ros-jazzy-moveit-msgs, ros-jazzy-moveit-ros-move-group, ros-jazzy-rclcpp, ros-jazzy-rclcpp-action, ros-jazzy-rclpy, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-ros-planning-interface/ros-jazzy-moveit-ros-planning-interface_2.12.1-0jammy_amd64.deb
+Size: 291708
+SHA256: 3b64564bc0a4bc19c807183a7f164fc1437b53d694c6065bc6e1376cbae0f82f
+SHA1: 2a2b95b7e41d31234f912582170bf5a737ff0ffc
+MD5sum: 7e46401691a83b08e7ea942c33532633
+Description: Components of MoveIt that offer simpler remote (as from another ROS 2 node) interfaces to planning and execution
+
+Package: ros-jazzy-moveit-ros-robot-interaction
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 749
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 12), ros-jazzy-moveit-core, ros-jazzy-interactive-markers, ros-jazzy-moveit-common, ros-jazzy-moveit-ros-planning, ros-jazzy-rclcpp, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-ros-robot-interaction/ros-jazzy-moveit-ros-robot-interaction_2.12.1-0jammy_amd64.deb
+Size: 177500
+SHA256: 01dd00c83dcfacfbfe2f6de1c99232f87c0968711fd2ca4e20f90d641c320ceb
+SHA1: 98e4329af0c6b63d4e7bfc789925d384d800ba7d
+MD5sum: 924f6792b1183454c8eed8d8515d827f
+Description: Components of MoveIt that offer interaction via interactive markers
+
+Package: ros-jazzy-moveit-ros-visualization
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 3665
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.14.1), libstdc++6 (>= 12), ros-jazzy-geometric-shapes, ros-jazzy-moveit-core, ros-jazzy-moveit-ros-planning, ros-jazzy-moveit-ros-planning-interface, ros-jazzy-moveit-ros-robot-interaction, ros-jazzy-moveit-ros-warehouse, ros-jazzy-rviz-ogre-vendor, ros-jazzy-interactive-markers, ros-jazzy-moveit-common, ros-jazzy-object-recognition-msgs, ros-jazzy-pluginlib (>= 1.11.2), ros-jazzy-rclcpp, ros-jazzy-rclpy, ros-jazzy-rviz2, ros-jazzy-tf2-eigen, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-ros-visualization/ros-jazzy-moveit-ros-visualization_2.12.1-0jammy_amd64.deb
+Size: 722368
+SHA256: b4b408dbf3fd72c6d8e82b6ae75dbeef275561005087fc1bce109ce7bffff4a7
+SHA1: ea9bae56c96ada7fc7dc5cb9826568ebb3fb225e
+MD5sum: bad0a463f34aa3007842e16be2db7183
+Description: Components of MoveIt that offer visualization
+
+Package: ros-jazzy-moveit-ros-warehouse
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 2517
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-jazzy-moveit-core, ros-jazzy-moveit-ros-planning, libfmt-dev, ros-jazzy-moveit-common, ros-jazzy-rclcpp, ros-jazzy-tf2-eigen, ros-jazzy-tf2-ros, ros-jazzy-warehouse-ros, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-ros-warehouse/ros-jazzy-moveit-ros-warehouse_2.12.1-0jammy_amd64.deb
+Size: 505372
+SHA256: d6f08ea2f22b0c88367dbbcef0ab9e326f094d99db5714ec983d445dd6c482ba
+SHA1: d354cc7d24cd3f482f2b39799a59e1a3f7356d4a
+MD5sum: a459d476034ac9b342eb3051b12f8742
+Description: Components of MoveIt connecting to MongoDB
+
+Package: ros-jazzy-moveit-setup-app-plugins
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Installed-Size: 293
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), ros-jazzy-yaml-cpp-vendor, ros-jazzy-ament-index-cpp, ros-jazzy-moveit-configs-utils, ros-jazzy-moveit-ros-visualization, ros-jazzy-moveit-setup-framework, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-setup-app-plugins/ros-jazzy-moveit-setup-app-plugins_2.12.1-0jammy_amd64.deb
+Size: 73232
+SHA256: 82f55f54f9af23702b78a13827053e24bee4a113b81cbd6dff03e188247313a5
+SHA1: 6d2f48908b0d749208744aafdfcb32b0071a4a39
+MD5sum: 6842c92f0bc2b1b67ee2804a91ea9e6d
+Description: Various specialty plugins for MoveIt Setup Assistant
+
+Package: ros-jazzy-moveit-setup-assistant
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Installed-Size: 877
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-jazzy-moveit-ros-planning, ros-jazzy-srdfdom, qtbase5-dev, ros-jazzy-ament-index-cpp, ros-jazzy-moveit-configs-utils, ros-jazzy-moveit-setup-app-plugins, ros-jazzy-moveit-setup-controllers, ros-jazzy-moveit-setup-core-plugins, ros-jazzy-moveit-setup-framework, ros-jazzy-moveit-setup-srdf-plugins, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-setup-assistant/ros-jazzy-moveit-setup-assistant_2.12.1-0jammy_amd64.deb
+Size: 294488
+SHA256: f2e71e6d51dc3922b5f48a5f0a12aa3cdfadc05edcdea896d9b6ce7bf255d4fd
+SHA1: a153d76bc8bdbc27a74f9f85fe108119da3b1cad
+MD5sum: e6e6ce1b55999a03a2abf32782d1189e
+Description: Generates a configuration package that makes it easy to use MoveIt
+
+Package: ros-jazzy-moveit-setup-controllers
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Installed-Size: 619
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-jazzy-moveit-core, ros-jazzy-yaml-cpp-vendor, ros-jazzy-ament-index-cpp, ros-jazzy-moveit-setup-framework, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-setup-controllers/ros-jazzy-moveit-setup-controllers_2.12.1-0jammy_amd64.deb
+Size: 167694
+SHA256: 31be920031b81a8acfe30efe7d124ee92a9a3a90d06dae467f0cc66264ffa82f
+SHA1: 1bcff5fcf2b3e1cd64f2ad7ac853477f3adfac54
+MD5sum: 6567e6040b6400e297bf3899396e90ce
+Description: MoveIt Setup Steps for ROS 2 Control
+
+Package: ros-jazzy-moveit-setup-core-plugins
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Installed-Size: 265
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), ros-jazzy-moveit-core, ros-jazzy-ament-index-cpp, ros-jazzy-moveit-ros-visualization, ros-jazzy-moveit-setup-framework, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-srdfdom, ros-jazzy-urdf, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-setup-core-plugins/ros-jazzy-moveit-setup-core-plugins_2.12.1-0jammy_amd64.deb
+Size: 64384
+SHA256: e89501926bdb175ea3095f4a3347777cd5a8697474a70b319ad366c278a66599
+SHA1: 166ccdb0b3246849fc80f14f68d0af1be5c25e85
+MD5sum: 9f27c58f4803e2410e5c78bdef9549fb
+Description: Core (meta) plugins for MoveIt Setup Assistant
+
+Package: ros-jazzy-moveit-setup-framework
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Installed-Size: 719
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-jazzy-moveit-core, ros-jazzy-moveit-ros-planning, ros-jazzy-moveit-ros-visualization, ros-jazzy-srdfdom, ros-jazzy-yaml-cpp-vendor, libfmt-dev, ros-jazzy-ament-index-cpp, ros-jazzy-moveit-common, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rviz-common, ros-jazzy-rviz-rendering, ros-jazzy-urdf, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-setup-framework/ros-jazzy-moveit-setup-framework_2.12.1-0jammy_amd64.deb
+Size: 197312
+SHA256: 250644a9ac3604d7e8ee81e5e6c2f98fe8b3dccb33599e3eea4e2cd66814fa4a
+SHA1: 17543fef34d1b1a50bcbc248232086711014a07e
+MD5sum: cc16610e97e6d73127e1e4a21ca57d56
+Description: C++ Interface for defining setup steps for MoveIt Setup Assistant
+
+Package: ros-jazzy-moveit-setup-srdf-plugins
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Installed-Size: 1131
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-jazzy-moveit-core, ros-jazzy-yaml-cpp-vendor, ros-jazzy-moveit-setup-framework, ros-jazzy-pluginlib, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-setup-srdf-plugins/ros-jazzy-moveit-setup-srdf-plugins_2.12.1-0jammy_amd64.deb
+Size: 316876
+SHA256: fa8cca601ddff0dea30f51a199bc506a2cdfb50795020f8387d26ee883b43db3
+SHA1: cb831a6b4e88118cab0c897f9b7e2fb6f083c4b8
+MD5sum: eb20c95d813135f996c7e97473b84afe
+Description: SRDF-based plugins for MoveIt Setup Assistant
+
+Package: ros-jazzy-moveit-simple-controller-manager
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Michael Görner <me@v4hn.de>
+Installed-Size: 417
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-moveit-core, ros-jazzy-control-msgs, ros-jazzy-moveit-common, ros-jazzy-pluginlib (>= 1.11.2), ros-jazzy-rclcpp, ros-jazzy-rclcpp-action, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-simple-controller-manager/ros-jazzy-moveit-simple-controller-manager_2.12.1-0jammy_amd64.deb
+Size: 104540
+SHA256: f5ca9d609cd27dba61e828e085acc31540c7fddd447fc676ad31afd27c633b11
+SHA1: fb13b2e6965758c2e336729dbdf82df51c6babc4
+MD5sum: c0bc91ba961e21ecedc36bcbc3b1c69b
+Description: A generic, simple controller manager plugin for MoveIt.
+
+Package: ros-jazzy-moveit-visual-tools
+Version: 4.1.1-0jammy
+Architecture: amd64
+Maintainer: Dave Coleman <dave@picknik.ai>
+Installed-Size: 801
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-geometric-shapes, ros-jazzy-moveit-core, ros-jazzy-moveit-ros-planning, ros-jazzy-geometry-msgs, ros-jazzy-graph-msgs, ros-jazzy-moveit-common, ros-jazzy-rclcpp, ros-jazzy-rviz-visual-tools, ros-jazzy-std-msgs, ros-jazzy-tf2-eigen, ros-jazzy-tf2-ros, ros-jazzy-trajectory-msgs, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace
+Homepage: https://github.com/ros-planning/moveit_visual_tools
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-moveit-visual-tools/ros-jazzy-moveit-visual-tools_4.1.1-0jammy_amd64.deb
+Size: 311202
+SHA256: 2ec48b43358c83afa8bbe1305c3f27267a9decdbc628ee60dafe6c8cd62bd960
+SHA1: b311e869ae5012cdb05ed7b78dc94ca361b158a3
+MD5sum: 36852148ac4e46221890b54eb1924246
+Description: Helper functions for displaying and debugging MoveIt data in Rviz via published markers
 
 Package: ros-jazzy-mrt-cmake-modules
 Version: 1.0.11-0jammy
@@ -4344,6 +5551,106 @@ SHA1: 10c3a098b9d3806f04f80fba3cffc47260ae4885
 MD5sum: 406a39c0e6c9b3c684573246e0049e59
 Description: A vendor package for JSON schema validator for JSON for Modern C++
 
+Package: ros-jazzy-object-recognition-msgs
+Version: 2.0.0-0jammy
+Architecture: amd64
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Installed-Size: 3212
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-jazzy-fastcdr, ros-jazzy-action-msgs, ros-jazzy-geometry-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-shape-msgs, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Homepage: http://www.ros.org/wiki/object_recognition
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-object-recognition-msgs/ros-jazzy-object-recognition-msgs_2.0.0-0jammy_amd64.deb
+Size: 242226
+SHA256: 54dde1c3c2e9e7b8615b2e3daf30dbbed54009156c3cbfaa688babbd27851af5
+SHA1: ce1a6032477208a89155c7e4e5a232dafc3c897a
+MD5sum: 537d23b31b3e34e13dcb12e4f2a6a8f8
+Description: Object_recognition_msgs contains the ROS message and the actionlib definition used in object_recognition_core
+
+Package: ros-jazzy-octomap
+Version: 1.10.0-0jammy
+Architecture: amd64
+Maintainer: Armin Hornung <armin@hornung.io>
+Installed-Size: 1491
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-ros-workspace
+Homepage: http://octomap.github.io
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-octomap/ros-jazzy-octomap_1.10.0-0jammy_amd64.deb
+Size: 226062
+SHA256: 604772bdaad818f38b001702b4ace78dab6d146a70ce4085079f6b3d6bbb364e
+SHA1: 5e4ebdd1b5ceb8e306f5d3f4fcdd280e8f1875c9
+MD5sum: ee706e9659219a13a4bfeaa892971388
+Description: The OctoMap library implements a 3D occupancy grid mapping approach, providing data structures and mapping algorithms in C++.
+ The map implementation is based on an octree. See http://octomap.github.io for details.
+
+Package: ros-jazzy-octomap-msgs
+Version: 2.0.1-0jammy
+Architecture: amd64
+Maintainer: Wolfgang Merkt <opensource@wolfgangmerkt.com>
+Installed-Size: 1383
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-geometry-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Homepage: http://ros.org/wiki/octomap_msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-octomap-msgs/ros-jazzy-octomap-msgs_2.0.1-0jammy_amd64.deb
+Size: 122218
+SHA256: c2a8ed6e584fb49d272c19b4305672590f347ed38cee8d505ff8e8f9a1ff2fa9
+SHA1: 5d6e5d74c2bd82155db13abbdedaec18f4deb331
+MD5sum: 5d25ebddc5c65796b128108839eed24e
+Description: This package provides messages and serializations / conversion for the OctoMap library.
+ This ROS2 version is based on version 0.3.3 of the ROS1 package.
+
+Package: ros-jazzy-octomap-ros
+Version: 0.4.4-0jammy
+Architecture: amd64
+Maintainer: Wolfgang Merkt <opensource@wolfgangmerkt.com>
+Installed-Size: 81
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), liboctomap-dev, ros-jazzy-octomap-msgs, ros-jazzy-sensor-msgs, ros-jazzy-tf2, ros-jazzy-ros-workspace
+Homepage: http://ros.org/wiki/octomap_ros
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-octomap-ros/ros-jazzy-octomap-ros_0.4.4-0jammy_amd64.deb
+Size: 15084
+SHA256: 4f8dab1f081439304c600b124d1e78c53aab2d5c57e502ffd4a33ad7c5f32c5e
+SHA1: e10958f6d4398399191e1724ac16d9686d5be1e4
+MD5sum: 9c411addf8e0ce4cd563a7643fcc9fcf
+Description: octomap_ros provides conversion functions between ROS and OctoMap's native types.
+ This enables a convenvient use of the octomap package in ROS.
+
+Package: ros-jazzy-octomap-rviz-plugins
+Version: 2.1.0-0jammy
+Architecture: amd64
+Maintainer: Armin Hornung <armin@hornung.io>
+Installed-Size: 1184
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libstdc++6 (>= 11), ros-jazzy-rviz-ogre-vendor, liboctomap-dev, libqt5gui5, libqt5widgets5, qtbase5-dev, ros-jazzy-octomap-msgs, ros-jazzy-rclcpp, ros-jazzy-rviz-common, ros-jazzy-rviz-default-plugins, ros-jazzy-rviz-rendering, ros-jazzy-ros-workspace
+Homepage: http://ros.org/wiki/octomap_rviz_plugins
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-octomap-rviz-plugins/ros-jazzy-octomap-rviz-plugins_2.1.0-0jammy_amd64.deb
+Size: 285826
+SHA256: 579ec275edd30ab1d12cbc3444fadd443e112caea9044cf12267e8fbeb3ae724
+SHA1: 92903c56f2723cb09ae4fde167b0337d27646750
+MD5sum: 3dd692afaac3d55893dd7200a5459fde
+Description: A set of plugins for displaying occupancy information decoded from binary octomap messages.
+
+Package: ros-jazzy-octomap-server
+Version: 2.3.0-0jammy
+Architecture: amd64
+Maintainer: Wolfgang Merkt <opensource@wolfgangmerkt.com>
+Installed-Size: 5085
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libpcl-common1.12 (>= 1.12.1+dfsg), libpcl-filters1.12 (>= 1.12.1+dfsg), libpcl-segmentation1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 11), ros-jazzy-octomap, liboctomap-dev, libpcl-dev, ros-jazzy-geometry-msgs, ros-jazzy-message-filters, ros-jazzy-nav-msgs, ros-jazzy-octomap-msgs, ros-jazzy-octomap-ros, ros-jazzy-pcl-conversions, ros-jazzy-pcl-ros, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-std-srvs, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace
+Homepage: http://www.ros.org/wiki/octomap_server
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-octomap-server/ros-jazzy-octomap-server_2.3.0-0jammy_amd64.deb
+Size: 731250
+SHA256: 2d4aca0c09f8d4417cc3b97517fce6f591ac9d38774372ed446101fb08da471f
+SHA1: e708911c14974eadde58c1dbb90aeab4ecb33246
+MD5sum: 2bee4dad20c357779c4a98ae23f5fff8
+Description: octomap_server loads a 3D map (as Octree-based OctoMap) and distributes it to other nodes in a compact binary format.
+ It also allows to incrementally build 3D OctoMaps, and provides map saving in the node octomap_saver.
+
 Package: ros-jazzy-ompl
 Version: 1.6.0-0jammy
 Architecture: amd64
@@ -4421,6 +5728,22 @@ MD5sum: 67e41d8a06dcd930ddc41e01d925a6f1
 Description: Wrapper around orocos_kdl, providing nothing but a dependency on orocos_kdl on some systems.
  On others, it fetches and builds orocos_kdl locally.
 
+Package: ros-jazzy-osqp-vendor
+Version: 0.2.0-0jammy
+Architecture: amd64
+Maintainer: Esteve Fernandez <esteve.fernandez@autoware.org>
+Installed-Size: 459
+Depends: libc6 (>= 2.34), ros-jazzy-ros-workspace
+Homepage: https://github.com/oxfordcontrol/osqp
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-osqp-vendor/ros-jazzy-osqp-vendor_0.2.0-0jammy_amd64.deb
+Size: 88214
+SHA256: 532baa8a8199a72272a301b0d23e971f8c7a6e1db6bbd6759a45171f9a1178c5
+SHA1: 515418213ed04d17ee37ed8c86342c9db93e98a7
+MD5sum: 25599f8f2c3d656dcd80c374f1aa16f5
+Description: Wrapper around osqp that ships with a CMake module
+
 Package: ros-jazzy-osrf-pycommon
 Version: 2.1.5-0jammy
 Architecture: amd64
@@ -4450,6 +5773,22 @@ SHA256: c7b27439e086baf8545a62e2b1f8f8be56c9449092c5c67ec7d324631be1a352
 SHA1: c9475cdd290512913f6a7a3f0d30b46ff038a933
 MD5sum: a3a02e0f3cb1441cadc8de478c08d4b1
 Description: Testing tools for C++, and is used in various OSRF projects.
+
+Package: ros-jazzy-parallel-gripper-controller
+Version: 4.19.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 341
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-backward-ros, ros-jazzy-control-msgs, ros-jazzy-control-toolbox, ros-jazzy-controller-interface, ros-jazzy-generate-parameter-library, ros-jazzy-hardware-interface, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-action, ros-jazzy-realtime-tools, ros-jazzy-ros-workspace
+Homepage: https://control.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-parallel-gripper-controller/ros-jazzy-parallel-gripper-controller_4.19.0-0jammy_amd64.deb
+Size: 83530
+SHA256: 1b35c52ea9609e361997c357cfc80a755260ff1aa1a902aae96d75305877d3e1
+SHA1: d2cff073d17478251a7582cc3849a3f830e588b9
+MD5sum: cbd2f1a1a60c5b1eed95916943b4d860
+Description: The parallel_gripper_controller package
 
 Package: ros-jazzy-parameter-traits
 Version: 0.4.0-0jammy
@@ -4592,6 +5931,54 @@ SHA1: 667eb111af1df62934c052239b60dd4c64e0d9a1
 MD5sum: b3247c4e97f18adc9af6871e5fa04977
 Description: Test fixture and CMake macro for using osrf_testing_tools_cpp with Google Benchmark
 
+Package: ros-jazzy-pid-controller
+Version: 4.19.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 763
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-angles, ros-jazzy-backward-ros, ros-jazzy-control-msgs, ros-jazzy-control-toolbox, ros-jazzy-controller-interface, ros-jazzy-hardware-interface, ros-jazzy-parameter-traits, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-realtime-tools, ros-jazzy-std-srvs, ros-jazzy-ros-workspace
+Homepage: https://control.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-pid-controller/ros-jazzy-pid-controller_4.19.0-0jammy_amd64.deb
+Size: 178254
+SHA256: 3ae3b043aa4981e51949507ec12f9c9b5c72ab7e6ffe5986bdeed043ce24c1a4
+SHA1: 661b02f12f1b15c99e044a22c90debcf18a17da6
+MD5sum: 99543c791481810b8e8609b4b34eb308
+Description: Controller based on PID implememenation from control_toolbox package.
+
+Package: ros-jazzy-pilz-industrial-motion-planner
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Christian Henkel <c.henkel@pilz.de>
+Installed-Size: 12835
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-jazzy-moveit-core, ros-jazzy-moveit-ros-move-group, ros-jazzy-moveit-ros-planning, ros-jazzy-eigen3-cmake-module, ros-jazzy-generate-parameter-library, ros-jazzy-geometry-msgs, ros-jazzy-moveit-common, ros-jazzy-moveit-msgs, ros-jazzy-orocos-kdl-vendor, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-eigen-kdl, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-kdl, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-pilz-industrial-motion-planner/ros-jazzy-pilz-industrial-motion-planner_2.12.1-0jammy_amd64.deb
+Size: 2398374
+SHA256: 0eb185ce37d823fa8961a5891384d742e2afc333ac3bee553ed093cf3e91e8fa
+SHA1: 85471f05a6d6a89e302f1bb70c828d9ce791350f
+MD5sum: 4f448e82669a2b146e38f5e0d3e87e34
+Description: MoveIt plugin to generate industrial trajectories PTP, LIN, CIRC and sequences thereof.
+
+Package: ros-jazzy-pilz-industrial-motion-planner-testutils
+Version: 2.12.1-0jammy
+Architecture: amd64
+Maintainer: Christian Henkel <c.henkel@pilz.de>
+Installed-Size: 544
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-moveit-core, ros-jazzy-eigen3-cmake-module, ros-jazzy-moveit-common, ros-jazzy-moveit-msgs, ros-jazzy-rclcpp, ros-jazzy-ros-workspace
+Homepage: http://moveit.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-pilz-industrial-motion-planner-testutils/ros-jazzy-pilz-industrial-motion-planner-testutils_2.12.1-0jammy_amd64.deb
+Size: 107654
+SHA256: af863c13a6d20a360a37aa577e96bc331fc4259b8d7609d945758961e3487302
+SHA1: ad29f60513677ca3410aa92253132139c6904a0c
+MD5sum: 0215c41d481a51e519eee9184c46be9d
+Description: Helper scripts and functionality to test industrial motion generation
+
 Package: ros-jazzy-pluginlib
 Version: 5.4.2-0jammy
 Architecture: amd64
@@ -4623,6 +6010,38 @@ SHA256: f0f8c8b95dd52176f1fe16cc933a0a60084c0ffd5000168af031c98457fa5967
 SHA1: 1c5424a94d113d757df0b5342bc9c36a34f125d9
 MD5sum: 2ea705db9a23bc64e48e87e099330c57
 Description: Support for transporting PointCloud2 messages in compressed format and plugin interface for implementing additional PointCloud2 transports.
+
+Package: ros-jazzy-pose-broadcaster
+Version: 4.19.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 338
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-backward-ros, ros-jazzy-controller-interface, ros-jazzy-generate-parameter-library, ros-jazzy-geometry-msgs, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-realtime-tools, ros-jazzy-tf2-msgs, ros-jazzy-ros-workspace
+Homepage: https://control.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-pose-broadcaster/ros-jazzy-pose-broadcaster_4.19.0-0jammy_amd64.deb
+Size: 92476
+SHA256: 70c4ecce0a06628ddce5ac986ceda8d81bf0d4b38297014b4d77efc4fe9ea39f
+SHA1: e9e824faf484e5dcf0bc52f39c82ae50a83b94f3
+MD5sum: faa23414a86867319be9de0614babf1e
+Description: Broadcaster to publish cartesian states.
+
+Package: ros-jazzy-position-controllers
+Version: 4.19.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 105
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-jazzy-backward-ros, ros-jazzy-forward-command-controller, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros-workspace
+Homepage: https://control.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-position-controllers/ros-jazzy-position-controllers_4.19.0-0jammy_amd64.deb
+Size: 22688
+SHA256: a91524345b1d8a058d53c7efda6828da6434e2e3768c6a71e489b91f5120ae33
+SHA1: 09d1aef6823651971986130d556c98613c5801f0
+MD5sum: 503992fef99d1385f7f04ce5598758ad
+Description: Generic position controller for forwarding position commands.
 
 Package: ros-jazzy-pybind11-json-vendor
 Version: 0.4.2-0jammy
@@ -4798,6 +6217,39 @@ SHA256: a524173c419812b8b5ab7b5cbbe4a2af782487240ca00d0f508b9bed90e778b1
 SHA1: dc8148380a7224f6a4b0c7a057f651a483f3034b
 MD5sum: cf775a22a62703a0b6b352783b54367b
 Description: Python Demo applications for Quality of Service features
+
+Package: ros-jazzy-random-numbers
+Version: 2.0.1-0jammy
+Architecture: amd64
+Maintainer: Anas M'chichou <anasarrak@erlerobotics.com>
+Installed-Size: 119
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), libboost-date-time1.74.0, libboost-dev, libboost-random-dev, libboost-random1.74.0, libboost-thread-dev, libboost-thread1.74.0, ros-jazzy-ros-workspace
+Homepage: http://ros.org/wiki/random_numbers
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-random-numbers/ros-jazzy-random-numbers_2.0.1-0jammy_amd64.deb
+Size: 29378
+SHA256: 51ee34d15ab0e9fd4a4405b3e36bb74b43f65b2682961175909447b7ee6785df
+SHA1: af5e7ac655bd1512fa95a3e8b5ea19085318736d
+MD5sum: b944ad1f1e3712a8059f362e6a3e8c33
+Description: This library contains wrappers for generating floating point values, integers, quaternions using boost libraries.
+ The constructor of the wrapper is guaranteed to be thread safe and initialize its random number generator to a random seed. Seeds are obtained using a separate and different random number generator.
+
+Package: ros-jazzy-range-sensor-broadcaster
+Version: 4.19.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 274
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-backward-ros, ros-jazzy-controller-interface, ros-jazzy-generate-parameter-library, ros-jazzy-hardware-interface, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-realtime-tools, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Homepage: https://control.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-range-sensor-broadcaster/ros-jazzy-range-sensor-broadcaster_4.19.0-0jammy_amd64.deb
+Size: 77660
+SHA256: 7049528577a065f17286f014e3201d93ef03f586d1b4aa9e2490de2482e94355
+SHA1: 23acf3566c15d61fb549d3bbbaf918584409bfac
+MD5sum: dc6e58d8f25e730ca2617a4ede6b3b24
+Description: Controller to publish readings of range sensors.
 
 Package: ros-jazzy-rcl
 Version: 9.2.4-0jammy
@@ -6080,6 +7532,21 @@ SHA1: 0f962a95bfd7938473ae3f3d425aeb21babfa62c
 MD5sum: d697cf84cde7bafb31fdcaa87b12f621
 Description: Demos using Gazebo Sim simulation with ROS.
 
+Package: ros-jazzy-ros-industrial-cmake-boilerplate
+Version: 0.5.4-0jammy
+Architecture: amd64
+Maintainer: Levi Armstrong <levi.armstrong@gmail.com>
+Installed-Size: 124
+Depends: ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-ros-industrial-cmake-boilerplate/ros-jazzy-ros-industrial-cmake-boilerplate_0.5.4-0jammy_amd64.deb
+Size: 22904
+SHA256: 434232fdf25fd8b5d737f4d6ed8275e343d2a27abc917e73a47371799a2fc6f5
+SHA1: 3af4289657153dcbd9d38ecab425975b5f2affb2
+MD5sum: 8551957594b34a79b00dcc6e7977e5be
+Description: Contains boilerplate cmake script, macros and utils
+
 Package: ros-jazzy-ros-testing
 Version: 0.6.0-0jammy
 Architecture: amd64
@@ -6109,6 +7576,22 @@ SHA1: 981efe49a96bec7832e3c540e900fb5a47d87979
 MD5sum: 16f86823d38116128fe40e89e34fdc8d
 Description: Provides the prefix level environment files for ROS 2 packages.
 
+Package: ros-jazzy-ros2-control
+Version: 4.24.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 42
+Depends: ros-jazzy-controller-interface, ros-jazzy-controller-manager, ros-jazzy-controller-manager-msgs, ros-jazzy-hardware-interface, ros-jazzy-joint-limits, ros-jazzy-ros2-control-test-assets, ros-jazzy-ros2controlcli, ros-jazzy-transmission-interface, ros-jazzy-ros-workspace
+Homepage: https://control.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-ros2-control/ros-jazzy-ros2-control_4.24.0-0jammy_amd64.deb
+Size: 6516
+SHA256: b432d9501aef95cbd8551bec39ff5609d0a854e9867b185899026deb1f467946
+SHA1: 8be34724ead256725aebf552621b8fbc3cb97181
+MD5sum: c5e165a29a05e4649a8f8503db6c7bd4
+Description: Metapackage for ROS2 control related packages
+
 Package: ros-jazzy-ros2-control-test-assets
 Version: 4.24.0-0jammy
 Architecture: amd64
@@ -6123,6 +7606,22 @@ SHA256: 621918a4fda0b86e6667080e5a8ec12b0fab78deb551635fa576b7479301a314
 SHA1: 08ceaccbdcb10631cf1b7eeed4c38df950581c4f
 MD5sum: 7e6d4bf02be659d97d86f97071e16300
 Description: The package provides shared test resources for ros2_control stack
+
+Package: ros-jazzy-ros2-controllers
+Version: 4.19.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 44
+Depends: ros-jazzy-ackermann-steering-controller, ros-jazzy-admittance-controller, ros-jazzy-bicycle-steering-controller, ros-jazzy-diff-drive-controller, ros-jazzy-effort-controllers, ros-jazzy-force-torque-sensor-broadcaster, ros-jazzy-forward-command-controller, ros-jazzy-gpio-controllers, ros-jazzy-gripper-controllers, ros-jazzy-imu-sensor-broadcaster, ros-jazzy-joint-state-broadcaster, ros-jazzy-joint-trajectory-controller, ros-jazzy-mecanum-drive-controller, ros-jazzy-parallel-gripper-controller, ros-jazzy-pid-controller, ros-jazzy-pose-broadcaster, ros-jazzy-position-controllers, ros-jazzy-range-sensor-broadcaster, ros-jazzy-steering-controllers-library, ros-jazzy-tricycle-controller, ros-jazzy-tricycle-steering-controller, ros-jazzy-velocity-controllers, ros-jazzy-ros-workspace
+Homepage: https://control.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-ros2-controllers/ros-jazzy-ros2-controllers_4.19.0-0jammy_amd64.deb
+Size: 7074
+SHA256: 42761bad61233689613c5ccb4a67eee2878f928a5c313a95fbb9751692e0c78f
+SHA1: 437e6f64ee0f6369d1421a785dba87ff110c8dcd
+MD5sum: 703db05ae8617188f60142d09f2d2bd1
+Description: Metapackage for ros2_controllers related packages
 
 Package: ros-jazzy-ros2action
 Version: 0.32.2-0jammy
@@ -6213,6 +7712,21 @@ SHA256: e8ea6ecfbbbe9d0ca816713d8dfe658203651fe95a8b7a124ee1b10de84f3a13
 SHA1: d8357e3f8f655c8f056d55155c9dd784df7e7b95
 MD5sum: 369ccf152def4dd82b446be372298226
 Description: The component command for ROS 2 command line tools.
+
+Package: ros-jazzy-ros2controlcli
+Version: 4.24.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 129
+Depends: python3-pygraphviz, ros-jazzy-controller-manager, ros-jazzy-controller-manager-msgs, ros-jazzy-rcl-interfaces, ros-jazzy-rclpy, ros-jazzy-ros2cli, ros-jazzy-ros2node, ros-jazzy-ros2param, ros-jazzy-rosidl-runtime-py, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-ros2controlcli/ros-jazzy-ros2controlcli_4.24.0-0jammy_amd64.deb
+Size: 22818
+SHA256: 84afc83b0146276cfc851b424c351568c64d2e9181e96426090cb380108a1325
+SHA1: 62e324c2671810c80d43df6264b39200eced542e
+MD5sum: 37fb9f0e4e7ca8d8658c90f6ee10613f
+Description: The ROS 2 command line tools for ROS2 Control.
 
 Package: ros-jazzy-ros2doctor
 Version: 0.32.2-0jammy
@@ -6623,16 +8137,16 @@ Package: ros-jazzy-rosdep-jammy
 Version: 0.1.0-0jammy
 Architecture: amd64
 Maintainer: GC US Robotics COE <GC.US.Robotics.COE@arrow.com>
-Installed-Size: 72
+Installed-Size: 85
 Depends: ros-jazzy-ros-workspace
 Homepage: https://github.com/ArrowElectronics/Arrow_ADI_AMR/wiki
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-jazzy-rosdep-jammy/ros-jazzy-rosdep-jammy_0.1.0-0jammy_amd64.deb
-Size: 7268
-SHA256: e479525103941aac7edcfb8b0dcce609e4177063e5885393b1c4ba7eaefd35a1
-SHA1: 65d6f3ff2f63439ec32f45000aa38177a3a4d968
-MD5sum: 02bc01d5ca20c4743f742573a19b1ba0
+Size: 8490
+SHA256: bd61279167bba6cc3239b01de20f30ce38a378ceca5a88a8e3942a8a570d2d27
+SHA1: cb13619b4b424aabc1d83315ecf5b63895c6c1f3
+MD5sum: fd126eb161353c1fb88acad27534145d
 Description: ROS 2 Tier-3 rosdep list for rosdep_jammy
 
 Package: ros-jazzy-rosgraph-msgs
@@ -7041,6 +8555,22 @@ SHA1: 98e32402cd98b345aaffa86690375eab5756c84f
 MD5sum: 6a13a1f1dbe2ee9e04b9c0ec1d85fa86
 Description: Package containing various utility types and functions for Python
 
+Package: ros-jazzy-rqt
+Version: 1.6.0-0jammy
+Architecture: amd64
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Installed-Size: 29
+Depends: ros-jazzy-rqt-gui (>= 0.3.0), ros-jazzy-rqt-gui-cpp (>= 0.3.0), ros-jazzy-rqt-gui-py (>= 0.3.0), ros-jazzy-rqt-py-common, ros-jazzy-ros-workspace
+Homepage: http://ros.org/wiki/rqt
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-rqt/ros-jazzy-rqt_1.6.0-0jammy_amd64.deb
+Size: 6966
+SHA256: 40c037a7b768945312c0044bd854db03100ab35bad5f4100fc3364d12217a423
+SHA1: 90a97817f615c55eb92fa7d02fd80bd46df346b0
+MD5sum: d0d425a190022d904030c42010aab3cb
+Description: rqt is a Qt-based framework for GUI development for ROS.
+
 Package: ros-jazzy-rqt-action
 Version: 2.2.0-0jammy
 Architecture: amd64
@@ -7203,6 +8733,23 @@ SHA1: 34f2726dd041a301445f65af27df9a72f5dd5be4
 MD5sum: b7ef65fba46416e7308b3a7ad3ca4fb7
 Description: rqt_image_view provides a GUI plugin for displaying images using image_transport.
 
+Package: ros-jazzy-rqt-moveit
+Version: 1.0.1-0jammy
+Architecture: amd64
+Maintainer: Isaac I.Y. Saito <iisaito@kinugarage.com>
+Installed-Size: 74
+Depends: ros-jazzy-python-qt-binding (>= 0.2.19), ros-jazzy-rclpy, ros-jazzy-rqt-gui, ros-jazzy-rqt-gui-py, ros-jazzy-rqt-py-common, ros-jazzy-rqt-topic, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/rqt_moveit
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-rqt-moveit/ros-jazzy-rqt-moveit_1.0.1-0jammy_amd64.deb
+Size: 15348
+SHA256: 6c1803ac70851a3f72cd377c8ffd9890b2ee725b59e93de38d7144fba0639d78
+SHA1: 02d78836199d1ef83717c9233dd06bda3d8fd9ce
+MD5sum: 9c08052012ada2491b82de38bde8947e
+Description: An rqt-based tool that assists monitoring tasks for MoveIt! motion planner developers and users.
+ Currently the following items are monitored if they are either running, existing or published: Node: /move_group Parameter: [/robot_description, /robot_description_semantic] Topic: Following types are monitored. Published &quot;names&quot; are ignored. [sensor_msgs/PointCloud, sensor_msgs/PointCloud2, sensor_msgs/Image, sensor_msgs/CameraInfo] Since this package is not made by the MoveIt! development team (although with assistance from the them), please post issue reports to the designated tracker (not MoveIt!'s main tracker).
+
 Package: ros-jazzy-rqt-msg
 Version: 1.5.1-0jammy
 Architecture: amd64
@@ -7348,6 +8895,22 @@ SHA1: 39770abbdfd9cb8cd18ffd2dab94dcc22cd93453
 MD5sum: ff7a980216d3dc7345b9433a5111ec51
 Description: A Python GUI plugin for introspecting available ROS service types.
 
+Package: ros-jazzy-rqt-tf-tree
+Version: 1.0.5-0jammy
+Architecture: amd64
+Maintainer: Isaac I.Y. Saito <gm130s@gmail.com>
+Installed-Size: 73
+Depends: ros-jazzy-python-qt-binding (>= 0.2.19), ros-jazzy-qt-dotgraph, ros-jazzy-rclpy, ros-jazzy-rqt-graph, ros-jazzy-rqt-gui, ros-jazzy-rqt-gui-py, ros-jazzy-tf2-msgs, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/rqt_tf_tree
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-rqt-tf-tree/ros-jazzy-rqt-tf-tree_1.0.5-0jammy_amd64.deb
+Size: 15260
+SHA256: 191195a5adb51216dde07b37b5f73d22dead00d7c291f0ce9bce4fe3bb790645
+SHA1: d9542423605b73ffd70c7a756275deadebc6d2d0
+MD5sum: aa305bc5fefa29047c807c45a5464940
+Description: rqt_tf_tree provides a GUI plugin for visualizing the ROS TF frame tree.
+
 Package: ros-jazzy-rqt-topic
 Version: 1.7.3-0jammy
 Architecture: amd64
@@ -7408,6 +8971,21 @@ SHA256: 149d52a63fd65c7769b8418b0bcebce4fdba6872462393d098b1e918a7ce5b9c
 SHA1: 183d8dce1a54e4e95f41a495d51a4c4c2f3bb43f
 MD5sum: 4dfb803a1f78b12a5dbff70edf08827d
 Description: Instrumentation library for real-time performance testing
+
+Package: ros-jazzy-ruckig
+Version: 0.9.2-0jammy
+Architecture: amd64
+Maintainer: Lars Berscheid <lars.berscheid@ruckig.com>
+Installed-Size: 276
+Depends: libc6 (>= 2.4), libstdc++6 (>= 4.1.1), ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-ruckig/ros-jazzy-ruckig_0.9.2-0jammy_amd64.deb
+Size: 76524
+SHA256: 69131506a19b532dafa311a067d790a33a45722f27513397dadb3203ab257198
+SHA1: 3033e6c38e08360f4f9a2bf93ca01dadcb0077b2
+MD5sum: 957a352708f462b0637e66128d63562f
+Description: Instantaneous Motion Generation for Robots and Machines.
 
 Package: ros-jazzy-rviz-assimp-vendor
 Version: 14.1.6-0jammy
@@ -7521,6 +9099,21 @@ SHA1: b5f808f28a78b16d00d9122c825a3e5e77beaab2
 MD5sum: 68bf0e151fbe00edcf92a89f4826900c
 Description: Example plugin for RViz - documents and tests RViz plugin development
 
+Package: ros-jazzy-rviz-satellite
+Version: 4.1.0-0jammy
+Architecture: amd64
+Maintainer: Andre Schröder <andre.schroeder@tomtom.com>
+Installed-Size: 724
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5network5 (>= 5.0.2), libstdc++6 (>= 11), ros-jazzy-rviz-ogre-vendor, ros-jazzy-angles, ros-jazzy-rclcpp, ros-jazzy-rcpputils, ros-jazzy-rviz-common, ros-jazzy-rviz-default-plugins, ros-jazzy-sensor-msgs, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-rviz-satellite/ros-jazzy-rviz-satellite_4.1.0-0jammy_amd64.deb
+Size: 187640
+SHA256: e5d3d57b423416b575f79eb56844e40b9fc7ede9fbb5aba1cebbd1695ef4ccc4
+SHA1: ed9fb54948ad752fa03f86508b5c93efa53b9b40
+MD5sum: c9a5d93b4ccb10734aa44aaacda98a40
+Description: Display satellite map tiles in RViz
+
 Package: ros-jazzy-rviz-visual-testing-framework
 Version: 14.1.6-0jammy
 Architecture: amd64
@@ -7536,6 +9129,22 @@ SHA256: c2a8b6640e824de363e07440267b2341b0e651aa8c557a6023316b9429e73b0e
 SHA1: f2c5cf06570adf97982b5d105042c60cf9745613
 MD5sum: 12ced8dbd24ed9162af1ad62fd06f440
 Description: 3D testing framework for RViz.
+
+Package: ros-jazzy-rviz-visual-tools
+Version: 4.1.4-0jammy
+Architecture: amd64
+Maintainer: Mike Lautman <mike@picknik.ai>
+Installed-Size: 1523
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 12), libeigen3-dev, ros-jazzy-ament-index-python, ros-jazzy-eigen-stl-containers, ros-jazzy-eigen3-cmake-module, ros-jazzy-geometry-msgs, ros-jazzy-interactive-markers, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rviz-common, ros-jazzy-rviz-default-plugins, ros-jazzy-rviz-ogre-vendor, ros-jazzy-rviz-rendering, ros-jazzy-rviz2, ros-jazzy-sensor-msgs, ros-jazzy-shape-msgs, ros-jazzy-std-msgs, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-geometry-msgs, ros-jazzy-trajectory-msgs, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace
+Homepage: https://github.com/PickNikRobotics/rviz_visual_tools
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-rviz-visual-tools/ros-jazzy-rviz-visual-tools_4.1.4-0jammy_amd64.deb
+Size: 313196
+SHA256: cfecce81ecf52bae24da455295208ce1c37bbdba95a41d3945390ad42d9ad1e3
+SHA1: e7722636c464cc2a768ba7d099e0cd3ae66182f5
+MD5sum: 15cfcc9419472bdc6506665c158242cd
+Description: Utility functions for displaying and debugging data in Rviz via published markers
 
 Package: ros-jazzy-rviz2
 Version: 14.1.6-0jammy
@@ -7753,6 +9362,22 @@ SHA1: 364205bfe865cbc431281da0a1e7e23ed5d47584
 MD5sum: 9ebae2d02ae6d43fb64ca146b238dab9
 Description: SQLite 3 vendor package
 
+Package: ros-jazzy-srdfdom
+Version: 2.0.7-0jammy
+Architecture: amd64
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Installed-Size: 225
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libconsole-bridge-dev, ros-jazzy-console-bridge-vendor, ros-jazzy-tinyxml2-vendor, ros-jazzy-urdf, ros-jazzy-urdfdom-py, ros-jazzy-ros-workspace
+Homepage: http://ros.org/wiki/srdfdom
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-srdfdom/ros-jazzy-srdfdom_2.0.7-0jammy_amd64.deb
+Size: 61832
+SHA256: 86e9129349ca662596e609f12c6dd3dedbeac48388cba09e5e197f3d6b2e5d68
+SHA1: 1c0dbaf974b9d27459362f6f71157411fe865170
+MD5sum: e237db6636c2e3acb7eaad539160453e
+Description: Parser for Semantic Robot Description Format (SRDF).
+
 Package: ros-jazzy-sros2
 Version: 0.13.2-0jammy
 Architecture: amd64
@@ -7828,6 +9453,22 @@ SHA1: 692dfb75ea313e21ef193859c4b30716a5698c35
 MD5sum: 479caaaf58a982b26e9ce2fa0d23d8cc
 Description: A package containing some standard service definitions.
 
+Package: ros-jazzy-steering-controllers-library
+Version: 4.19.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 815
+Depends: libc6 (>= 2.34), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-ackermann-msgs, ros-jazzy-backward-ros, ros-jazzy-control-msgs, ros-jazzy-controller-interface, ros-jazzy-generate-parameter-library, ros-jazzy-geometry-msgs, ros-jazzy-hardware-interface, ros-jazzy-nav-msgs, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-rcpputils, ros-jazzy-realtime-tools, ros-jazzy-std-srvs, ros-jazzy-tf2, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-msgs, ros-jazzy-ros-workspace
+Homepage: https://control.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-steering-controllers-library/ros-jazzy-steering-controllers-library_4.19.0-0jammy_amd64.deb
+Size: 182614
+SHA256: fe265fa65c0fdb842bc493e353827ea3e7931b09a0c86411c282a0fb50f11c05
+SHA1: 4c1ef60d0f6447a327bb599fcde7e5aac4a10a0f
+MD5sum: be7667b9a1fd62b3c1354391c3c7efc3
+Description: Package for steering robot configurations including odometry and interfaces.
+
 Package: ros-jazzy-stereo-image-proc
 Version: 5.0.6-0jammy
 Architecture: amd64
@@ -7858,6 +9499,22 @@ SHA256: 42795fff50fbe5c9bb72803e6ba7cec5bdee813a2b1471addea86c3751614fa4
 SHA1: af67050c53e89be53b3cb066a8ad6934a6df773a
 MD5sum: 7004e6f66ad6ace5495566e69cb90552
 Description: A package containing some stereo camera related message definitions.
+
+Package: ros-jazzy-stomp
+Version: 0.1.2-0jammy
+Architecture: amd64
+Maintainer: Jorge Nicho <jrgnichodevel@gmail.com>
+Installed-Size: 203
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libconsole-bridge-dev, libeigen3-dev, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/stomp
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-stomp/ros-jazzy-stomp_0.1.2-0jammy_amd64.deb
+Size: 65460
+SHA256: 3b450de678dfa5f5c2b08a1f254ff8660322510e2c16cf563b65082fa10e7aea
+SHA1: 5f34b0c62b0601ae13ce9108fa424b628c595a19
+MD5sum: f3d29cc13e80f6e6ec2a533ea9bad89b
+Description: This package provides the STOMP (Stochastic Trajectory Optimization for Motion Planning) algorithm that can be used for robot motion planning tasks or other similar optimization tasks
 
 Package: ros-jazzy-tango-icons-vendor
 Version: 0.3.0-0jammy
@@ -8252,6 +9909,36 @@ SHA1: 7cfc97869b2006dfa8585b8664eb366b43c22baf
 MD5sum: 59cf0b2c06a13f48b6380887a273c137
 Description: Package containing tools for monitoring ROS 2 topics.
 
+Package: ros-jazzy-topic-tools
+Version: 1.3.2-0jammy
+Architecture: amd64
+Maintainer: Emerson Knapp <me@emersonknapp.com>
+Installed-Size: 1399
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rclpy, ros-jazzy-ros2cli, ros-jazzy-rosidl-runtime-py, ros-jazzy-topic-tools-interfaces, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-topic-tools/ros-jazzy-topic-tools_1.3.2-0jammy_amd64.deb
+Size: 193022
+SHA256: 595d4196a97ec407e01bd01ee70f38d721ec69a446153e7a3db842428e3deb4a
+SHA1: d49f9768a0242bbc1ba23fe700c42d9468b3da43
+MD5sum: 8836e0910c2637d0810e54bff476a21c
+Description: Tools for directing, throttling, selecting, and otherwise messing with ROS 2 topics at a meta level.
+
+Package: ros-jazzy-topic-tools-interfaces
+Version: 1.3.2-0jammy
+Architecture: amd64
+Maintainer: Emerson Knapp <me@emersonknapp.com>
+Installed-Size: 3432
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-jazzy-fastcdr, ros-jazzy-builtin-interfaces, ros-jazzy-rosidl-default-runtime, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-topic-tools-interfaces/ros-jazzy-topic-tools-interfaces_1.3.2-0jammy_amd64.deb
+Size: 220708
+SHA256: 8cba860668160a07d509ea27dda93f3011f09661b070292f9947dc6b77e14d7a
+SHA1: 0ba5d661d5d4f7e5c5f122a1819756a6ef187334
+MD5sum: 8bd54b5deddfa10ab9eb629410f3a964
+Description: topic_tools_interfaces contains messages and services for topic_tools
+
 Package: ros-jazzy-tracetools
 Version: 8.2.3-0jammy
 Architecture: amd64
@@ -8297,6 +9984,54 @@ SHA256: a72319967505b89a6a47942cbbd754571a1de34191210c16a86b087e2fb90eed
 SHA1: bc43e3004542fe68393057f7359252693f2f4d97
 MD5sum: ba5fb14267491aaff36d071a47d6fb30
 Description: A package containing some robot trajectory message definitions.
+
+Package: ros-jazzy-transmission-interface
+Version: 4.24.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 239
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-hardware-interface, ros-jazzy-pluginlib, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-transmission-interface/ros-jazzy-transmission-interface_4.24.0-0jammy_amd64.deb
+Size: 51992
+SHA256: 81d90132fcd0254a12bdc0c9bffd9d85111e5b8f13434cd7f997fba22502a0b7
+SHA1: ba540b68c62416962b79cf60c4b53ebfe2507273
+MD5sum: 809caf31bb493a6dea3bdf5badb7f0aa
+Description: transmission_interface contains data structures for representing mechanical transmissions, methods for propagating values between actuator and joint spaces and tooling to support this.
+
+Package: ros-jazzy-tricycle-controller
+Version: 4.19.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 931
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-ackermann-msgs, ros-jazzy-backward-ros, ros-jazzy-builtin-interfaces, ros-jazzy-controller-interface, ros-jazzy-geometry-msgs, ros-jazzy-hardware-interface, ros-jazzy-nav-msgs, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-rcpputils, ros-jazzy-realtime-tools, ros-jazzy-std-srvs, ros-jazzy-tf2, ros-jazzy-tf2-msgs, ros-jazzy-ros-workspace
+Homepage: https://control.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-tricycle-controller/ros-jazzy-tricycle-controller_4.19.0-0jammy_amd64.deb
+Size: 209168
+SHA256: ab2b7b921193708b458c76422fc56a11aa16315e5da22fd3f892dc64daece405
+SHA1: 1fef5790aa198bf7003a8d2231b76059c4d212c1
+MD5sum: bca0c2bc252fb227ac978e877f47d2e6
+Description: Controller for a tricycle drive mobile base
+
+Package: ros-jazzy-tricycle-steering-controller
+Version: 4.19.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 176
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-jazzy-backward-ros, ros-jazzy-control-msgs, ros-jazzy-controller-interface, ros-jazzy-hardware-interface, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-std-srvs, ros-jazzy-steering-controllers-library, ros-jazzy-ros-workspace
+Homepage: https://control.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-tricycle-steering-controller/ros-jazzy-tricycle-steering-controller_4.19.0-0jammy_amd64.deb
+Size: 40322
+SHA256: 3f048aa7ccf7d944ecae428f9418a04d078a589d0a608e9f04abafa7a19d436a
+SHA1: 372ead9ac4e9c8bea4a3a973ad9f633af57bc435
+MD5sum: 184caeed6e3fb5307b1d514681825982
+Description: Steering controller with tricycle kinematics.
+ Rear fixed wheels are powering the vehicle and front wheel is steering.
 
 Package: ros-jazzy-turtlesim
 Version: 1.8.3-0jammy
@@ -8439,6 +10174,38 @@ SHA1: 851254be795fbd03c7e5b58870f92652f231276a
 MD5sum: 5c9c978c10b19b5f7a445942e9326b94
 Description: C++ headers for URDF.
 
+Package: ros-jazzy-urdfdom-py
+Version: 1.2.1-0jammy
+Architecture: amd64
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Installed-Size: 134
+Depends: python3-lxml, python3-yaml, ros-jazzy-rclpy, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/urdfdom_py
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-urdfdom-py/ros-jazzy-urdfdom-py_1.2.1-0jammy_amd64.deb
+Size: 33948
+SHA256: 84df661a018c58ad30d473d5b42fc1536404f70040f61f2f5154937f8943f830
+SHA1: 10d4a234da2adaea0f83232f3d81c359ad2cff96
+MD5sum: 3e3cbc63363e2df282564801ed333468
+Description: Python implementation of the URDF parser.
+
+Package: ros-jazzy-velocity-controllers
+Version: 4.19.0-0jammy
+Architecture: amd64
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Installed-Size: 109
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-jazzy-backward-ros, ros-jazzy-forward-command-controller, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros-workspace
+Homepage: https://control.ros.org
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-velocity-controllers/ros-jazzy-velocity-controllers_4.19.0-0jammy_amd64.deb
+Size: 23426
+SHA256: f7a544a2e7adbf86126b081667e347671ef76394e5f8e30bd7cfcf5c807cc4ca
+SHA1: 21546218123c6f661ed4bd22e4780bab179ed929
+MD5sum: a1cef915c28e0c80e9a7206a99fc24fe
+Description: Generic controller for forwarding commands.
+
 Package: ros-jazzy-vision-msgs
 Version: 4.1.1-0jammy
 Architecture: amd64
@@ -8484,6 +10251,22 @@ SHA256: bc549c553ea07a92ce81e7f8c2e6391807a433e6dacdc90df85b71eefd90ba4b
 SHA1: 40012889bd69d946f7c3687d36e4b9386a864d11
 MD5sum: 03dff9c838462f825e50d8c5bc36ed8e
 Description: A package containing some visualization and interaction related message definitions.
+
+Package: ros-jazzy-warehouse-ros
+Version: 2.0.5-0jammy
+Architecture: amd64
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Installed-Size: 424
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libboost-all-dev, libssl-dev, ros-jazzy-geometry-msgs, ros-jazzy-pluginlib (>= 1.11.2), ros-jazzy-rclcpp, ros-jazzy-std-msgs, ros-jazzy-tf2, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Homepage: http://ros.org/wiki/warehouse_ros
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-warehouse-ros/ros-jazzy-warehouse-ros_2.0.5-0jammy_amd64.deb
+Size: 123110
+SHA256: d27100353240c6b0c1a451867418a51cbdfb6d6338cedc8fb01801074c9b7d40
+SHA1: c2c338878685ab0548bbd95e94a5bb0c2288d43a
+MD5sum: 99c001c75f8c1bd10a13490c7288611b
+Description: Persistent storage of ROS messages
 
 Package: ros-jazzy-xacro
 Version: 2.0.11-0jammy
