@@ -1238,10 +1238,10 @@ Homepage: http://ceres-solver.org/
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-jazzy-ceres-solver/ros-jazzy-ceres-solver_2.2.0-0jammy_amd64.deb
-Size: 1341474
-SHA256: feb8a1d69bc304c45eae6c81ad93efaf59471032a5f7f3fd751f19380dd79ebe
-SHA1: 02ddf0c666b7923721cd2148c89c39ef0611ec3b
-MD5sum: 6a7bdc437c9da884804d54ce16045f0c
+Size: 1341478
+SHA256: a69d9581e78d9d9747a1dd2247264c8a86de5e1d66dc67a8bfee81b8488809a2
+SHA1: 3af1e1a7fb9d1b1170b48e7796738cc87edf3009
+MD5sum: 5e824ab457b43fa20a47f911cafd0e6c
 Description: A large scale non-linear optimization library.
 
 Package: ros-jazzy-chomp-motion-planner
@@ -1668,6 +1668,22 @@ SHA256: 5042f082330b5e36678c9d89c79d0db8bb1c7f6d30ee99d36a5d5ff1155ae3a6
 SHA1: 406baf4028a7f3515c9e6b80b535155d8e4e6568
 MD5sum: b1cbe4715c77579936aedd5a8675d1d5
 Description: A tool to coordinate unique ROS_DOMAIN_IDs across multiple processes
+
+Package: ros-jazzy-draco-point-cloud-transport
+Version: 4.0.1-0jammy
+Architecture: amd64
+Maintainer: Martin Pecka <peckama2@fel.cvut.cz>
+Installed-Size: 674
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libdraco4 (>= 1.5.2+dfsg), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libdraco-dev, ros-jazzy-pluginlib, ros-jazzy-point-cloud-interfaces, ros-jazzy-point-cloud-transport, ros-jazzy-rclcpp, ros-jazzy-rcpputils, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Homepage: https://wiki.ros.org/draco_point_cloud_transport
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-draco-point-cloud-transport/ros-jazzy-draco-point-cloud-transport_4.0.1-0jammy_amd64.deb
+Size: 154766
+SHA256: 30f25ee628c962e65335148559ec4d2a485651e303131e47df7eeecccdd241cf
+SHA1: 7cdca0a6e79a7538e5f1b1213455d47b2686b790
+MD5sum: 8b55c14d9743419531ada3a49e38c589
+Description: draco_point_cloud_transport provides a plugin to point_cloud_transport for sending point clouds encoded with KD tree compression.
 
 Package: ros-jazzy-dummy-map-server
 Version: 0.33.5-0jammy
@@ -2544,6 +2560,67 @@ SHA256: 36799775953a0cfad39abdd1585b5d5fb452ed7b5ef5a8d087f523fddc4b3c59
 SHA1: ecbc7c3106107ba7d50be4c7a96d1dfc7a7f0ae0
 MD5sum: 347208c15958c2713f221b5e7a21cea7
 Description: Provide CMake module to find eProsima FastRTPS.
+
+Package: ros-jazzy-ffmpeg-encoder-decoder
+Version: 1.0.1-0jammy
+Architecture: amd64
+Maintainer: Bernd Pfrommer <bernd.pfrommer@gmail.com>
+Installed-Size: 285
+Depends: libavcodec58 (>= 7:4.4), libavutil56 (>= 7:4.4), libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), libswscale5 (>= 7:4.4), ffmpeg, libavcodec-dev, libavdevice-dev, libavformat-dev, libavutil-dev, libopencv-imgproc-dev, libswscale-dev, ros-jazzy-cv-bridge, ros-jazzy-rclcpp, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-ffmpeg-encoder-decoder/ros-jazzy-ffmpeg-encoder-decoder_1.0.1-0jammy_amd64.deb
+Size: 81516
+SHA256: 9cb3a88b8115afd5461d444795acaec49b5f34090854ade49b0e22cfe6da3b6e
+SHA1: 31c720157d417b684a0ee6c42b48ad35f262aa26
+MD5sum: 3535a3424fcf4d261a005a6c3a854431
+Description: ROS2 convenience wrapper around ffmpeg for encoding/decoding
+
+Package: ros-jazzy-ffmpeg-image-transport
+Version: 1.0.1-0jammy
+Architecture: amd64
+Maintainer: Bernd Pfrommer <bernd.pfrommer@gmail.com>
+Installed-Size: 781
+Depends: libavcodec58 (>= 7:4.4), libavutil56 (>= 7:4.4), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), libswscale5 (>= 7:4.4), ffmpeg, libavcodec-dev, libavdevice-dev, libavformat-dev, libavutil-dev, libogg-dev, libopencv-imgproc-dev, libswscale-dev, ros-jazzy-cv-bridge, ros-jazzy-ffmpeg-image-transport-msgs, ros-jazzy-image-transport, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rcutils, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Homepage: http://www.ros.org/wiki/image_transport_plugins
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-ffmpeg-image-transport/ros-jazzy-ffmpeg-image-transport_1.0.1-0jammy_amd64.deb
+Size: 190330
+SHA256: 02a691849ce242e20f8e2268255633a68d53671dfa613cc2d5ff32760ec7f670
+SHA1: 765ae93974b15787901690955ec3d9364256b813
+MD5sum: 256e094f88530f69b86d60ae230a313d
+Description: ffmpeg_image_transport provides a plugin to image_transport for transparently sending an image stream encoded with ffmpeg.
+
+Package: ros-jazzy-ffmpeg-image-transport-msgs
+Version: 1.0.2-0jammy
+Architecture: amd64
+Maintainer: Bernd Pfrommer <bernd.pfrommer@gmail.com>
+Installed-Size: 493
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-ffmpeg-image-transport-msgs/ros-jazzy-ffmpeg-image-transport-msgs_1.0.2-0jammy_amd64.deb
+Size: 50204
+SHA256: f6f8ca0266d5b0a7bedcd23d1a61a943fa5f51947444527438b722b27132a391
+SHA1: 818e4e8b893884faa85a221d0a2ea3299c046008
+MD5sum: 03fc0b5f5d99753bd9c3880546e1a30c
+Description: messages for ffmpeg image transport plugin
+
+Package: ros-jazzy-ffmpeg-image-transport-tools
+Version: 1.0.1-0jammy
+Architecture: amd64
+Maintainer: Bernd Pfrommer <bernd.pfrommer@gmail.com>
+Installed-Size: 235
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-imgcodecs4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), ros-jazzy-cv-bridge, ros-jazzy-ffmpeg-image-transport, ros-jazzy-ffmpeg-image-transport-msgs, ros-jazzy-rclcpp, ros-jazzy-rosbag2-cpp, ros-jazzy-rosbag2-storage, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-ffmpeg-image-transport-tools/ros-jazzy-ffmpeg-image-transport-tools_1.0.1-0jammy_amd64.deb
+Size: 62598
+SHA256: e0d36b26546a90d6805cdbeb3b0d6e68c49a8a46c51e96e8d0567515b81039c6
+SHA1: abbd1ac8a9ed5c40acff96f992f10ad7ddf43ff9
+MD5sum: f29d19df05b4b558f953fe01266c21aa
+Description: tools for processing ffmpeg_image_transport_msgs
 
 Package: ros-jazzy-filters
 Version: 2.1.2-0jammy
@@ -5551,6 +5628,22 @@ SHA1: 10c3a098b9d3806f04f80fba3cffc47260ae4885
 MD5sum: 406a39c0e6c9b3c684573246e0049e59
 Description: A vendor package for JSON schema validator for JSON for Modern C++
 
+Package: ros-jazzy-nmea-msgs
+Version: 2.1.0-0jammy
+Architecture: amd64
+Maintainer: Ed Venator <evenator@gmail.com>
+Installed-Size: 1687
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-builtin-interfaces, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Homepage: http://ros.org/wiki/nmea_msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-nmea-msgs/ros-jazzy-nmea-msgs_2.1.0-0jammy_amd64.deb
+Size: 132914
+SHA256: b89841bce363cb75caab4ce6f530562080e808ec6f97a22586676fd55f6e7dec
+SHA1: 19043cf59eb55500963d232a75bdb91eb966898b
+MD5sum: 8a87876bd4d89977cc9fb7d8f8c4d3eb
+Description: The nmea_msgs package contains messages related to data in the NMEA format.
+
 Package: ros-jazzy-object-recognition-msgs
 Version: 2.0.0-0jammy
 Architecture: amd64
@@ -5996,6 +6089,22 @@ MD5sum: e2775c2e979ffbad10094ff4573bad19
 Description: The pluginlib package provides tools for writing and dynamically loading plugins using the ROS build infrastructure.
  To work, these tools require plugin providers to register their plugins in the package.xml of their package.
 
+Package: ros-jazzy-point-cloud-interfaces
+Version: 4.0.1-0jammy
+Architecture: amd64
+Maintainer: Martin Pecka <peckama2@fel.cvut.cz>
+Installed-Size: 535
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-builtin-interfaces, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Homepage: https://wiki.ros.org/draco_point_cloud_transport
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-point-cloud-interfaces/ros-jazzy-point-cloud-interfaces_4.0.1-0jammy_amd64.deb
+Size: 56572
+SHA256: 6f7e2be98a1f26764d16a0c7b96c07b02095315793d044d781dfefcb94cab1ec
+SHA1: 85cde1ffbb8eabb317372a65987813c1bb8af28d
+MD5sum: 77ad56bf18dab309cb65df0b76a746e9
+Description: msg definitions for use with point_cloud_transport plugins.
+
 Package: ros-jazzy-point-cloud-transport
 Version: 4.0.3-0jammy
 Architecture: amd64
@@ -6010,6 +6119,22 @@ SHA256: f0f8c8b95dd52176f1fe16cc933a0a60084c0ffd5000168af031c98457fa5967
 SHA1: 1c5424a94d113d757df0b5342bc9c36a34f125d9
 MD5sum: 2ea705db9a23bc64e48e87e099330c57
 Description: Support for transporting PointCloud2 messages in compressed format and plugin interface for implementing additional PointCloud2 transports.
+
+Package: ros-jazzy-point-cloud-transport-plugins
+Version: 4.0.1-0jammy
+Architecture: amd64
+Maintainer: Martin Pecka <peckama2@fel.cvut.cz>
+Installed-Size: 41
+Depends: ros-jazzy-draco-point-cloud-transport, ros-jazzy-point-cloud-interfaces, ros-jazzy-zlib-point-cloud-transport, ros-jazzy-zstd-point-cloud-transport, ros-jazzy-ros-workspace
+Homepage: https://wiki.ros.org/point_cloud_transport
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-point-cloud-transport-plugins/ros-jazzy-point-cloud-transport-plugins_4.0.1-0jammy_amd64.deb
+Size: 5302
+SHA256: dd04d564e4c659ab0f6c7459f52cd6e7bb7d4c313e82a53d8547e7795ad3896c
+SHA1: c226f8c7a06246e22cbe944838db3d0ae37700e0
+MD5sum: 43cee14beeb57199129016bcc05c651e
+Description: Metapackage with common point_cloud_transport plugins
 
 Package: ros-jazzy-pose-broadcaster
 Version: 4.19.0-0jammy
@@ -8137,16 +8262,16 @@ Package: ros-jazzy-rosdep-jammy
 Version: 0.1.0-0jammy
 Architecture: amd64
 Maintainer: GC US Robotics COE <GC.US.Robotics.COE@arrow.com>
-Installed-Size: 85
+Installed-Size: 86
 Depends: ros-jazzy-ros-workspace
 Homepage: https://github.com/ArrowElectronics/Arrow_ADI_AMR/wiki
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-jazzy-rosdep-jammy/ros-jazzy-rosdep-jammy_0.1.0-0jammy_amd64.deb
-Size: 8490
-SHA256: bd61279167bba6cc3239b01de20f30ce38a378ceca5a88a8e3942a8a570d2d27
-SHA1: cb13619b4b424aabc1d83315ecf5b63895c6c1f3
-MD5sum: fd126eb161353c1fb88acad27534145d
+Size: 8612
+SHA256: afe838978ea78b687e6b26dcd309f691c33408d54293b030d29075e55a8e3e9c
+SHA1: bcb9543a71bbfbd057204a4ee9cc2dcb1a8a6946
+MD5sum: ec01aaa1597257e7f74ed7841f250ac8
 Description: ROS 2 Tier-3 rosdep list for rosdep_jammy
 
 Package: ros-jazzy-rosgraph-msgs
@@ -10316,6 +10441,22 @@ SHA1: f7c0996b6e33283b7b329cbef3f7f94153e7574c
 MD5sum: 84fa6cead045d4c6e11f3e639ddaeb62
 Description: Vendor pkg to install zenoh-cpp
 
+Package: ros-jazzy-zlib-point-cloud-transport
+Version: 4.0.1-0jammy
+Architecture: amd64
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Installed-Size: 586
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), zlib1g (>= 1:1.1.4), ros-jazzy-pluginlib, ros-jazzy-point-cloud-interfaces, ros-jazzy-point-cloud-transport, ros-jazzy-rclcpp, zlib1g-dev, ros-jazzy-ros-workspace
+Homepage: https://wiki.ros.org/draco_point_cloud_transport
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-zlib-point-cloud-transport/ros-jazzy-zlib-point-cloud-transport_4.0.1-0jammy_amd64.deb
+Size: 127700
+SHA256: daeac713935704247d3ffa8df99c1d32167eb745d75cd3b9c7f03d226de7fb00
+SHA1: 42a190341ed44575c29688d5e60302004779d0a9
+MD5sum: 169b3e47a45293fedbd5d008aba99e37
+Description: zlib_point_cloud_transport provides a plugin to point_cloud_transport for sending point clouds encoded with zlib
+
 Package: ros-jazzy-zstd-image-transport
 Version: 4.0.3-0jammy
 Architecture: amd64
@@ -10331,6 +10472,22 @@ SHA256: 6869829bd00be3e1224adeb08cb528f84136608f2a22c62619724dc89be4568f
 SHA1: 5d55ab27c9aa279c3418deaf52dffe3c97ab59c7
 MD5sum: 251fd9510926be1976fddf945b4cfd86
 Description: zstd_image_transport provides a plugin to image_transport for transparently sending images encoded as zstd blobs
+
+Package: ros-jazzy-zstd-point-cloud-transport
+Version: 4.0.1-0jammy
+Architecture: amd64
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Installed-Size: 582
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-zstd-vendor, libzstd-dev, ros-jazzy-pluginlib, ros-jazzy-point-cloud-interfaces, ros-jazzy-point-cloud-transport, ros-jazzy-rclcpp, ros-jazzy-ros-workspace
+Homepage: https://wiki.ros.org/draco_point_cloud_transport
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-zstd-point-cloud-transport/ros-jazzy-zstd-point-cloud-transport_4.0.1-0jammy_amd64.deb
+Size: 126058
+SHA256: 367b037d000896771080e27d79a9cd9ee00982492165a095ca878f808dd8feb2
+SHA1: 6c31bba63800eea08fad854a8e1a3c733364b0d9
+MD5sum: dcf693623c89937ef37aef1da1c03a4e
+Description: zstd_point_cloud_transport provides a plugin to point_cloud_transport for sending point clouds encoded with lib
 
 Package: ros-jazzy-zstd-vendor
 Version: 0.26.6-0jammy
