@@ -989,20 +989,35 @@ Description: This package provides a set of simple math utilities to work with a
  The utilities cover simple things like normalizing an angle and conversion between degrees and radians. But even if you're trying to calculate things like the shortest angular distance between two joint space positions of your robot, but the joint motion is constrained by joint limits, this package is what you need. The code in this package is stable and well tested. There are no plans for major changes in the near future.
 
 Package: ros-jazzy-apriltag
-Version: 3.4.2-0jammy
+Version: 3.4.3-0jammy
 Architecture: amd64
 Maintainer: Max Krogius <mkrogius@umich.edu>
-Installed-Size: 1808
+Installed-Size: 1811
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-highgui4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libopencv-videoio4.5d (>= 4.5.4+dfsg), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-jazzy-ros-workspace
 Homepage: https://april.eecs.umich.edu/software/apriltag.html
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-jazzy-apriltag/ros-jazzy-apriltag_3.4.2-0jammy_amd64.deb
-Size: 1169720
-SHA256: c06711947c59556f0582420b7f556b9b146e26a2edd0a8a6d781ab05bd27d009
-SHA1: fc0344de6a7ed0e23adf6190df1dc1e497b76c88
-MD5sum: 432afbf417a6a9be905357f0dd29608c
+Filename: pool/main/r/ros-jazzy-apriltag/ros-jazzy-apriltag_3.4.3-0jammy_amd64.deb
+Size: 1170904
+SHA256: 09ea549cdfc36a45fc595b219e461147100e6a40efae58c6234205430dde303e
+SHA1: e9279c27b8c4d515d2a1ce50720a08ecd4dbc5ec
+MD5sum: a50615c769c74eacd5c227cdf13257aa
 Description: AprilTag detector library
+
+Package: ros-jazzy-apriltag-detector
+Version: 1.0.0-0jammy
+Architecture: amd64
+Maintainer: Bernd Pfrommer <bernd.pfrommer@gmail.com>
+Installed-Size: 375
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), ros-jazzy-apriltag, ros-jazzy-apriltag-msgs, ros-jazzy-cv-bridge, ros-jazzy-image-transport, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-apriltag-detector/ros-jazzy-apriltag-detector_1.0.0-0jammy_amd64.deb
+Size: 106368
+SHA256: da18f80319710bd8ca6d04bf3a05e68535e23d16fe1935770aa07751216943ec
+SHA1: b734fd32b11e1b8b3dd7c5805af8482b5a03b0cc
+MD5sum: 8f5ac1cf310011bb9c11e12541ca37c3
+Description: ROS package for apriltag detection
 
 Package: ros-jazzy-apriltag-mit
 Version: 1.0.3-0jammy
@@ -1018,6 +1033,36 @@ SHA256: 26bad3572ac59c092a575c46a1e9bee829548c09ab0d09dad45f8486da3cbe7d
 SHA1: 1703e949897ab17a9d92546f08ce6799372da986
 MD5sum: ee88f5541d114be5d9e5e2fd87ace4bb
 Description: ROS2 package wrapper for the MIT apriltag detector
+
+Package: ros-jazzy-apriltag-msgs
+Version: 2.0.1-0jammy
+Architecture: amd64
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 720
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-apriltag-msgs/ros-jazzy-apriltag-msgs_2.0.1-0jammy_amd64.deb
+Size: 68850
+SHA256: 3a04be0ec413f8efd43185c0b6a1cc734f218cb4dea0088210c55dcfa71ba2fd
+SHA1: 5b10554d3dc8e2ca83863dd0224f16912f0c9fec
+MD5sum: 11ead462d54bdc4e43047cf240bd1c4b
+Description: AprilTag message definitions
+
+Package: ros-jazzy-apriltag-ros
+Version: 3.2.2-0jammy
+Architecture: amd64
+Maintainer: Christian Rauch <Rauch.Christian@gmx.de>
+Installed-Size: 424
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-calib3d4.5d (>= 4.5.4+dfsg), libopencv-core4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), ros-jazzy-apriltag, ros-jazzy-apriltag-msgs, ros-jazzy-cv-bridge, ros-jazzy-image-transport, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-apriltag-ros/ros-jazzy-apriltag-ros_3.2.2-0jammy_amd64.deb
+Size: 123522
+SHA256: 4b770aaf886bca796ed4178d6baf6d68b92c4c08cf9318eb86094e9e31c105be
+SHA1: 5ff35205b06f4ac49b8651876b4400f94311d5d7
+MD5sum: 13858b448f5a267bab2c5f228c532893
+Description: AprilTag detection node
 
 Package: ros-jazzy-azure-iot-sdk-c
 Version: 1.14.0-0jammy
@@ -3287,6 +3332,21 @@ SHA1: c846f1f4d7d765ab547d9bb20045635231c59209
 MD5sum: 45d374c29471195c0842f0506942468b
 Description: The package provides GoogleTest.
 
+Package: ros-jazzy-gtsam
+Version: 4.2.0-0jammy
+Architecture: amd64
+Maintainer: Frank Dellaert <gtsam@lists.gatech.edu>
+Installed-Size: 8697
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-serialization1.74.0 (>= 1.74.0), libboost-timer1.74.0 (>= 1.74.0), libc6 (>= 2.33), libgcc-s1 (>= 4.0), libstdc++6 (>= 11), libtbb12 (>= 2021.4.0), libtbbmalloc2 (>= 2017~U7), libboost-all-dev, libeigen3-dev, libtbb-dev, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-gtsam/ros-jazzy-gtsam_4.2.0-0jammy_amd64.deb
+Size: 2141176
+SHA256: d035b9f1cc88563aec0326b0fc6b2f96fd4dd0559462b8dfacda40062cc40332
+SHA1: 696c7d880041f018a5f31f2b161db3f1408bc207
+MD5sum: e2c5ea0f95d37d76d51dc1a6b5d12dc0
+Description: gtsam
+
 Package: ros-jazzy-gz-cmake-vendor
 Version: 0.0.9-0jammy
 Architecture: amd64
@@ -4285,6 +4345,21 @@ SHA1: 031c2e0786951148fcf56f76a7a7551bebcb5279
 MD5sum: 12205ef75ab5ad74a5b609ccee1bf244
 Description: Python library for loading parameters in launch files
 
+Package: ros-jazzy-launch-pytest
+Version: 3.4.3-0jammy
+Architecture: amd64
+Maintainer: Aditya Pande <aditya.pande@openrobotics.org>
+Installed-Size: 115
+Depends: python3-pytest, ros-jazzy-ament-index-python, ros-jazzy-launch, ros-jazzy-launch-testing, ros-jazzy-osrf-pycommon, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-launch-pytest/ros-jazzy-launch-pytest_3.4.3-0jammy_amd64.deb
+Size: 22214
+SHA256: a3283ae3aa0adba2c8a50ebb089a8d3b6aaf680784d4a6b9801ac3fb62df9e36
+SHA1: 12bc178798dff4c0be0b68a771705289c55bce9c
+MD5sum: ebc731a40a002693acee10b6d4eac178
+Description: A package to create tests which involve launch files and multiple processes.
+
 Package: ros-jazzy-launch-ros
 Version: 0.26.6-0jammy
 Architecture: amd64
@@ -4391,6 +4466,22 @@ SHA1: 2ccd497b327cd29c56703e7dab03b3778b764892
 MD5sum: 14102a11fd9b2c96cae8161ea4f04cb8
 Description: Wrapper around libcurl, it provides a fixed CMake module and an ExternalProject build of it.
 
+Package: ros-jazzy-libg2o
+Version: 2020.5.29-0jammy
+Architecture: amd64
+Maintainer: Christoph Rösmann <christoph.roesmann@tu-dortmund.de>
+Installed-Size: 6722
+Depends: libatlas3-base, libc6 (>= 2.35), libcamd2 (>= 1:4.5.2), libcholmod3 (>= 1:4.5.2), libcxsparse3 (>= 1:4.5.2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 4.0), libglu1-mesa | libglu1, libopengl0, libspdlog1-fmt8, libstdc++6 (>= 11), libeigen3-dev, libgl1-mesa-dev, libglu1-mesa-dev, libsuitesparse-dev, ros-jazzy-ros-workspace
+Homepage: https://github.com/RainerKuemmerle/g2o
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-libg2o/ros-jazzy-libg2o_2020.5.29-0jammy_amd64.deb
+Size: 1263446
+SHA256: 14d81661b9a8bd56c7f39fcf6780f1523bda5f8b366c2238c4152a9f10259aff
+SHA1: 8fd041ef84b8a9b192b9aff37919dc2db657368e
+MD5sum: 56af6f0dea6b6b844a90de9d99bff3c1
+Description: The libg2o library from http://openslam.org/g2o.html
+
 Package: ros-jazzy-liblz4-vendor
 Version: 0.26.6-0jammy
 Architecture: amd64
@@ -4406,6 +4497,52 @@ SHA256: b08009c5c468c47d08b14ca2ad03ad8752ce4522009b515c4eb1d4c2760b8782
 SHA1: 91c5d86448094d27c71f9e1fbc0f2fdb98da7d8a
 MD5sum: 032bdb44f59c9c4b1e5bca8dcd449019
 Description: LZ4 compression vendor package, providing a dependency for LZ4.
+
+Package: ros-jazzy-libnabo
+Version: 1.1.1-0jammy
+Architecture: amd64
+Maintainer: Stéphane Magnenat <stephane.magnenat@mavt.ethz.ch>
+Installed-Size: 4056
+Depends: libboost-python1.74.0 (>= 1.74.0), libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 9), libboost-all-dev, libeigen3-dev, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-libnabo/ros-jazzy-libnabo_1.1.1-0jammy_amd64.deb
+Size: 314264
+SHA256: c9e42246a56dc81b3caab548f259c6f582df92ad7820987d05e3c0746aea46e0
+SHA1: b7b5fc3055e6cf7da33463bf6f1467a92ac6d16b
+MD5sum: 9edad44c9567e4f65bcceee56d3e4306
+Description: libnabo is a fast K Nearest Neighbour library for low-dimensional spaces.
+
+Package: ros-jazzy-libpointmatcher
+Version: 1.4.2-0jammy
+Architecture: amd64
+Maintainer: Francois Pomerleau <f.pomerleau@gmail.com>
+Installed-Size: 23226
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 4.0), libgomp1 (>= 6), libstdc++6 (>= 11), ros-jazzy-yaml-cpp-vendor, libboost-all-dev, libeigen3-dev, libyaml-cpp-dev, ros-jazzy-libnabo, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-libpointmatcher/ros-jazzy-libpointmatcher_1.4.2-0jammy_amd64.deb
+Size: 2696480
+SHA256: 7e1c1bc4f1832a898a69bde07de496cebb8e1c13e2cfa45e23f8e37a2640188a
+SHA1: 3279141d07ec08b9a2b076af1d8a988f1e8201dc
+MD5sum: 2984b0d84552526a2ada55291f89190b
+Description: libpointmatcher is a modular ICP library, useful for robotics and computer vision.
+
+Package: ros-jazzy-librealsense2
+Version: 2.55.1-0jammy
+Architecture: amd64
+Maintainer: LibRealSense ROS Team <librs.ros@intel.com>
+Installed-Size: 29897
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libglfw3 (>= 3.2), libglu1-mesa | libglu1, libopengl0, libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 12), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.16), libgl1-mesa-dev, libglfw3-dev, libglu1-mesa-dev, libx11-dev, ros-jazzy-ros-workspace
+Homepage: https://github.com/IntelRealSense/librealsense/
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-librealsense2/ros-jazzy-librealsense2_2.55.1-0jammy_amd64.deb
+Size: 6710684
+SHA256: 84c3281dc1c5faaa2260a91613812088e20d23cb47960abc4ed22f47f00e0f6d
+SHA1: 4fe8667763c7d921fbf273a6950b93dc2cee39a6
+MD5sum: 4727ca6beb1302eaa72a9462423d0989
+Description: Library for controlling and capturing data from the Intel(R) RealSense(TM) D400 devices.
 
 Package: ros-jazzy-libstatistics-collector
 Version: 1.7.4-0jammy
@@ -6730,6 +6867,54 @@ SHA1: acd7b22d44308e922b8cce955cbf318f6e5a9fd1
 MD5sum: 15aefbb5c1fd0e4f8e1d7def0a2bab46
 Description: Package containing various utility types and functions for C
 
+Package: ros-jazzy-realsense2-camera
+Version: 4.55.1-0jammy
+Architecture: amd64
+Maintainer: LibRealSense ROS Team <librs.ros@intel.com>
+Installed-Size: 1649
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), ros-jazzy-librealsense2, libeigen3-dev, ros-jazzy-builtin-interfaces, ros-jazzy-cv-bridge, ros-jazzy-diagnostic-updater, ros-jazzy-geometry-msgs, ros-jazzy-image-transport, ros-jazzy-launch-ros, ros-jazzy-nav-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-realsense2-camera-msgs, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-tf2, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Homepage: http://www.ros.org/wiki/RealSense
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-realsense2-camera/ros-jazzy-realsense2-camera_4.55.1-0jammy_amd64.deb
+Size: 446832
+SHA256: a76cd08578005d1a8531f1af2d588fe5f2e547e1a3c9a5fc23f350d054d938a6
+SHA1: 1e6fb40763f924442cefefbae519f312d8025acd
+MD5sum: 56553a9eb93718dcab655f4886fedcc5
+Description: RealSense camera package allowing access to Intel D400 3D cameras
+
+Package: ros-jazzy-realsense2-camera-msgs
+Version: 4.55.1-0jammy
+Architecture: amd64
+Maintainer: LibRealSense ROS Team <librs.ros@intel.com>
+Installed-Size: 1325
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-builtin-interfaces, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Homepage: http://www.ros.org/wiki/RealSense
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-realsense2-camera-msgs/ros-jazzy-realsense2-camera-msgs_4.55.1-0jammy_amd64.deb
+Size: 117162
+SHA256: 9f32007a0d904fa194a63d0862ba6f57f5607922297ef274da0af71f33d41258
+SHA1: 9754018ce136f4d42ad9c663ffb8ff9fd1bae6f7
+MD5sum: 9539ef7bb26f5b56da69429bdd6c6998
+Description: RealSense camera_msgs package containing realsense camera messages definitions
+
+Package: ros-jazzy-realsense2-description
+Version: 4.55.1-0jammy
+Architecture: amd64
+Maintainer: LibRealSense ROS Team <librs.ros@intel.com>
+Installed-Size: 71711
+Depends: ros-jazzy-launch-ros, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-realsense2-camera-msgs, ros-jazzy-xacro, ros-jazzy-ros-workspace
+Homepage: http://www.ros.org/wiki/RealSense
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-realsense2-description/ros-jazzy-realsense2-description_4.55.1-0jammy_amd64.deb
+Size: 11086872
+SHA256: 3f822dfb906a8de6b61a6362e366b29885ff9b485311a7d5f4e313be00d1d941
+SHA1: f75498eea46101023163d846af71cc70ebd47346
+MD5sum: 47e390838fcf0fe41dd200121f56b1ed
+Description: RealSense description package for Intel 3D D400 cameras
+
 Package: ros-jazzy-realtime-tools
 Version: 3.4.0-0jammy
 Architecture: amd64
@@ -8432,19 +8617,19 @@ MD5sum: 784a4258a7d8ff362e6d3129f94639a5
 Description: Layer encapsulating ROS middleware to allow rosbag2 to be used with or without middleware
 
 Package: ros-jazzy-rosdep-jammy
-Version: 0.1.0-0jammy
+Version: 0.2.0-0jammy
 Architecture: amd64
 Maintainer: GC US Robotics COE <GC.US.Robotics.COE@arrow.com>
-Installed-Size: 87
+Installed-Size: 91
 Depends: ros-jazzy-ros-workspace
 Homepage: https://github.com/ArrowElectronics/Arrow_ADI_AMR/wiki
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-jazzy-rosdep-jammy/ros-jazzy-rosdep-jammy_0.1.0-0jammy_amd64.deb
-Size: 8744
-SHA256: 1e442687dc28989fae33e47d6464d203485db18d17095b2de8564b977b724df2
-SHA1: cee7abf18e306321916da2688c4eae09dd24805b
-MD5sum: 02cd20d943af84a4707e082281aad198
+Filename: pool/main/r/ros-jazzy-rosdep-jammy/ros-jazzy-rosdep-jammy_0.2.0-0jammy_amd64.deb
+Size: 9066
+SHA256: db3e8cb3db97702ff882fe09270454ac8fd5175e403c75dc49049c819e26fafc
+SHA1: 80301c35c5f6b2c31d9588ac5016c1dcadcba6c8
+MD5sum: 850020aa675711497a202796386d14f9
 Description: ROS 2 Tier-3 rosdep list for rosdep_jammy
 
 Package: ros-jazzy-rosgraph-msgs
@@ -9254,6 +9439,219 @@ SHA256: ca95706481cbdeedf9c582e692438ca722c9bc9c4944a3ddbd85976bf3ad1777
 SHA1: befcbb4e8d7014710f8db31ab065b5525893e69e
 MD5sum: 104775c47e5641fff385d567cbf1d8be
 Description: ROS Support Library
+
+Package: ros-jazzy-rtabmap
+Version: 0.21.10-0jammy
+Architecture: amd64
+Maintainer: Mathieu Labbe <matlabbe@gmail.com>
+Installed-Size: 21119
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libc6 (>= 2.34), libdc1394-25 (>= 2.2.6), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 4.0), libgomp1 (>= 6), libopencv-calib3d4.5d (>= 4.5.4+dfsg), libopencv-contrib4.5d (>= 4.5.4+dfsg), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-features2d4.5d (>= 4.5.4+dfsg), libopencv-highgui4.5d (>= 4.5.4+dfsg), libopencv-imgcodecs4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libopencv-photo4.5d (>= 4.5.4+dfsg), libopencv-stitching4.5d (>= 4.5.4+dfsg), libopencv-video4.5d (>= 4.5.4+dfsg), libopencv-videoio4.5d (>= 4.5.4+dfsg), libopenni2-0 (>= 2.2.0.33+dfsg), libpcl-common1.12 (>= 1.12.1+dfsg), libpcl-features1.12 (>= 1.12.1+dfsg), libpcl-filters1.12 (>= 1.12.1+dfsg), libpcl-io1.12 (>= 1.12.1+dfsg), libpcl-kdtree1.12 (>= 1.12.1+dfsg), libpcl-sample-consensus1.12 (>= 1.12.1+dfsg), libpcl-search1.12 (>= 1.12.1+dfsg), libpcl-segmentation1.12 (>= 1.12.1+dfsg), libpcl-surface1.12 (>= 1.12.1+dfsg), libpcl-visualization1.12 (>= 1.12.1+dfsg), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libspdlog1-fmt8, libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 11), libtbb12 (>= 2021.4.0), libvtk9.1 (>= 9.1.0+really9.1.0+dfsg2), libvtk9.1-qt (>= 9.1.0+really9.1.0+dfsg2), ros-jazzy-gtsam, ros-jazzy-libg2o, ros-jazzy-octomap, ros-jazzy-yaml-cpp-vendor, zlib1g (>= 1:1.2.0), liboctomap-dev, libpcl-dev, libsqlite3-dev, libtbb-dev, ros-jazzy-cv-bridge, ros-jazzy-libpointmatcher, ros-jazzy-qt-gui-cpp, zlib1g-dev, ros-jazzy-ros-workspace
+Homepage: http://introlab.github.io/rtabmap
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-rtabmap/ros-jazzy-rtabmap_0.21.10-0jammy_amd64.deb
+Size: 5880464
+SHA256: 2446313a19b3f00b48a2f824c5fe1e4c7950b6ac5695309cf1502bd855153a17
+SHA1: 47554ec33c75d8e90cb880a1b434c90f9063d34c
+MD5sum: 1e9a7ca79e2a35dff8917ba7483460c5
+Description: RTAB-Map's standalone library.
+ RTAB-Map is a RGB-D SLAM approach with real-time constraints.
+
+Package: ros-jazzy-rtabmap-conversions
+Version: 0.21.10-0jammy
+Architecture: amd64
+Maintainer: Mathieu Labbe <matlabbe@gmail.com>
+Installed-Size: 493
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-stitching4.5d (>= 4.5.4+dfsg), libpcl-common1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 11), ros-jazzy-rtabmap, ros-jazzy-cv-bridge, ros-jazzy-geometry-msgs, ros-jazzy-image-geometry, ros-jazzy-laser-geometry, ros-jazzy-pcl-conversions, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rtabmap-msgs, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-geometry-msgs, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-rtabmap-conversions/ros-jazzy-rtabmap-conversions_0.21.10-0jammy_amd64.deb
+Size: 164064
+SHA256: aa34841e002e3e5b5c34005e5d0d8a2d081d99adf567fb5b437d4141e614805e
+SHA1: bad1f3bb519fb2bc318666f17b70602278b1d233
+MD5sum: 4fbbc17be1466446c80a9fe70dfb4e5b
+Description: RTAB-Map's conversions package.
+ This package can be used to convert rtabmap_msgs's msgs into RTAB-Map's library objects.
+
+Package: ros-jazzy-rtabmap-demos
+Version: 0.21.10-0jammy
+Architecture: amd64
+Maintainer: Mathieu Labbe <matlabbe@gmail.com>
+Installed-Size: 341
+Depends: ros-jazzy-rtabmap-odom, ros-jazzy-rtabmap-rviz-plugins, ros-jazzy-rtabmap-slam, ros-jazzy-rtabmap-util, ros-jazzy-rtabmap-viz, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-rtabmap-demos/ros-jazzy-rtabmap-demos_0.21.10-0jammy_amd64.deb
+Size: 116266
+SHA256: da88274276c63ca63e058a896c896e1f2375f7e1ca369c915727a4800a52dd86
+SHA1: 8e1debf87a0f3bc53b1a3acd21acb05e546b35ad
+MD5sum: 9dc7d7aad99eca7e825ff95b9f65a1cd
+Description: RTAB-Map's demo launch files.
+
+Package: ros-jazzy-rtabmap-examples
+Version: 0.21.10-0jammy
+Architecture: amd64
+Maintainer: Mathieu Labbe <matlabbe@gmail.com>
+Installed-Size: 145
+Depends: ros-jazzy-imu-filter-madgwick, ros-jazzy-rtabmap-odom, ros-jazzy-rtabmap-rviz-plugins, ros-jazzy-rtabmap-slam, ros-jazzy-rtabmap-util, ros-jazzy-rtabmap-viz, ros-jazzy-tf2-ros, ros-jazzy-velodyne, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-rtabmap-examples/ros-jazzy-rtabmap-examples_0.21.10-0jammy_amd64.deb
+Size: 17766
+SHA256: d4b52aac6540e2993f9c67f5e5c17573b40627acd5df768916ee791ebbbb9d7e
+SHA1: 61eae383fc9b49619e5c6a7ae93cc6d1fe8c9642
+MD5sum: bb3647e0d3be10ad5942b516207f0991
+Description: RTAB-Map's example launch files.
+
+Package: ros-jazzy-rtabmap-launch
+Version: 0.21.10-0jammy
+Architecture: amd64
+Maintainer: Mathieu Labbe <matlabbe@gmail.com>
+Installed-Size: 96
+Depends: ros-jazzy-rtabmap-msgs, ros-jazzy-rtabmap-odom, ros-jazzy-rtabmap-rviz-plugins, ros-jazzy-rtabmap-slam, ros-jazzy-rtabmap-util, ros-jazzy-rtabmap-viz, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-rtabmap-launch/ros-jazzy-rtabmap-launch_0.21.10-0jammy_amd64.deb
+Size: 12562
+SHA256: b46f8ffcfb39a05d3eaf9c7db7316f974ad7d7bd61b65e7628460ef3085e7fa9
+SHA1: 8c26612971e4bc12977eebe183512a066a11b566
+MD5sum: e99afcdc5235143bcbcce35829e61410
+Description: RTAB-Map's main launch files.
+
+Package: ros-jazzy-rtabmap-msgs
+Version: 0.21.10-0jammy
+Architecture: amd64
+Maintainer: Mathieu Labbe <matlabbe@gmail.com>
+Installed-Size: 11910
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-jazzy-fastcdr, ros-jazzy-builtin-interfaces, ros-jazzy-geometry-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-std-srvs, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-rtabmap-msgs/ros-jazzy-rtabmap-msgs_0.21.10-0jammy_amd64.deb
+Size: 810108
+SHA256: 288344a1933f7fb224ea75f9dcaffbc5c823eee6eb07f10795c717bd77193e83
+SHA1: 8512bd912b8e769c097772987a6ef8a09d8d9394
+MD5sum: aef60c2ddbce4a52dea81bf8a34a8e73
+Description: RTAB-Map's msgs package.
+
+Package: ros-jazzy-rtabmap-odom
+Version: 0.21.10-0jammy
+Architecture: amd64
+Maintainer: Mathieu Labbe <matlabbe@gmail.com>
+Installed-Size: 4536
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-stitching4.5d (>= 4.5.4+dfsg), libpcl-common1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 11), ros-jazzy-rtabmap, ros-jazzy-cv-bridge, ros-jazzy-image-geometry, ros-jazzy-laser-geometry, ros-jazzy-message-filters, ros-jazzy-nav-msgs, ros-jazzy-pcl-conversions, ros-jazzy-pcl-ros, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rtabmap-conversions, ros-jazzy-rtabmap-msgs, ros-jazzy-rtabmap-sync, ros-jazzy-rtabmap-util, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-rtabmap-odom/ros-jazzy-rtabmap-odom_0.21.10-0jammy_amd64.deb
+Size: 755148
+SHA256: 172b0bcdeb00cf6a7483a2ce5ae27514bfbe334b74c3c464cb8c463acb6f1d98
+SHA1: a6feef8f1022f879df7a51bc9fb8b5439008b865
+MD5sum: 4abc5b6b8e34dd54fca8a377339d1190
+Description: RTAB-Map's odometry package.
+
+Package: ros-jazzy-rtabmap-python
+Version: 0.21.10-0jammy
+Architecture: amd64
+Maintainer: Mathieu Labbe <matlabbe@gmail.com>
+Installed-Size: 35
+Depends: ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-rtabmap-python/ros-jazzy-rtabmap-python_0.21.10-0jammy_amd64.deb
+Size: 3780
+SHA256: 1965d7db73457f9ab3654b3997ca66ed2ff1a32cd8176c18a12d7d67b472d113
+SHA1: 87cb21db12cab59029c295bf76cf69a261854a8e
+MD5sum: 44a2d125da966d56456e607900907a4f
+Description: RTAB-Map's python package.
+
+Package: ros-jazzy-rtabmap-ros
+Version: 0.21.10-0jammy
+Architecture: amd64
+Maintainer: Mathieu Labbe <matlabbe@gmail.com>
+Installed-Size: 42
+Depends: ros-jazzy-rtabmap-conversions, ros-jazzy-rtabmap-demos, ros-jazzy-rtabmap-examples, ros-jazzy-rtabmap-launch, ros-jazzy-rtabmap-msgs, ros-jazzy-rtabmap-odom, ros-jazzy-rtabmap-python, ros-jazzy-rtabmap-rviz-plugins, ros-jazzy-rtabmap-slam, ros-jazzy-rtabmap-sync, ros-jazzy-rtabmap-util, ros-jazzy-rtabmap-viz, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-rtabmap-ros/ros-jazzy-rtabmap-ros_0.21.10-0jammy_amd64.deb
+Size: 5126
+SHA256: bb6ccb3a957bf604fe54154e6cb902c4fc4a88e8b5950117c520dcf22dc2d2c5
+SHA1: b9ca5bebbce34a0b25703ae4c34802c09e2061f0
+MD5sum: c880e9df7f04e5515a724fb29440c29b
+Description: RTAB-Map Stack
+
+Package: ros-jazzy-rtabmap-rviz-plugins
+Version: 0.21.10-0jammy
+Architecture: amd64
+Maintainer: Mathieu Labbe <matlabbe@gmail.com>
+Installed-Size: 1483
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-stitching4.5d (>= 4.5.4+dfsg), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), ros-jazzy-rtabmap, ros-jazzy-rviz-ogre-vendor, ros-jazzy-pcl-conversions, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rtabmap-conversions, ros-jazzy-rtabmap-msgs, ros-jazzy-rviz-common, ros-jazzy-rviz-default-plugins, ros-jazzy-rviz-rendering, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-tf2, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-rtabmap-rviz-plugins/ros-jazzy-rtabmap-rviz-plugins_0.21.10-0jammy_amd64.deb
+Size: 295632
+SHA256: c8690db1848b8a9b68ef891b817f68203dda22791e7e063e73ecad7a5763674a
+SHA1: 25cffd6b0d4795590a08e0217141aac6d07a1244
+MD5sum: 752200d227cff3a9aaf1f8938dbb3748
+Description: RTAB-Map's rviz plugins.
+
+Package: ros-jazzy-rtabmap-slam
+Version: 0.21.10-0jammy
+Architecture: amd64
+Maintainer: Mathieu Labbe <matlabbe@gmail.com>
+Installed-Size: 5428
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libopencv-stitching4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), ros-jazzy-rtabmap, ros-jazzy-cv-bridge, ros-jazzy-geometry-msgs, ros-jazzy-nav-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rtabmap-msgs, ros-jazzy-rtabmap-sync, ros-jazzy-rtabmap-util, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-std-srvs, ros-jazzy-tf2, ros-jazzy-tf2-ros, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-rtabmap-slam/ros-jazzy-rtabmap-slam_0.21.10-0jammy_amd64.deb
+Size: 807782
+SHA256: 09e4fc57649aa6ead46a584c6cffc6bb2002b2838e2625c2bdc6c3c05745176b
+SHA1: 3a30955cf65ab97331f4d50ac25c5eef13768649
+MD5sum: 6fb7fc73720323de70331aff10029b3f
+Description: RTAB-Map's SLAM package.
+
+Package: ros-jazzy-rtabmap-sync
+Version: 0.21.10-0jammy
+Architecture: amd64
+Maintainer: Mathieu Labbe <matlabbe@gmail.com>
+Installed-Size: 15198
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-stitching4.5d (>= 4.5.4+dfsg), libstdc++6 (>= 11), ros-jazzy-rtabmap, ros-jazzy-cv-bridge, ros-jazzy-diagnostic-updater, ros-jazzy-image-transport, ros-jazzy-message-filters, ros-jazzy-nav-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rtabmap-conversions, ros-jazzy-rtabmap-msgs, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-rtabmap-sync/ros-jazzy-rtabmap-sync_0.21.10-0jammy_amd64.deb
+Size: 1776442
+SHA256: d14ef81ac83bd4b930073499ff96e210a833a7beeb3ec02f202449ba8c73ce6c
+SHA1: 5f8367f4fb719d06ad8ac20547bb43ced8aadfbf
+MD5sum: 7f655d446b80f581b306a7a94780f994
+Description: RTAB-Map's synchronization package.
+
+Package: ros-jazzy-rtabmap-util
+Version: 0.21.10-0jammy
+Architecture: amd64
+Maintainer: Mathieu Labbe <matlabbe@gmail.com>
+Installed-Size: 5319
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-stitching4.5d (>= 4.5.4+dfsg), libpcl-common1.12 (>= 1.12.1+dfsg), libpcl-filters1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 11), ros-jazzy-rtabmap, ros-jazzy-cv-bridge, ros-jazzy-image-transport, ros-jazzy-laser-geometry, ros-jazzy-message-filters, ros-jazzy-nav-msgs, ros-jazzy-octomap-msgs, ros-jazzy-pcl-conversions, ros-jazzy-pcl-ros, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rtabmap-conversions, ros-jazzy-rtabmap-msgs, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-stereo-msgs, ros-jazzy-tf2, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-rtabmap-util/ros-jazzy-rtabmap-util_0.21.10-0jammy_amd64.deb
+Size: 867274
+SHA256: 7b00ae9f72e16e6ae8d237117a4403714d5f327121b77945227a936934c9fb76
+SHA1: 784fd81de96f3bf94fa6fdfc7aac06e42e7ca7ab
+MD5sum: 8064d01a7b24437e364d0a4d7afdc97f
+Description: RTAB-Map's various useful nodes and nodelets.
+
+Package: ros-jazzy-rtabmap-viz
+Version: 0.21.10-0jammy
+Architecture: amd64
+Maintainer: Mathieu Labbe <matlabbe@gmail.com>
+Installed-Size: 2041
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-stitching4.5d (>= 4.5.4+dfsg), libqt5core5a (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), ros-jazzy-rtabmap, ros-jazzy-cv-bridge, ros-jazzy-geometry-msgs, ros-jazzy-nav-msgs, ros-jazzy-rclcpp, ros-jazzy-rtabmap-msgs, ros-jazzy-rtabmap-sync, ros-jazzy-std-msgs, ros-jazzy-std-srvs, ros-jazzy-tf2, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-rtabmap-viz/ros-jazzy-rtabmap-viz_0.21.10-0jammy_amd64.deb
+Size: 372694
+SHA256: 3a0ae1b2079db2b35099177f1c2ef685ed02ae49662bcd96051347fd4cb0df7b
+SHA1: 593a4b3375d09974af354048d303d95f6b1f56d7
+MD5sum: 2607f22cef100cb0b1619ef6388c7654
+Description: RTAB-Map's visualization package.
 
 Package: ros-jazzy-rti-connext-dds-cmake-module
 Version: 0.22.0-0jammy
@@ -10519,6 +10917,83 @@ SHA1: 033c2562756f0239f020127ad261513d7a80ce11
 MD5sum: 41352a8507b1c3d2b37bb0252f435452
 Description: Generic controller for forwarding commands.
 
+Package: ros-jazzy-velodyne
+Version: 2.5.1-0jammy
+Architecture: amd64
+Maintainer: Josh Whitley <whitleysoftwareservices@gmail.com>
+Installed-Size: 73
+Depends: ros-jazzy-velodyne-driver, ros-jazzy-velodyne-laserscan, ros-jazzy-velodyne-msgs, ros-jazzy-velodyne-pointcloud, ros-jazzy-ros-workspace
+Homepage: http://www.ros.org/wiki/velodyne
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-velodyne/ros-jazzy-velodyne_2.5.1-0jammy_amd64.deb
+Size: 8886
+SHA256: cf3edb6fec7192eb44a47ae6d541052b1ec2168100b7adf2e238b3bf735ff283
+SHA1: e0fa4bf81293003181b0990baaee49d88762b03f
+MD5sum: aec9b806b39bf95daa5eabf7f77f0b09
+Description: Basic ROS support for the Velodyne 3D LIDARs.
+
+Package: ros-jazzy-velodyne-driver
+Version: 2.5.1-0jammy
+Architecture: amd64
+Maintainer: Josh Whitley <whitleysoftwareservices@gmail.com>
+Installed-Size: 698
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libpcap0.8 (>= 1.0.0), libstdc++6 (>= 11), libpcap0.8-dev, ros-jazzy-diagnostic-updater, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-tf2-ros, ros-jazzy-velodyne-msgs, ros-jazzy-ros-workspace
+Homepage: http://www.ros.org/wiki/velodyne_driver
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-velodyne-driver/ros-jazzy-velodyne-driver_2.5.1-0jammy_amd64.deb
+Size: 160568
+SHA256: fa78db2ee099700b14c5d7f2f0f908ffea79f6cb500a104dd1b8e48465bdb57e
+SHA1: 331598284881db28d0c4109e15ad2f6fa331ce8d
+MD5sum: 34abf6a2a2e8bf0d73c7601d4e51b739
+Description: ROS device driver for Velodyne 3D LIDARs.
+
+Package: ros-jazzy-velodyne-laserscan
+Version: 2.5.1-0jammy
+Architecture: amd64
+Maintainer: Josh Whitley <whitleysoftwareservices@gmail.com>
+Installed-Size: 581
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-velodyne-laserscan/ros-jazzy-velodyne-laserscan_2.5.1-0jammy_amd64.deb
+Size: 127778
+SHA256: b427e268000b0ad3f245c868288eff5cb6049f0f20f36938b7225980fdf4655f
+SHA1: 508e8d3cadbb58b6d01b1259c9e0f8e47e0faab7
+MD5sum: e99cdf644d1cc28210bc00888f38a975
+Description: Extract a single ring of a Velodyne PointCloud2 and publish it as a LaserScan message
+
+Package: ros-jazzy-velodyne-msgs
+Version: 2.5.1-0jammy
+Architecture: amd64
+Maintainer: Josh Whitley <whitleysoftwareservices@gmail.com>
+Installed-Size: 554
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-builtin-interfaces, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-velodyne-msgs/ros-jazzy-velodyne-msgs_2.5.1-0jammy_amd64.deb
+Size: 55810
+SHA256: c0a3b9819c560df83ae5ccd2a810f00b11a011b55fc10dd8640b97d992ab6b08
+SHA1: 4d427d64f1e45521fd0f3133c0796d6211da3560
+MD5sum: 4682c50951cf4e6a1312018f8ff28d4b
+Description: ROS message definitions for Velodyne 3D LIDARs.
+
+Package: ros-jazzy-velodyne-pointcloud
+Version: 2.5.1-0jammy
+Architecture: amd64
+Maintainer: Josh Whitley <whitleysoftwareservices@gmail.com>
+Installed-Size: 1102
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-yaml-cpp-vendor, libeigen3-dev, libpcl-dev, libyaml-cpp-dev, ros-jazzy-angles, ros-jazzy-diagnostic-updater, ros-jazzy-geometry-msgs, ros-jazzy-message-filters, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-tf2, ros-jazzy-tf2-ros, ros-jazzy-velodyne-msgs, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-velodyne-pointcloud/ros-jazzy-velodyne-pointcloud_2.5.1-0jammy_amd64.deb
+Size: 235968
+SHA256: 886f36f880b6a95309c1eb2454c99ab6d35f0344812f477c34b51dcf20fdd5a4
+SHA1: 42e227de4e419ca715723de41546bf72d95473ab
+MD5sum: 1c6bf8f6ee3bb5924804aea642692681
+Description: Point cloud conversions for Velodyne 3D LIDARs.
+
 Package: ros-jazzy-vision-msgs
 Version: 4.1.1-0jammy
 Architecture: amd64
@@ -10533,6 +11008,21 @@ SHA256: 6f5ea254b5c1d6223ec2648b79082b01a11cf79802e1d8f240548144ad911b38
 SHA1: 22eff2965d6ae834d78ae71511d577361f54700e
 MD5sum: ce07bba9868d6e741f13fa50b7e8368b
 Description: Messages for interfacing with various computer vision pipelines, such as object detectors.
+
+Package: ros-jazzy-vision-msgs-rviz-plugins
+Version: 4.1.1-0jammy
+Architecture: amd64
+Maintainer: Georg Novotny <georg.novotny@aon.at>
+Installed-Size: 1423
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libstdc++6 (>= 11), ros-jazzy-yaml-cpp-vendor, python3-numpy, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclpy, ros-jazzy-rviz-common, ros-jazzy-rviz-default-plugins, ros-jazzy-rviz-rendering, ros-jazzy-rviz2, ros-jazzy-vision-msgs, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-vision-msgs-rviz-plugins/ros-jazzy-vision-msgs-rviz-plugins_4.1.1-0jammy_amd64.deb
+Size: 232278
+SHA256: 974f1ab72070225187bcb88ad0ada56fe88e6e90147cdbfe9a8883db7b293903
+SHA1: 69bfac64c02407d19dd9e284c7b9b1ad79c157b2
+MD5sum: 6578a8c650a4805335abfac1697685ac
+Description: RVIZ2 plugins for visualizing vision_msgs
 
 Package: ros-jazzy-vision-opencv
 Version: 4.1.0-0jammy
