@@ -1224,6 +1224,96 @@ MD5sum: 2b5795d4e3896ef376696ba948f664e9
 Description: This package provides a C++ interface for camera calibration information.
  It provides CameraInfo, and handles SetCameraInfo service requests, saving and restoring the camera calibration data.
 
+Package: ros-jazzy-canopen
+Version: 0.3.0-0jammy
+Architecture: arm64
+Maintainer: Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>
+Installed-Size: 42
+Depends: ros-jazzy-canopen-402-driver, ros-jazzy-canopen-base-driver, ros-jazzy-canopen-core, ros-jazzy-canopen-interfaces, ros-jazzy-canopen-proxy-driver, ros-jazzy-lely-core-libraries, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-canopen/ros-jazzy-canopen_0.3.0-0jammy_arm64.deb
+Size: 6032
+SHA256: 363123080018b9dd889fabac426cda0dfd2d89c5cf606cd0d6a2a08aaf007806
+SHA1: 60a696e22f7dbb296305d3f1e6564338c2d65862
+MD5sum: 3cf4307f86be37edde44f29143a3e77b
+Description: Meta-package aggregating the ros2_canopen packages and documentation
+
+Package: ros-jazzy-canopen-402-driver
+Version: 0.3.0-0jammy
+Architecture: arm64
+Maintainer: Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>
+Installed-Size: 1034
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 12), libyaml-cpp0.7 (>= 0.7.0), ros-jazzy-lely-core-libraries, libboost-all-dev, ros-jazzy-canopen-base-driver, ros-jazzy-canopen-core, ros-jazzy-canopen-interfaces, ros-jazzy-canopen-proxy-driver, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rclcpp-lifecycle, ros-jazzy-sensor-msgs, ros-jazzy-std-srvs, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-canopen-402-driver/ros-jazzy-canopen-402-driver_0.3.0-0jammy_arm64.deb
+Size: 219732
+SHA256: a84274750e0983badc9279c294dab239ba502cded5ef5b2c45448446c0298ff6
+SHA1: 5d7b34464a25eedd81b3973681275c972235b777
+MD5sum: b1fbcbcce8b4efd3d99519fd66a8662c
+Description: Driiver for devices implementing CIA402 profile
+
+Package: ros-jazzy-canopen-base-driver
+Version: 0.3.0-0jammy
+Architecture: arm64
+Maintainer: Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>
+Installed-Size: 834
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 12), libyaml-cpp0.7 (>= 0.7.0), ros-jazzy-lely-core-libraries, libboost-all-dev, ros-jazzy-canopen-core, ros-jazzy-canopen-interfaces, ros-jazzy-diagnostic-updater, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rclcpp-lifecycle, ros-jazzy-std-msgs, ros-jazzy-std-srvs, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-canopen-base-driver/ros-jazzy-canopen-base-driver_0.3.0-0jammy_arm64.deb
+Size: 170314
+SHA256: 95653b17cea501804cd6437106ff98c4f0b80f9996845caef09f26df6d278236
+SHA1: d658b973e39af90ea39452796548595f797968d8
+MD5sum: b5640469a629aeae90f2ae22d2e4aa1e
+Description: Library containing abstract CANopen driver class for ros2_canopen
+
+Package: ros-jazzy-canopen-core
+Version: 0.3.0-0jammy
+Architecture: arm64
+Maintainer: Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>
+Installed-Size: 711
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), ros-jazzy-lely-core-libraries, libboost-all-dev, ros-jazzy-canopen-interfaces, ros-jazzy-lifecycle-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rclcpp-lifecycle, ros-jazzy-yaml-cpp-vendor, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-canopen-core/ros-jazzy-canopen-core_0.3.0-0jammy_arm64.deb
+Size: 169790
+SHA256: a59ec40eeb4f5f2b20ec1cc124d7b63ed808f5e105683aefd585eaf90e88f329
+SHA1: c75ce7a3f1f192e9ed8590aae6026f6ee78f6c30
+MD5sum: 1b6cc6ce9d617c56a0733bc01d64ff8c
+Description: Core ros2_canopen functionalities such as DeviceContainer and master
+
+Package: ros-jazzy-canopen-interfaces
+Version: 0.3.0-0jammy
+Architecture: arm64
+Maintainer: Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>
+Installed-Size: 3480
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-rosidl-default-runtime, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-canopen-interfaces/ros-jazzy-canopen-interfaces_0.3.0-0jammy_arm64.deb
+Size: 220472
+SHA256: 8fedd43393bc6daa7ab4b15bb376f75940d1e6410618945bdcb6a290924f0b53
+SHA1: afef8d03a7c3c655d6943441767f850c40551b64
+MD5sum: 5fbfcef8e6c725829439a3f0672a10bf
+Description: Services and Messages for ros2_canopen stack
+
+Package: ros-jazzy-canopen-proxy-driver
+Version: 0.3.0-0jammy
+Architecture: arm64
+Maintainer: Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>
+Installed-Size: 1135
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), ros-jazzy-canopen-base-driver, ros-jazzy-canopen-core, ros-jazzy-canopen-interfaces, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rclcpp-lifecycle, ros-jazzy-std-msgs, ros-jazzy-std-srvs, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-canopen-proxy-driver/ros-jazzy-canopen-proxy-driver_0.3.0-0jammy_arm64.deb
+Size: 226342
+SHA256: 15f939ad61e091318eb316499e360833d3c7cc69b2a91073268a617fd822da0c
+SHA1: 7bdfc562bca03a092666827ae10c6f2b6436a9ad
+MD5sum: 6eeafebc1740ce38b92574adad65de84
+Description: Simple proxy driver for the ros2_canopen stack
+
 Package: ros-jazzy-cartographer
 Version: 2.0.9003-0jammy
 Architecture: arm64
@@ -4449,6 +4539,21 @@ SHA256: de65c8e83f1a7c4149ea6929a94ca458393ac02a5b40a474ceb21a114823456b
 SHA1: 1dc65be439d3529cc45c5b9285a4cd394fb69ff4
 MD5sum: ca7aca81a5eee83e83a23adc9b10b516
 Description: YAML frontend for the launch package.
+
+Package: ros-jazzy-lely-core-libraries
+Version: 0.3.0-0jammy
+Architecture: arm64
+Maintainer: Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>
+Installed-Size: 3660
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), python3-empy, python3-yaml, ros-jazzy-ros-workspace
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-lely-core-libraries/ros-jazzy-lely-core-libraries_0.3.0-0jammy_arm64.deb
+Size: 644960
+SHA256: 3d6e36cb616c3b38ba196b5c6e595e72116871298fbda461dcab94fc73ef7ed5
+SHA1: dbc3548462552ccee7fe794eabf824060bb584d1
+MD5sum: 8c4d1c62cee520db2833feab0c84e261
+Description: ROS wrapper for lely-core-libraries
 
 Package: ros-jazzy-libcurl-vendor
 Version: 3.4.3-0jammy
@@ -8617,7 +8722,7 @@ MD5sum: f23a271ad536335ff1280950724da97c
 Description: Layer encapsulating ROS middleware to allow rosbag2 to be used with or without middleware
 
 Package: ros-jazzy-rosdep-jammy
-Version: 0.2.0-0jammy
+Version: 25.2.27-0jammy
 Architecture: arm64
 Maintainer: GC US Robotics COE <GC.US.Robotics.COE@arrow.com>
 Installed-Size: 91
@@ -8625,11 +8730,11 @@ Depends: ros-jazzy-ros-workspace
 Homepage: https://github.com/ArrowElectronics/Arrow_ADI_AMR/wiki
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-jazzy-rosdep-jammy/ros-jazzy-rosdep-jammy_0.2.0-0jammy_arm64.deb
-Size: 9048
-SHA256: c18dcdb7f8faa23bb6843ae6e8dcd523481893ab59260ae6e61ed1c3ab08c32c
-SHA1: 403aea8411a7033e9b46e86b865522726fbb5de9
-MD5sum: 1a89758a8e3b6eca4e734475effe7e7c
+Filename: pool/main/r/ros-jazzy-rosdep-jammy/ros-jazzy-rosdep-jammy_25.2.27-0jammy_arm64.deb
+Size: 9126
+SHA256: b79195746c958fae42cb0bd79e92b9ac4ef34abe05b717c321add2b52224b856
+SHA1: cc5099ba3d30a6df0663d05146923166c996512a
+MD5sum: 59f7f2e9082d03bd65ef209d6355d5c0
 Description: ROS 2 Tier-3 rosdep list for rosdep_jammy
 
 Package: ros-jazzy-rosgraph-msgs
