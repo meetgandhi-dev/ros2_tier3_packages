@@ -8722,7 +8722,7 @@ MD5sum: f23a271ad536335ff1280950724da97c
 Description: Layer encapsulating ROS middleware to allow rosbag2 to be used with or without middleware
 
 Package: ros-jazzy-rosdep-jammy
-Version: 25.2.27-0jammy
+Version: 25.3.3-0jammy
 Architecture: arm64
 Maintainer: GC US Robotics COE <GC.US.Robotics.COE@arrow.com>
 Installed-Size: 91
@@ -8730,11 +8730,11 @@ Depends: ros-jazzy-ros-workspace
 Homepage: https://github.com/ArrowElectronics/Arrow_ADI_AMR/wiki
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-jazzy-rosdep-jammy/ros-jazzy-rosdep-jammy_25.2.27-0jammy_arm64.deb
-Size: 9126
-SHA256: b79195746c958fae42cb0bd79e92b9ac4ef34abe05b717c321add2b52224b856
-SHA1: cc5099ba3d30a6df0663d05146923166c996512a
-MD5sum: 59f7f2e9082d03bd65ef209d6355d5c0
+Filename: pool/main/r/ros-jazzy-rosdep-jammy/ros-jazzy-rosdep-jammy_25.3.3-0jammy_arm64.deb
+Size: 9132
+SHA256: ad12dd7a8a3086f92a5c5dad50b71dd09d2b2ad2a5e6357daa5dc1755c6b94a4
+SHA1: ea8ac2ce6f92a13d42ccc6d32a146562e960bebe
+MD5sum: 9c272a034f71319484307c09215872b4
 Description: ROS 2 Tier-3 rosdep list for rosdep_jammy
 
 Package: ros-jazzy-rosgraph-msgs

@@ -4623,14 +4623,14 @@ Version: 1.4.2-0jammy
 Architecture: amd64
 Maintainer: Francois Pomerleau <f.pomerleau@gmail.com>
 Installed-Size: 23226
-Depends: libboost-filesystem1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 4.0), libgomp1 (>= 6), libstdc++6 (>= 11), ros-jazzy-yaml-cpp-vendor, libboost-all-dev, libeigen3-dev, libyaml-cpp-dev, ros-jazzy-libnabo, ros-jazzy-ros-workspace
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 4.0), libgomp1 (>= 6), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libboost-all-dev, libeigen3-dev, libyaml-cpp-dev, ros-jazzy-libnabo, ros-jazzy-ros-workspace
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-jazzy-libpointmatcher/ros-jazzy-libpointmatcher_1.4.2-0jammy_amd64.deb
-Size: 2696480
-SHA256: 7e1c1bc4f1832a898a69bde07de496cebb8e1c13e2cfa45e23f8e37a2640188a
-SHA1: 3279141d07ec08b9a2b076af1d8a988f1e8201dc
-MD5sum: 2984b0d84552526a2ada55291f89190b
+Size: 2696242
+SHA256: de162f1066c9dcdfd5fee96771d8f7aa37d21182294cf1e4369429bab4d50bc3
+SHA1: 40f179b922fd6211c9bbec69a28a764e60e56e8d
+MD5sum: 5e5ac6b5cc0d065e457400a3fe7b7bb6
 Description: libpointmatcher is a modular ICP library, useful for robotics and computer vision.
 
 Package: ros-jazzy-librealsense2
@@ -8722,7 +8722,7 @@ MD5sum: 784a4258a7d8ff362e6d3129f94639a5
 Description: Layer encapsulating ROS middleware to allow rosbag2 to be used with or without middleware
 
 Package: ros-jazzy-rosdep-jammy
-Version: 25.2.27-0jammy
+Version: 25.3.3-0jammy
 Architecture: amd64
 Maintainer: GC US Robotics COE <GC.US.Robotics.COE@arrow.com>
 Installed-Size: 91
@@ -8730,11 +8730,11 @@ Depends: ros-jazzy-ros-workspace
 Homepage: https://github.com/ArrowElectronics/Arrow_ADI_AMR/wiki
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-jazzy-rosdep-jammy/ros-jazzy-rosdep-jammy_25.2.27-0jammy_amd64.deb
-Size: 9148
-SHA256: 7445bd5b662b103f65811011ca782baa59103025a185610b8df79687cd090a76
-SHA1: bc3a855354ee952074cd3c5bcdd87485ba72efb8
-MD5sum: 6df2789aff0cdcdb90552f5b81e2d582
+Filename: pool/main/r/ros-jazzy-rosdep-jammy/ros-jazzy-rosdep-jammy_25.3.3-0jammy_amd64.deb
+Size: 9138
+SHA256: 24b4cb88d6f94556a2a8b638556f6d9ecd69ba6cb43bb08f4536d4627f51202b
+SHA1: 9b337ee3aa6316aa799970ac2deef647a7fd67f4
+MD5sum: 6ed4389cc3c4fce2fbefc38a0d1a96e0
 Description: ROS 2 Tier-3 rosdep list for rosdep_jammy
 
 Package: ros-jazzy-rosgraph-msgs
