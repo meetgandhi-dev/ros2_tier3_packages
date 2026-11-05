@@ -1,0 +1,3 @@
+Component: main
+Architecture: arm64
+Description: Component containing the ROS 2 Tier3 packages for Ubuntu 24.04 Distributions.

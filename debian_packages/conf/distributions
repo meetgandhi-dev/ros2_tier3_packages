@@ -1,5 +1,11 @@
 Codename: jammy
 Components: main
 Architectures: amd64 arm64
-Description: Component containing the ROS 2 Jazzy packages for Ubuntu 22.04 (Jammy).
-SignWith: 4A320A860B1CC4896868B27A53138282500B4467
+Description: Component containing the ROS 2 Tier3 packages for Ubuntu 22.04 Distributions.
+SignWith: 9D3FC3161A4F32565321BEEBF8C6230BD2F362FA
+
+Codename: noble
+Components: main
+Architectures: amd64 arm64
+Description: Component containing the ROS 2 Tier3 packages for Ubuntu 24.04 Distributions.
+SignWith: 9D3FC3161A4F32565321BEEBF8C6230BD2F362FA
