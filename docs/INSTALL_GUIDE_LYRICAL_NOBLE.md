@@ -34,15 +34,13 @@ sudo add-apt-repository universe
 
 ```bash
 sudo mkdir -p /etc/apt/keyrings
-sudo wget -O /etc/apt/keyrings/ros2-tier3-pkgs-pub.gpg.key \\
-  https://raw.githubusercontent.com/meetgandhi-dev/ros2_tier3_packages/main/ros2-tier3-pkgs-pub.gpg.key
+sudo wget -O /etc/apt/keyrings/ros2-tier3-pkgs-pub.gpg.key https://raw.githubusercontent.com/meetgandhi-dev/ros2_tier3_packages/main/ros2-tier3-pkgs-pub.gpg.key
 ```
 
 #### Add the repository to your sources list
 
 ```bash
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/ros2-tier3-pkgs-pub.gpg.key] https://raw.githubusercontent.com/meetgandhi-dev/ros2_tier3_packages/main/debian_packages noble main" \\
-  | sudo tee /etc/apt/sources.list.d/ros2-tier3-pkgs.list > /dev/null
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/ros2-tier3-pkgs-pub.gpg.key] https://raw.githubusercontent.com/meetgandhi-dev/ros2_tier3_packages/main/debian_packages noble main" | sudo tee /etc/apt/sources.list.d/ros2-tier3-pkgs.list > /dev/null
 ```
 
 #### Update package lists
@@ -87,8 +85,7 @@ If `rosdep init` reports that the sources list already exists, you can ignore th
 The Tier 3 rosdep definitions are provided through two YAML files: the main rosdep list and the manual rosdep list. You only need to download the `.list` file below; it contains the GitHub links to both YAML files.
 
 ```bash
-sudo wget -O /etc/ros/rosdep/sources.list.d/rosdep-list-lyrical-noble.list \\
-  https://raw.githubusercontent.com/meetgandhi-dev/ros2_tier3_packages/main/rosdep/noble/rosdep-list-lyrical-noble.list
+sudo wget -O /etc/ros/rosdep/sources.list.d/rosdep-list-lyrical-noble.list https://raw.githubusercontent.com/meetgandhi-dev/ros2_tier3_packages/main/rosdep/noble/rosdep-list-lyrical-noble.list
 ```
 
 Update rosdep to download the definitions:
