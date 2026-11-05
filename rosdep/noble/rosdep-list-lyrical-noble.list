@@ -1,0 +1,2 @@
+yaml https://raw.githubusercontent.com/meetgandhi-dev/ros2_tier3_packages/main/rosdep/noble/rosdep-list-lyrical-noble.yaml lyrical
+yaml https://raw.githubusercontent.com/meetgandhi-dev/ros2_tier3_packages/main/rosdep/noble/rosdep-list-lyrical-noble-manual.yaml lyrical

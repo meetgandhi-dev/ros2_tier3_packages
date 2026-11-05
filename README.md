@@ -5,10 +5,7 @@ This repository contains ROS 2 Debian packages that need to be built on Tier 3 p
 Currently, the following packages are available:
 
 
-| ROS 2 Distro | OS | OS Code Name | CPU Architectures | Packages |
+| ROS 2 Distro | OS | CPU Architectures | Packages | Install Guide |
 |:----------:|:----------:|:----------:|:----------:|:----------:|
-| [Jazzy Jalisco](https://docs.ros.org/en/jazzy/Releases/Release-Jazzy-Jalisco.html) | Ubuntu 22.04 | jammy (Jammy Jellyfish) | AMD64 , ARM64 | [AMD64](debian_packages/dists/jammy/main/binary-amd64/Packages) , [ARM64](debian_packages/dists/jammy/main/binary-arm64/Packages) |
-
-## Installation:
-
-For detailed installation instructions, please refer to the [Install Guide](docs/INSTALL_GUIDE.md).
+| [Jazzy](https://docs.ros.org/en/jazzy/index.html) | Ubuntu 22.04 jammy | AMD64 , ARM64 | [AMD64](debian_packages/dists/jammy/main/binary-amd64/Packages) , [ARM64](debian_packages/dists/jammy/main/binary-arm64/Packages) | [Install Guide](docs/INSTALL_GUIDE.md) |
+| [Lyrical](https://docs.ros.org/en/lyrical/index.html) | Ubuntu 24.04 noble | AMD64 , ARM64 | [AMD64](debian_packages/dists/noble/main/binary-amd64/Packages) , [ARM64](debian_packages/dists/noble/main/binary-arm64/Packages) | [Install Guide](docs/INSTALL_GUIDE_LYRICAL_NOBLE.md) |
