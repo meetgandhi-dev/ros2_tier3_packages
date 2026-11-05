@@ -1,0 +1,3576 @@
+ament_package:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-package
+ament_cmake_core:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-core
+ros_workspace:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros-workspace
+ament_lint:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-lint
+fastcdr:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-fastcdr
+google_benchmark_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-google-benchmark-vendor
+iceoryx_hoofs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-iceoryx-hoofs
+osrf_testing_tools_cpp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-osrf-testing-tools-cpp
+urdfdom_headers:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-urdfdom-headers
+ament_flake8:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-flake8
+iceoryx_posh:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-iceoryx-posh
+ament_cmake_export_definitions:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-export-definitions
+ament_cmake_export_include_directories:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-export-include-directories
+ament_cmake_export_libraries:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-export-libraries
+ament_cmake_export_link_flags:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-export-link-flags
+ament_cmake_include_directories:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-include-directories
+ament_cmake_libraries:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-libraries
+ament_cmake_python:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-python
+ament_cmake_version:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-version
+ament_pep257:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-pep257
+cyclonedds:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-cyclonedds
+iceoryx_binding_c:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-iceoryx-binding-c
+ros_environment:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros-environment
+test_interface_files:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-test-interface-files
+ament_cmake_export_dependencies:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-export-dependencies
+ament_cmake_export_targets:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-export-targets
+ament_cmake_target_dependencies:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-target-dependencies
+ament_cmake_test:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-test
+ament_copyright:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-copyright
+ament_cmake_google_benchmark:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-google-benchmark
+ament_cmake_gtest:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-gtest
+ament_cmake_pytest:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-pytest
+ament_cmake_vendor_package:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-vendor-package
+ament_lint_auto:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-lint-auto
+ament_xmllint:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-xmllint
+ament_clang_format:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-clang-format
+ament_cmake_gen_version_h:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-gen-version-h
+ament_cmake_gmock:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-gmock
+ament_cpplint:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cpplint
+ament_lint_cmake:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-lint-cmake
+ament_mypy:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-mypy
+ament_pycodestyle:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-pycodestyle
+domain_coordinator:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-domain-coordinator
+ament_cmake:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake
+ament_cmake_lint_cmake:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-lint-cmake
+ament_cppcheck:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cppcheck
+ament_index_python:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-index-python
+rosidl_cli:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-cli
+rpyutils:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rpyutils
+ament_cmake_auto:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-auto
+ament_cmake_copyright:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-copyright
+launch:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-launch
+uncrustify_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-uncrustify-vendor
+yaml_cpp_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-yaml-cpp-vendor
+zenoh_cpp_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-zenoh-cpp-vendor
+ament_cmake_clang_format:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-clang-format
+ament_cmake_cppcheck:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-cppcheck
+ament_cmake_cpplint:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-cpplint
+ament_cmake_flake8:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-flake8
+ament_cmake_mypy:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-mypy
+ament_cmake_pep257:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-pep257
+ament_cmake_xmllint:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-xmllint
+ament_uncrustify:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-uncrustify
+eigen3_cmake_module:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-eigen3-cmake-module
+launch_xml:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-launch-xml
+launch_yaml:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-launch-yaml
+ament_cmake_uncrustify:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-uncrustify
+foonathan_memory_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-foonathan-memory-vendor
+launch_testing:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-launch-testing
+ament_lint_common:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-lint-common
+fastdds:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-fastdds
+launch_testing_ament_cmake:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-launch-testing-ament-cmake
+ament_cmake_ros_core:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-ros-core
+ament_index_cpp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-index-cpp
+keyboard_handler:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-keyboard-handler
+lz4_cmake_module:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-lz4-cmake-module
+mimick_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-mimick-vendor
+performance_test_fixture:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-performance-test-fixture
+rmw_implementation_cmake:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmw-implementation-cmake
+rosidl_adapter:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-adapter
+rosidl_buffer:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-buffer
+rosidl_typesupport_interface:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-typesupport-interface
+spdlog_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-spdlog-vendor
+zstd_cmake_module:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-zstd-cmake-module
+console_bridge_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-console-bridge-vendor
+libyaml_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-libyaml-vendor
+mcap_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-mcap-vendor
+rcutils:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rcutils
+rosidl_buffer_py:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-buffer-py
+rosidl_parser:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-parser
+tracetools:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-tracetools
+rcpputils:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rcpputils
+rosidl_generator_type_description:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-generator-type-description
+rosidl_pycommon:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-pycommon
+rosidl_runtime_c:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-runtime-c
+urdfdom:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-urdfdom
+class_loader:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-class-loader
+rosidl_cmake:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-cmake
+rosidl_dynamic_typesupport:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-dynamic-typesupport
+rosidl_runtime_cpp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-runtime-cpp
+pluginlib:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-pluginlib
+rmw:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmw
+rosidl_dynamic_typesupport_fastrtps:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-dynamic-typesupport-fastrtps
+rosidl_generator_c:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-generator-c
+rmw_security_common:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmw-security-common
+rmw_test_fixture:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmw-test-fixture
+rosidl_buffer_backend:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-buffer-backend
+rosidl_generator_cpp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-generator-cpp
+rosidl_typesupport_introspection_c:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-typesupport-introspection-c
+rosidl_buffer_backend_registry:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-buffer-backend-registry
+rosidl_typesupport_fastrtps_cpp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-typesupport-fastrtps-cpp
+rosidl_typesupport_introspection_cpp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-typesupport-introspection-cpp
+rosidl_typesupport_fastrtps_c:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-typesupport-fastrtps-c
+rmw_zenoh_cpp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmw-zenoh-cpp
+rosidl_typesupport_c:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-typesupport-c
+rosidl_generator_py:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-generator-py
+rosidl_generator_rs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-generator-rs
+rosidl_typesupport_cpp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-typesupport-cpp
+rosidl_core_generators:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-core-generators
+rosidl_core_runtime:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-core-runtime
+builtin_interfaces:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-builtin-interfaces
+unique_identifier_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-unique-identifier-msgs
+service_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-service-msgs
+action_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-action-msgs
+type_description_interfaces:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-type-description-interfaces
+rosidl_default_generators:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-default-generators
+rosidl_default_runtime:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-default-runtime
+lifecycle_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-lifecycle-msgs
+rcl_interfaces:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rcl-interfaces
+rmw_dds_common:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmw-dds-common
+ros2cli_test_interfaces:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2cli-test-interfaces
+rosbag2_interfaces:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosbag2-interfaces
+rosbag2_test_msgdefs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosbag2-test-msgdefs
+statistics_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-statistics-msgs
+std_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-std-msgs
+std_srvs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-std-srvs
+test_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-test-msgs
+composition_interfaces:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-composition-interfaces
+geometry_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-geometry-msgs
+rmw_cyclonedds_cpp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmw-cyclonedds-cpp
+rmw_fastrtps_shared_cpp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmw-fastrtps-shared-cpp
+rosgraph_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosgraph-msgs
+rosidl_runtime_py:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosidl-runtime-py
+diagnostic_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-diagnostic-msgs
+nav_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav-msgs
+rmw_fastrtps_cpp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmw-fastrtps-cpp
+rmw_fastrtps_dynamic_cpp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmw-fastrtps-dynamic-cpp
+sensor_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-sensor-msgs
+shape_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-shape-msgs
+tf2_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-tf2-msgs
+trajectory_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-trajectory-msgs
+rmw_implementation:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmw-implementation
+sensor_msgs_py:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-sensor-msgs-py
+stereo_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-stereo-msgs
+visualization_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-visualization-msgs
+common_interfaces:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-common-interfaces
+rmw_test_fixture_implementation:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmw-test-fixture-implementation
+ament_cmake_ros:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-ros
+rcl_logging_interface:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rcl-logging-interface
+rcl_yaml_param_parser:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rcl-yaml-param-parser
+tf2:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-tf2
+urdf_parser_plugin:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-urdf-parser-plugin
+rcl_logging_noop:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rcl-logging-noop
+rcl_logging_spdlog:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rcl-logging-spdlog
+tf2_eigen_kdl:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-tf2-eigen-kdl
+urdf:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-urdf
+kdl_parser:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-kdl-parser
+rcl_logging_implementation:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rcl-logging-implementation
+rcl:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rcl
+libstatistics_collector:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-libstatistics-collector
+rcl_action:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rcl-action
+rcl_lifecycle:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rcl-lifecycle
+rclcpp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rclcpp
+rclpy:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rclpy
+launch_ros:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-launch-ros
+rclcpp_action:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rclcpp-action
+rclcpp_components:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rclcpp-components
+rclcpp_lifecycle:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rclcpp-lifecycle
+ros2cli:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2cli
+tf2_py:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-tf2-py
+launch_testing_ros:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-launch-testing-ros
+message_filters:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-message-filters
+ros2lifecycle_test_fixtures:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2lifecycle-test-fixtures
+ros2multicast:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2multicast
+rosbag2_test_common:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosbag2-test-common
+tf2_ros_py:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-tf2-ros-py
+ros2action:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2action
+ros2interface:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2interface
+ros2node:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2node
+ros2pkg:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2pkg
+ros2service:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2service
+ros2test:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2test
+ros2topic:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2topic
+rosbag2_storage:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosbag2-storage
+tf2_ros:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-tf2-ros
+tf2_tools:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-tf2-tools
+robot_state_publisher:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-robot-state-publisher
+ros2doctor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2doctor
+ros2launch:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2launch
+ros2lifecycle:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2lifecycle
+ros2param:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2param
+ros2plugin:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2plugin
+ros2run:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2run
+ros_testing:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros-testing
+rosbag2_storage_mcap:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosbag2-storage-mcap
+rosbag2_storage_sqlite3:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosbag2-storage-sqlite3
+tf2_bullet:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-tf2-bullet
+tf2_eigen:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-tf2-eigen
+tf2_geometry_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-tf2-geometry-msgs
+tf2_kdl:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-tf2-kdl
+ros2component:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2component
+rosbag2_storage_default_plugins:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosbag2-storage-default-plugins
+sros2:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-sros2
+tf2_sensor_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-tf2-sensor-msgs
+geometry2:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-geometry2
+ros2cli_common_extensions:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2cli-common-extensions
+rosbag2_cpp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosbag2-cpp
+sros2_cmake:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-sros2-cmake
+ros_core:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros-core
+rosbag2_compression:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosbag2-compression
+rosbag2_compression_zstd:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosbag2-compression-zstd
+rosbag2_transport:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosbag2-transport
+rosbag2_py:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosbag2-py
+ros2bag:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2bag
+rosbag2_tests:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosbag2-tests
+rosbag2:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosbag2
+ros_base:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros-base
+angles:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-angles
+python_cmake_module:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-python-cmake-module
+pcl_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-pcl-msgs
+image_geometry:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-image-geometry
+tracetools_image_pipeline:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-tracetools-image-pipeline
+camera_calibration_parsers:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-camera-calibration-parsers
+cv_bridge:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-cv-bridge
+filters:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-filters
+laser_geometry:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-laser-geometry
+camera_info_manager:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-camera-info-manager
+vision_opencv:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-vision-opencv
+camera_calibration:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-camera-calibration
+diagnostic_updater:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-diagnostic-updater
+image_transport:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-image-transport
+pcl_conversions:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-pcl-conversions
+compressed_depth_image_transport:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-compressed-depth-image-transport
+compressed_image_transport:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-compressed-image-transport
+image_common:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-image-common
+image_publisher:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-image-publisher
+image_view:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-image-view
+theora_image_transport:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-theora-image-transport
+zstd_image_transport:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-zstd-image-transport
+image_proc:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-image-proc
+image_rotate:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-image-rotate
+image_transport_plugins:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-image-transport-plugins
+laser_filters:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-laser-filters
+depth_image_proc:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-depth-image-proc
+stereo_image_proc:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-stereo-image-proc
+image_pipeline:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-image-pipeline
+pcl_ros:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-pcl-ros
+perception_pcl:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-perception-pcl
+perception:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-perception
+gz_cmake_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-gz-cmake-vendor
+gz_dartsim_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-gz-dartsim-vendor
+gz_ogre_next_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-gz-ogre-next-vendor
+gz_tools_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-gz-tools-vendor
+gz_utils_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-gz-utils-vendor
+gz_math_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-gz-math-vendor
+gz_plugin_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-gz-plugin-vendor
+gz_common_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-gz-common-vendor
+gz_msgs_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-gz-msgs-vendor
+sdformat_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-sdformat-vendor
+gz_fuel_tools_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-gz-fuel-tools-vendor
+gz_physics_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-gz-physics-vendor
+gz_rendering_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-gz-rendering-vendor
+gz_transport_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-gz-transport-vendor
+gz_gui_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-gz-gui-vendor
+gz_sensors_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-gz-sensors-vendor
+gz_sim_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-gz-sim-vendor
+actuator_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-actuator-msgs
+gps_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-gps-msgs
+marine_acoustic_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-marine-acoustic-msgs
+ros_gz_interfaces:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros-gz-interfaces
+simulation_interfaces:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-simulation-interfaces
+vision_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-vision-msgs
+ros_gz_bridge:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros-gz-bridge
+ros_gz_image:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros-gz-image
+ros_gz_sim:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros-gz-sim
+simulation:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-simulation
+sdformat_test_files:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-sdformat-test-files
+sdl2_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-sdl2-vendor
+xacro:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-xacro
+rviz_ogre_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rviz-ogre-vendor
+python_qt_binding:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-python-qt-binding
+rttest:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rttest
+tango_icons_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-tango-icons-vendor
+tlsf:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-tlsf
+qt_dotgraph:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-qt-dotgraph
+qt_gui:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-qt-gui
+qt_gui_py_common:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-qt-gui-py-common
+qt_gui_cpp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-qt-gui-cpp
+example_interfaces:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-example-interfaces
+pendulum_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-pendulum-msgs
+resource_retriever_interfaces:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-resource-retriever-interfaces
+turtlesim_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-turtlesim-msgs
+map_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-map-msgs
+resource_retriever:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-resource-retriever
+rviz_rendering:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rviz-rendering
+rviz_rendering_tests:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rviz-rendering-tests
+sdformat_urdf:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-sdformat-urdf
+action_tutorials_py:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-action-tutorials-py
+demo_nodes_py:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-demo-nodes-py
+dummy_map_server:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-dummy-map-server
+dummy_sensors:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-dummy-sensors
+examples_rclcpp_minimal_client:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-examples-rclcpp-minimal-client
+examples_rclcpp_minimal_publisher:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-examples-rclcpp-minimal-publisher
+examples_rclcpp_minimal_service:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-examples-rclcpp-minimal-service
+examples_rclcpp_minimal_timer:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-examples-rclcpp-minimal-timer
+examples_rclcpp_multithreaded_executor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-examples-rclcpp-multithreaded-executor
+examples_rclpy_executors:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-examples-rclpy-executors
+examples_rclpy_minimal_action_client:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-examples-rclpy-minimal-action-client
+examples_rclpy_minimal_action_server:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-examples-rclpy-minimal-action-server
+examples_rclpy_minimal_client:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-examples-rclpy-minimal-client
+examples_rclpy_minimal_publisher:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-examples-rclpy-minimal-publisher
+examples_rclpy_minimal_service:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-examples-rclpy-minimal-service
+examples_rclpy_minimal_subscriber:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-examples-rclpy-minimal-subscriber
+quality_of_service_demo_py:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-quality-of-service-demo-py
+resource_retriever_service_plugin:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-resource-retriever-service-plugin
+rqt_gui:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt-gui
+rqt_gui_cpp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt-gui-cpp
+rqt_py_common:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt-py-common
+teleop_twist_keyboard:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-teleop-twist-keyboard
+tlsf_cpp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-tlsf-cpp
+action_tutorials_cpp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-action-tutorials-cpp
+depthimage_to_laserscan:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-depthimage-to-laserscan
+examples_rclcpp_minimal_action_client:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-examples-rclcpp-minimal-action-client
+examples_rclcpp_minimal_action_server:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-examples-rclcpp-minimal-action-server
+examples_rclcpp_minimal_composition:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-examples-rclcpp-minimal-composition
+examples_rclcpp_minimal_subscriber:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-examples-rclcpp-minimal-subscriber
+joy:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-joy
+quality_of_service_demo_cpp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-quality-of-service-demo-cpp
+rqt_gui_py:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt-gui-py
+topic_monitor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-topic-monitor
+turtlesim:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-turtlesim
+composition:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-composition
+demo_nodes_cpp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-demo-nodes-cpp
+demo_nodes_cpp_native:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-demo-nodes-cpp-native
+image_tools:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-image-tools
+intra_process_demo:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-intra-process-demo
+logging_demo:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-logging-demo
+point_cloud_transport:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-point-cloud-transport
+rqt_console:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt-console
+rqt_graph:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt-graph
+rqt_plot:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt-plot
+rqt_publisher:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt-publisher
+rqt_py_console:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt-py-console
+rqt_service_caller:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt-service-caller
+rqt_shell:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt-shell
+teleop_twist_joy:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-teleop-twist-joy
+rqt_image_view:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt-image-view
+rqt_msg:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt-msg
+rqt_reconfigure:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt-reconfigure
+rqt_topic:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt-topic
+rviz_common:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rviz-common
+interactive_markers:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-interactive-markers
+lifecycle:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-lifecycle
+pendulum_control:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-pendulum-control
+rqt_action:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt-action
+rqt_srv:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt-srv
+rviz_imu_plugin:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rviz-imu-plugin
+rviz_visual_testing_framework:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rviz-visual-testing-framework
+rviz_default_plugins:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rviz-default-plugins
+rviz2:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rviz2
+dummy_robot_bringup:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-dummy-robot-bringup
+ros_gz_sim_demos:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros-gz-sim-demos
+rqt_bag:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt-bag
+rqt_bag_plugins:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt-bag-plugins
+rqt_common_plugins:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt-common-plugins
+desktop:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-desktop
+desktop_full:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-desktop-full
+backward_ros:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-backward-ros
+ompl:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ompl
+smclib:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-smclib
+bond:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-bond
+geographic_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-geographic-msgs
+nav_2d_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav-2d-msgs
+dwb_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-dwb-msgs
+point_cloud_interfaces:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-point-cloud-interfaces
+behaviortree_cpp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-behaviortree-cpp
+bondcpp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-bondcpp
+nav2_common:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-common
+nav2_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-msgs
+nav2_voxel_grid:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-voxel-grid
+draco_point_cloud_transport:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-draco-point-cloud-transport
+nav2_simple_commander:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-simple-commander
+zlib_point_cloud_transport:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-zlib-point-cloud-transport
+zstd_point_cloud_transport:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-zstd-point-cloud-transport
+nav2_ros_common:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-ros-common
+point_cloud_transport_plugins:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-point-cloud-transport-plugins
+robot_localization:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-robot-localization
+nav2_util:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-util
+opennav_docking_core:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-opennav-docking-core
+nav2_amcl:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-amcl
+nav2_behavior_tree:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-behavior-tree
+nav2_lifecycle_manager:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-lifecycle-manager
+nav2_loopback_sim:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-loopback-sim
+nav2_map_server:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-map-server
+nav2_velocity_smoother:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-velocity-smoother
+nav_2d_utils:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav-2d-utils
+nav2_costmap_2d:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-costmap-2d
+costmap_queue:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-costmap-queue
+nav2_collision_monitor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-collision-monitor
+nav2_core:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-core
+dwb_core:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-dwb-core
+nav2_behaviors:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-behaviors
+nav2_bt_navigator:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-bt-navigator
+nav2_constrained_smoother:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-constrained-smoother
+nav2_controller:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-controller
+nav2_mppi_controller:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-mppi-controller
+nav2_navfn_planner:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-navfn-planner
+nav2_planner:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-planner
+nav2_route:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-route
+nav2_smac_planner:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-smac-planner
+nav2_smoother:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-smoother
+nav2_theta_star_planner:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-theta-star-planner
+nav2_waypoint_follower:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-waypoint-follower
+opennav_docking_bt:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-opennav-docking-bt
+dwb_critics:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-dwb-critics
+dwb_plugins:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-dwb-plugins
+nav2_graceful_controller:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-graceful-controller
+nav2_regulated_pure_pursuit_controller:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-regulated-pure-pursuit-controller
+nav2_rviz_plugins:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-rviz-plugins
+nav2_dwb_controller:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-dwb-controller
+nav2_rotation_shim_controller:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-rotation-shim-controller
+opennav_docking:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-opennav-docking
+opennav_following:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-opennav-following
+navigation2:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-navigation2
+generate_parameter_library_py:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-generate-parameter-library-py
+tcb_span:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-tcb-span
+ros2_control_cmake:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2-control-cmake
+ros2_control_test_assets:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2-control-test-assets
+controller_manager_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-controller-manager-msgs
+pal_statistics_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-pal-statistics-msgs
+control_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-control-msgs
+rsl:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rsl
+generate_parameter_library:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-generate-parameter-library
+pal_statistics:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-pal-statistics
+realtime_tools:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-realtime-tools
+joint_limits:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-joint-limits
+hardware_interface:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-hardware-interface
+joint_state_publisher:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-joint-state-publisher
+control_toolbox:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-control-toolbox
+controller_interface:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-controller-interface
+hardware_interface_testing:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-hardware-interface-testing
+nav2_minimal_tb3_sim:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-minimal-tb3-sim
+nav2_minimal_tb4_description:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-minimal-tb4-description
+controller_manager:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-controller-manager
+nav2_minimal_tb4_sim:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-minimal-tb4-sim
+diff_drive_controller:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-diff-drive-controller
+joint_state_broadcaster:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-joint-state-broadcaster
+slam_toolbox:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-slam-toolbox
+nav2_bringup:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nav2-bringup
+cartographer:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-cartographer
+cartographer_ros_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-cartographer-ros-msgs
+cartographer_ros:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-cartographer-ros
+imu_complementary_filter:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-imu-complementary-filter
+imu_filter_madgwick:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-imu-filter-madgwick
+imu_tools:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-imu-tools
+ros_industrial_cmake_boilerplate:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros-industrial-cmake-boilerplate
+ruckig:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ruckig
+stomp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-stomp
+eigen_stl_containers:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-eigen-stl-containers
+moveit_common:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-common
+moveit_resources_fanuc_description:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-resources-fanuc-description
+moveit_resources_panda_description:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-resources-panda-description
+moveit_resources_pr2_description:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-resources-pr2-description
+moveit_resources_prbt_support:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-resources-prbt-support
+random_numbers:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-random-numbers
+orocos_kdl_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-orocos-kdl-vendor
+osqp_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-osqp-vendor
+topic_tools_interfaces:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-topic-tools-interfaces
+octomap_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-octomap-msgs
+object_recognition_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-object-recognition-msgs
+moveit_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-msgs
+geometric_shapes:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-geometric-shapes
+launch_param_builder:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-launch-param-builder
+urdfdom_py:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-urdfdom-py
+srdfdom:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-srdfdom
+moveit_configs_utils:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-configs-utils
+topic_tools:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-topic-tools
+joint_state_publisher_gui:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-joint-state-publisher-gui
+warehouse_ros:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-warehouse-ros
+moveit_resources_fanuc_moveit_config:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-resources-fanuc-moveit-config
+parallel_gripper_controller:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-parallel-gripper-controller
+moveit_resources_panda_moveit_config:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-resources-panda-moveit-config
+moveit_core:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-core
+chomp_motion_planner:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-chomp-motion-planner
+moveit_planners_stomp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-planners-stomp
+moveit_resources_prbt_ikfast_manipulator_plugin:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-resources-prbt-ikfast-manipulator-plugin
+moveit_ros_occupancy_map_monitor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-ros-occupancy-map-monitor
+moveit_simple_controller_manager:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-simple-controller-manager
+pilz_industrial_motion_planner_testutils:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-pilz-industrial-motion-planner-testutils
+moveit_planners_chomp:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-planners-chomp
+moveit_plugins:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-plugins
+moveit_ros_planning:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-ros-planning
+moveit_kinematics:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-kinematics
+moveit_planners_ompl:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-planners-ompl
+moveit_ros_robot_interaction:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-ros-robot-interaction
+moveit_ros_warehouse:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-ros-warehouse
+moveit_ros_benchmarks:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-ros-benchmarks
+moveit_ros_move_group:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-ros-move-group
+moveit_resources_prbt_moveit_config:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-resources-prbt-moveit-config
+moveit_ros_planning_interface:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-ros-planning-interface
+moveit_resources_prbt_pg70_support:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-resources-prbt-pg70-support
+moveit_ros_visualization:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-ros-visualization
+moveit_ros:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-ros
+moveit_setup_framework:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-setup-framework
+pilz_industrial_motion_planner:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-pilz-industrial-motion-planner
+moveit_planners:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-planners
+moveit_setup_app_plugins:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-setup-app-plugins
+moveit_setup_controllers:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-setup-controllers
+moveit_setup_core_plugins:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-setup-core-plugins
+moveit_setup_srdf_plugins:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-setup-srdf-plugins
+moveit_setup_assistant:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit-setup-assistant
+moveit:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-moveit
+transmission_interface:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-transmission-interface
+ros2controlcli:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2controlcli
+ros2_control:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2-control
+ackermann_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ackermann-msgs
+kinematics_interface:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-kinematics-interface
+kinematics_interface_kdl:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-kinematics-interface-kdl
+admittance_controller:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-admittance-controller
+battery_state_broadcaster:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-battery-state-broadcaster
+chained_filter_controller:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-chained-filter-controller
+force_torque_sensor_broadcaster:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-force-torque-sensor-broadcaster
+forward_command_controller:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-forward-command-controller
+gpio_controllers:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-gpio-controllers
+gps_sensor_broadcaster:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-gps-sensor-broadcaster
+imu_sensor_broadcaster:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-imu-sensor-broadcaster
+joint_trajectory_controller:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-joint-trajectory-controller
+magnetometer_broadcaster:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-magnetometer-broadcaster
+mecanum_drive_controller:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-mecanum-drive-controller
+motion_primitives_controllers:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-motion-primitives-controllers
+omni_wheel_drive_controller:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-omni-wheel-drive-controller
+pid_controller:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-pid-controller
+pose_broadcaster:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-pose-broadcaster
+range_sensor_broadcaster:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-range-sensor-broadcaster
+state_interfaces_broadcaster:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-state-interfaces-broadcaster
+steering_controllers_library:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-steering-controllers-library
+tricycle_controller:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-tricycle-controller
+ackermann_steering_controller:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ackermann-steering-controller
+bicycle_steering_controller:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-bicycle-steering-controller
+tricycle_steering_controller:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-tricycle-steering-controller
+ros2_controllers:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros2-controllers
+ament_cmake_catch2:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-catch2
+nlohmann_json_schema_validator_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-nlohmann-json-schema-validator-vendor
+pybind11_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-pybind11-vendor
+rmf_api_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-api-msgs
+rmf_demos_assets:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-demos-assets
+pybind11_json_vendor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-pybind11-json-vendor
+rmf_utils:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-utils
+rmf_traffic:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-traffic
+rmf_battery:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-battery
+rmf_task:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-task
+rmf_task_sequence:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-task-sequence
+rmf_dispenser_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-dispenser-msgs
+rmf_door_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-door-msgs
+rmf_fleet_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-fleet-msgs
+rmf_lift_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-lift-msgs
+rmf_reservation_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-reservation-msgs
+rmf_site_map_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-site-map-msgs
+rmf_traffic_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-traffic-msgs
+rmf_visualization_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-visualization-msgs
+rmf_ingestor_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-ingestor-msgs
+rmf_task_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-task-msgs
+rmf_building_map_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-building-map-msgs
+rmf_demos_tasks:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-demos-tasks
+rmf_obstacle_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-obstacle-msgs
+rmf_visualization_building_systems:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-visualization-building-systems
+rmf_building_map_tools:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-building-map-tools
+rmf_traffic_ros2:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-traffic-ros2
+rmf_websocket:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-websocket
+rmf_task_ros2:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-task-ros2
+rmf_visualization_fleet_states:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-visualization-fleet-states
+rmf_visualization_floorplans:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-visualization-floorplans
+rmf_visualization_navgraphs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-visualization-navgraphs
+rmf_visualization_obstacles:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-visualization-obstacles
+rmf_visualization_schedule:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-visualization-schedule
+rmf_fleet_adapter:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-fleet-adapter
+rmf_fleet_adapter_python:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-fleet-adapter-python
+rmf_reservation_node:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-reservation-node
+rmf_demos_fleet_adapter:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-demos-fleet-adapter
+rmf_demos_maps:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-demos-maps
+rmf_visualization_rviz2_plugins:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-visualization-rviz2-plugins
+rmf_visualization:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-visualization
+rmf_demos:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-demos
+rmf_charging_schedule:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-charging-schedule
+rmf_traffic_editor:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-traffic-editor
+rmf_traffic_editor_assets:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rmf-traffic-editor-assets

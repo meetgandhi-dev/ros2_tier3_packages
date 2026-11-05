@@ -1,0 +1,12 @@
+iceoryx_utils:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-iceoryx-utils
+fastrtps:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-fastrtps
