@@ -111,6 +111,22 @@ SHA1: 0e0eff5d3c73da95ad4fc6a2d88b27221d238772
 MD5sum: f3340126ad8c2c7744e8d51bc50141ea
 Description: Implementation of admittance controllers for different input and output interface.
 
+Package: ros-lyrical-ament-black
+Version: 0.2.7-1noble
+Architecture: amd64
+Maintainer: "Guillaume Doisy" <guillaume@dexory.com>
+Installed-Size: 55
+Depends: black, python3-unidiff, python3-uvloop, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/ament_black/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-ament-black/ros-lyrical-ament-black_0.2.7-1noble_amd64.deb
+Size: 12666
+SHA256: 091ac54429295dabfa6be008bc65c832203282c07723d7f10ca952c9894aa9bb
+SHA1: d796869c11e3947c40147fae36221a098874ab1d
+MD5sum: 8f7347050646dd9e3f1fc5cd570dfc1d
+Description: The ability to check code against style conventions using black and generate xUnit test result files.
+
 Package: ros-lyrical-ament-clang-format
 Version: 0.20.6-1noble
 Architecture: amd64
@@ -158,6 +174,22 @@ SHA256: 06b9144c57648f535711e2214e7b245c91aece7939d2318b3d391c6f4c97ce56
 SHA1: 9e1a42847ff7fac2e123507b19425ef1076bff17
 MD5sum: 5f2dfa4eacfa8e32094b52ebd2a1cfad
 Description: The auto-magic functions for ease to use of the ament buildsystem in CMake.
+
+Package: ros-lyrical-ament-cmake-black
+Version: 0.2.7-1noble
+Architecture: amd64
+Maintainer: "Guillaume Doisy" <guillaume@dexory.com>
+Installed-Size: 48
+Depends: ros-lyrical-ament-black, ros-lyrical-ament-cmake-test, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/ament_cmake_black/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-ament-cmake-black/ros-lyrical-ament-cmake-black_0.2.7-1noble_amd64.deb
+Size: 7236
+SHA256: a1a29708513436c4ae5f44b04069aa5f9e81d51e3267359d5b277d72f7d15cce
+SHA1: bb07236e615078441674bb71a05a8e2dde7759c2
+MD5sum: 959a007f7257884c764fff12dd632550
+Description: The CMake API for ament_black to lint Python code using black.
 
 Package: ros-lyrical-ament-cmake-catch2
 Version: 1.6.0-1noble
@@ -944,6 +976,150 @@ SHA1: 2b8cff6924d8460eee4ecd1daaaec3013717b810
 MD5sum: ea97bb80100895a2b4242e5049022dd0
 Description: This package provides a set of simple math utilities to work with angles.
  The utilities cover simple things like normalizing an angle and conversion between degrees and radians. But even if you're trying to calculate things like the shortest angular distance between two joint space positions of your robot, but the joint motion is constrained by joint limits, this package is what you need. The code in this package is stable and well tested. There are no plans for major changes in the near future.
+
+Package: ros-lyrical-apriltag
+Version: 3.4.5-3noble
+Architecture: amd64
+Maintainer: Max Krogius <mkrogius@umich.edu>
+Installed-Size: 1817
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-highgui406t64 (>= 4.6.0+dfsg), libopencv-imgproc406t64 (>= 4.6.0+dfsg), libopencv-videoio406t64 (>= 4.6.0+dfsg), libstdc++6 (>= 13.1), ros-lyrical-ros-workspace
+Homepage: https://april.eecs.umich.edu/software/apriltag.html
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-apriltag/ros-lyrical-apriltag_3.4.5-3noble_amd64.deb
+Size: 1165158
+SHA256: b99d22417f6ed77fb62ee75cab7d193416bedd46860a91afed1d4ef9eb06deff
+SHA1: e93d10e317779f089bb888f9e778923e8c60888e
+MD5sum: aa40cb12b78f36f1a9bc3224f66bbd64
+Description: AprilTag detector library
+
+Package: ros-lyrical-apriltag-detector
+Version: 3.0.4-3noble
+Architecture: amd64
+Maintainer: Bernd Pfrommer <bernd.pfrommer@gmail.com>
+Installed-Size: 439
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), ros-lyrical-apriltag-msgs, ros-lyrical-cv-bridge, ros-lyrical-image-transport, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-sensor-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/apriltag_detector/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-apriltag-detector/ros-lyrical-apriltag-detector_3.0.4-3noble_amd64.deb
+Size: 128364
+SHA256: f5d4b793465e3dbe30c3a0c818b3402252370ffcfe0afff04644c22d2a2d619a
+SHA1: 2724a3cabd0c24f1b30f1b2f30c4ad4fabeed5a2
+MD5sum: 1ccea16ff458bf793f0290d0a1ff5499
+Description: ROS2 package for apriltag detection
+
+Package: ros-lyrical-apriltag-detector-umich
+Version: 3.0.4-3noble
+Architecture: amd64
+Maintainer: Bernd Pfrommer <bernd.pfrommer@gmail.com>
+Installed-Size: 119
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-apriltag, libopencv-dev, ros-lyrical-apriltag-detector, ros-lyrical-apriltag-msgs, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-sensor-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/apriltag_detector_umich/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-apriltag-detector-umich/ros-lyrical-apriltag-detector-umich_3.0.4-3noble_amd64.deb
+Size: 24892
+SHA256: 098d79fe996e6026f6d0c8be5b67ff2e0e3a4e4b27441af87a6d9162b26a2c61
+SHA1: 5a1594ff111c960e91480e1d28eb81607035188e
+MD5sum: f86ec7b05139fb5d68b9f75e89b96dbf
+Description: ROS package for apriltag detection with the UMich detector
+
+Package: ros-lyrical-apriltag-draw
+Version: 3.0.4-3noble
+Architecture: amd64
+Maintainer: Bernd Pfrommer <bernd.pfrommer@gmail.com>
+Installed-Size: 656
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-imgproc406t64 (>= 4.6.0+dfsg), libstdc++6 (>= 13.1), ros-lyrical-apriltag-msgs, ros-lyrical-cv-bridge, ros-lyrical-image-transport, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-sensor-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/apriltag_draw/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-apriltag-draw/ros-lyrical-apriltag-draw_3.0.4-3noble_amd64.deb
+Size: 153156
+SHA256: 868653a1237aa6aff3b71140c60c63338ff58206e8b826dbd7b7e207272aa796
+SHA1: 749ed43c9bda647b67c8310a312f6af12944609e
+MD5sum: 7a2a4d79d31cd5f5305bbcd320e60f6d
+Description: ROS package for drawing apriltags on image
+
+Package: ros-lyrical-apriltag-mit
+Version: 1.0.3-3noble
+Architecture: amd64
+Maintainer: Bernd Pfrommer <bernd.pfrommer@gmail.com>
+Installed-Size: 250
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.4), libopencv-calib3d406t64 (>= 4.6.0+dfsg), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-imgproc406t64 (>= 4.6.0+dfsg), libstdc++6 (>= 13.1), clang-tidy, libboost-dev, libeigen3-dev, libopencv-dev, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/apriltag_mit/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-apriltag-mit/ros-lyrical-apriltag-mit_1.0.3-3noble_amd64.deb
+Size: 76322
+SHA256: c382aa5d447e3fa019bd86b19718bb794345ab1baed85424442b1a3e470a89f8
+SHA1: f418b892cb553c52577a8d9a5e6bf96de56e6663
+MD5sum: 6a48d0d3f72c735047bca1dbc12b55f5
+Description: ROS2 package wrapper for the MIT apriltag detector
+
+Package: ros-lyrical-apriltag-msgs
+Version: 2.0.2-1noble
+Architecture: amd64
+Maintainer: "Christian Rauch" <Rauch.Christian@gmx.de>
+Installed-Size: 785
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 13), ros-lyrical-fastcdr, ros-lyrical-rosidl-default-runtime, ros-lyrical-std-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/apriltag_msgs/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-apriltag-msgs/ros-lyrical-apriltag-msgs_2.0.2-1noble_amd64.deb
+Size: 80868
+SHA256: af4dffbe81463534b9ab31a73927c69103518005b7b3139d062e85227bbcefc8
+SHA1: 339b13491f046d8f3aa01aac7db268e5018cd10a
+MD5sum: 02f0ee04a1ccc653a7c992167bfd1c3b
+Description: AprilTag message definitions
+
+Package: ros-lyrical-apriltag-tools
+Version: 3.0.4-3noble
+Architecture: amd64
+Maintainer: Bernd Pfrommer <bernd.pfrommer@gmail.com>
+Installed-Size: 109
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-apriltag-detector, ros-lyrical-apriltag-draw, ros-lyrical-apriltag-msgs, ros-lyrical-rclcpp, ros-lyrical-rosbag2-transport, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/apriltag_tools/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-apriltag-tools/ros-lyrical-apriltag-tools_3.0.4-3noble_amd64.deb
+Size: 27108
+SHA256: 35aabab574cfa9bff94d9ebb7ef5aec06b100f9ac4ac154a1a661572b5c94c40
+SHA1: a20a3d9b699632a89f9695324e86f05247447a43
+MD5sum: 85e53dfed14cfa034e55872a1eeac981
+Description: misc tools for working with apriltags under ROS2
+
+Package: ros-lyrical-aruco-msgs
+Version: 5.0.5-3noble
+Architecture: amd64
+Maintainer: Sai Kishor Kothakota <sai.kishor@pal-robotics.com>
+Installed-Size: 619
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 13), ros-lyrical-fastcdr, ros-lyrical-geometry-msgs, ros-lyrical-rosidl-default-runtime, ros-lyrical-std-msgs, ros-lyrical-ros-workspace
+Homepage: https://github.com/pal-robotics/aruco_ros
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-aruco-msgs/ros-lyrical-aruco-msgs_5.0.5-3noble_amd64.deb
+Size: 64782
+SHA256: ae63a6928b1b8aade6fcbf28504a4e417fb5bbb6e7121a46bde2819c8e8e9266
+SHA1: 0ea704bd89f73200a8e09244fa76e944e4d9817e
+MD5sum: d3a9416235f6d1de05b9b4d98cc14460
+Description: The aruco_msgs package
+
+Package: ros-lyrical-aruco-opencv-msgs
+Version: 7.0.0-1noble
+Architecture: amd64
+Maintainer: "Fictionlab" <support@fictionlab.pl>
+Installed-Size: 766
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 13), ros-lyrical-fastcdr, ros-lyrical-geometry-msgs, ros-lyrical-rosidl-default-runtime, ros-lyrical-std-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/aruco_opencv_msgs/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-aruco-opencv-msgs/ros-lyrical-aruco-opencv-msgs_7.0.0-1noble_amd64.deb
+Size: 77538
+SHA256: 2bfbbceedc023e0201b059bdb78ccf7abe49a5d8de823be272d6c865cff40d19
+SHA1: 952cc159a30c8429206f1a4e6e6784e5e9c20940
+MD5sum: eb0a4dbe6d7b6e53f61f36fd68a51ecc
+Description: Message definitions for aruco_opencv package.
 
 Package: ros-lyrical-backward-ros
 Version: 1.0.8-5noble
@@ -1738,6 +1914,55 @@ SHA1: 68f7a5c96c4e7827185072bf946b5d62a9bc8730
 MD5sum: 4e918d9ddc40b3011a762e468c24e77d
 Description: Standard implementations of the GoalChecker and TrajectoryGenerators for dwb_core
 
+Package: ros-lyrical-dynamixel-hardware-interface
+Version: 1.5.1-3noble
+Architecture: amd64
+Maintainer: Pyo <pyo@robotis.com>
+Installed-Size: 1296
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-dynamixel-interfaces, ros-lyrical-dynamixel-sdk, ros-lyrical-hardware-interface, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-realtime-tools, ros-lyrical-std-srvs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/dynamixel_hardware_interface/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-dynamixel-hardware-interface/ros-lyrical-dynamixel-hardware-interface_1.5.1-3noble_amd64.deb
+Size: 287374
+SHA256: 6076ebbadf7dbd9447a5476433eafdaf83bd4c5a32635d4f7ee26286f00387ca
+SHA1: 75ff4813cad731c9d30ebb0afd8a5bd5a6b8dff5
+MD5sum: af357238cc6e09474b49e9f063e37f79
+Description: ROS 2 package providing a hardware interface for controlling Dynamixel motors via the ROS 2 control framework.
+
+Package: ros-lyrical-dynamixel-interfaces
+Version: 1.0.1-3noble
+Architecture: amd64
+Maintainer: Pyo <pyo@robotis.com>
+Installed-Size: 1902
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 13), ros-lyrical-fastcdr, ros-lyrical-action-msgs, ros-lyrical-builtin-interfaces, ros-lyrical-geometry-msgs, ros-lyrical-rosidl-default-runtime, ros-lyrical-std-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/dynamixel_interfaces/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-dynamixel-interfaces/ros-lyrical-dynamixel-interfaces_1.0.1-3noble_amd64.deb
+Size: 155542
+SHA256: 156bd79b852a5f090aa01abc1c53f92dc48510081b3a1aa3412a1a3620554a6c
+SHA1: 481177d87af01a5f7c286ee204729faf25329a6f
+MD5sum: 008d1c3c1cd03a1c02da27709c619bd2
+Description: dynamixel_interfaces contains base messages and service useful for controlling Dynamixel.
+
+Package: ros-lyrical-dynamixel-sdk
+Version: 4.0.3-3noble
+Architecture: amd64
+Maintainer: Pyo <pyo@robotis.com>
+Installed-Size: 902
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-ros-workspace
+Homepage: http://wiki.ros.org/dynamixel_sdk
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-dynamixel-sdk/ros-lyrical-dynamixel-sdk_4.0.3-3noble_amd64.deb
+Size: 113920
+SHA256: 649e48a5c8e9cb157ea82e55e2a22d52a05feaa870aacf154d7383f6c2ca9c78
+SHA1: acb565786d159107d2729fe1556c313ae2b55a8f
+MD5sum: 84346012242a513483411f67b9444e5a
+Description: This package is wrapping version of ROBOTIS Dynamixel SDK for ROS 2.
+ The ROBOTIS Dynamixel SDK, or SDK, is a software development library that provides Dynamixel control functions for packet communication. The API is designed for Dynamixel actuators and Dynamixel-based platforms.
+
 Package: ros-lyrical-eigen-stl-containers
 Version: 1.1.0-3noble
 Architecture: amd64
@@ -2077,6 +2302,70 @@ MD5sum: a9083d817f0f823401c2aef6e8b0f06a
 Description: eProsima Fast DDS is a C++ implementation of the DDS (Data Distribution Service) standard of the OMG (Object Management Group).
  eProsima Fast DDS implements the RTPS (Real Time Publish Subscribe) protocol, which provides publisher-subscriber communications over unreliable transports such as UDP, as defined and maintained by the Object Management Group (OMG) consortium. RTPS is also the wire interoperability protocol defined for the Data Distribution Service (DDS) standard. eProsima Fast DDS expose an API to access directly the RTPS protocol, giving the user full access to the protocol internals.
 
+Package: ros-lyrical-ffmpeg-encoder-decoder
+Version: 3.0.1-3noble
+Architecture: amd64
+Maintainer: Bernd Pfrommer <bernd.pfrommer@gmail.com>
+Installed-Size: 365
+Depends: libavcodec60 (>= 7:6.0), libavutil58 (>= 7:6.0), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libopencv-core406t64 (>= 4.6.0+dfsg), libstdc++6 (>= 13.1), libswscale7 (>= 7:6.0), ffmpeg, libavcodec-dev, libavdevice-dev, libavformat-dev, libavutil-dev, libopencv-imgproc-dev, libswscale-dev, ros-lyrical-cv-bridge, ros-lyrical-rclcpp, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/ffmpeg_encoder_decoder/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-ffmpeg-encoder-decoder/ros-lyrical-ffmpeg-encoder-decoder_3.0.1-3noble_amd64.deb
+Size: 111272
+SHA256: 2171cf2994406c1f472d2eeae7fb2e769c60ffb817e2c25b369b6e8a9f70b8f7
+SHA1: e4fee22a0ac54a877b3c32f3a22b1aaa7e8aaca3
+MD5sum: fcccc18661070030e622eacb442982ba
+Description: ROS2 convenience wrapper around ffmpeg for encoding/decoding
+
+Package: ros-lyrical-ffmpeg-image-transport
+Version: 3.0.4-1noble
+Architecture: amd64
+Maintainer: "Bernd Pfrommer" <bernd.pfrommer@gmail.com>
+Installed-Size: 637
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-ffmpeg-encoder-decoder, ros-lyrical-ffmpeg-image-transport-msgs, ros-lyrical-image-transport, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rcutils, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-ros-workspace
+Homepage: http://www.ros.org/wiki/image_transport_plugins
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-ffmpeg-image-transport/ros-lyrical-ffmpeg-image-transport_3.0.4-1noble_amd64.deb
+Size: 141686
+SHA256: f61a4f034168f40621ee53305b8623498e9e061a58ce40ce26b9288c68e5fb5a
+SHA1: e617c333c902b74f9068017fc7b5fac9db231c2b
+MD5sum: 9ec6a0f99ea2ee2e05b99686ba1d6566
+Description: ffmpeg_image_transport provides a plugin to image_transport for transparently sending an image stream encoded with ffmpeg.
+
+Package: ros-lyrical-ffmpeg-image-transport-msgs
+Version: 1.3.0-1noble
+Architecture: amd64
+Maintainer: "Bernd Pfrommer" <bernd.pfrommer@gmail.com>
+Installed-Size: 596
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 13), ros-lyrical-fastcdr, ros-lyrical-rosidl-default-runtime, ros-lyrical-std-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/ffmpeg_image_transport_msgs/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-ffmpeg-image-transport-msgs/ros-lyrical-ffmpeg-image-transport-msgs_1.3.0-1noble_amd64.deb
+Size: 72856
+SHA256: ffc8d4b04ae8280131b8a0dcfa9bf88d346239f86ab8dac12fc4c8d8512381ec
+SHA1: b07c73c72f80d6b35f2c75c723d61c5ebbbcecda
+MD5sum: 93faf733f51da1a3d53fdfc7690e36a0
+Description: messages for ffmpeg image transport plugin
+
+Package: ros-lyrical-ffmpeg-image-transport-tools
+Version: 3.0.1-3noble
+Architecture: amd64
+Maintainer: Bernd Pfrommer <bernd.pfrommer@gmail.com>
+Installed-Size: 605
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-imgcodecs406t64 (>= 4.6.0+dfsg), libstdc++6 (>= 13.1), libopencv-imgproc-dev, ros-lyrical-cv-bridge, ros-lyrical-ffmpeg-encoder-decoder, ros-lyrical-ffmpeg-image-transport-msgs, ros-lyrical-rclcpp, ros-lyrical-rcutils, ros-lyrical-rosbag2-cpp, ros-lyrical-rosbag2-storage, ros-lyrical-sensor-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/ffmpeg_image_transport_tools/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-ffmpeg-image-transport-tools/ros-lyrical-ffmpeg-image-transport-tools_3.0.1-3noble_amd64.deb
+Size: 156726
+SHA256: a58da9fb86b4bba949b5b6b20d2cc626e7d7f31f43ef53194e222e6454beb421
+SHA1: 694229ef7bda1b414750a866f05bcc3809145abf
+MD5sum: 85ccea4a5b528d23c8b037427bb5bd30
+Description: tools for processing ffmpeg_image_transport_msgs
+
 Package: ros-lyrical-filters
 Version: 2.2.2-3noble
 Architecture: amd64
@@ -2302,6 +2591,22 @@ SHA1: 4cef85c3235ba4914ec87908bb1268d4b38cfdf7
 MD5sum: 4fe2be42ce6797e2c88d421780e73e7c
 Description: Controller to publish readings of GPS sensors.
 
+Package: ros-lyrical-gtsam
+Version: 4.3.0-5noble
+Architecture: amd64
+Maintainer: Frank Dellaert <gtsam@lists.gatech.edu>
+Installed-Size: 9587
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 4.0), libstdc++6 (>= 13.1), libtbb12 (>= 2021.4.0), libtbbmalloc2 (>= 2017~U7), libeigen3-dev, libtbb-dev, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/gtsam/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-gtsam/ros-lyrical-gtsam_4.3.0-5noble_amd64.deb
+Size: 2425188
+SHA256: 07fb17243aca9af45654b5d57e68ea4bad1a7f889d627608d5a17bd4d4c80645
+SHA1: 8417303e1f94a59f71280181e3a67165b8d3ebbe
+MD5sum: 46121ea253eb616a6220b2736f02e7cc
+Description: gtsam
+
 Package: ros-lyrical-gz-cmake-vendor
 Version: 0.4.5-1noble
 Architecture: amd64
@@ -2360,10 +2665,10 @@ Homepage: https://github.com/gazebosim/gz-fuel-tools
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-gz-fuel-tools-vendor/ros-lyrical-gz-fuel-tools-vendor_0.3.1-3noble_amd64.deb
-Size: 225856
-SHA256: f8886ba086d5e9ee07c8d9d412c97fe97208fc97004facad74ee12db67edce2e
-SHA1: 3cc3b2098a8eb3841e64380b4ca542b40b4109d9
-MD5sum: c9ee882913dd48b0bc54dfc557a3c927
+Size: 225948
+SHA256: 6c4e4fef713a150aca85e48c00bb09e563dbbc8c6e367a562d636ec8d335652a
+SHA1: 22df9b38157d67378d618e6511b0e10ca909c8e5
+MD5sum: a44a8fc5a1353dbd872a9c479f65f048
 Description: Vendor package for: gz-fuel_tools 11.0.0 Gazebo Fuel Tools: Classes and tools for interacting with Gazebo Fuel
 
 Package: ros-lyrical-gz-gui-vendor
@@ -2376,10 +2681,10 @@ Homepage: https://github.com/gazebosim/gz-rendering
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-gz-gui-vendor/ros-lyrical-gz-gui-vendor_0.3.2-1noble_amd64.deb
-Size: 664310
-SHA256: 2972225ff7569c5ab014b613493924baa19abbc7b6ae1404ff9cdab09ee7ec2d
-SHA1: 88e48f7281b7b884eb94a029ce7e65338d942c2f
-MD5sum: edcf8775de1544383041bf63d7dbaf99
+Size: 664320
+SHA256: 760dd2fb72b936e7eda3c83d8e3a2710417614dc91bf91cee607f1338ad75fa7
+SHA1: de30c152d1e12e94270d21d3482e16f4fba3899a
+MD5sum: 1a954373579883d5bd84bf76dde962a0
 Description: Vendor package for: gz-gui 10.1.0 Gazebo GUI : Graphical interfaces for robotics applications
 
 Package: ros-lyrical-gz-math-vendor
@@ -2408,10 +2713,10 @@ Homepage: https://github.com/gazebosim/gz-msgs
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-gz-msgs-vendor/ros-lyrical-gz-msgs-vendor_0.3.4-2noble_amd64.deb
-Size: 1059910
-SHA256: 758499df1b402618b29b1e2632967f90d77d9fe7bd13f41c1acadbce7993c9a7
-SHA1: 67059db07c189c06737e0abe8adf22569cd9ec54
-MD5sum: 9670e23e8ab5912ec4d27db9f0cb519c
+Size: 1059938
+SHA256: 378c165547ea1ee947307d2a2794c029bc11f533a6e2d2b0a0670e5166c15940
+SHA1: f9db66bd9f3bcf3de2cc6bff6110aee298f6e776
+MD5sum: 7bfb0ab674c71312ebdeb9f12e38b929
 Description: Vendor package for: gz-msgs 12.0.2 Gazebo Messages: Protobuf messages and functions for robot applications
 
 Package: ros-lyrical-gz-ogre-next-vendor
@@ -2434,16 +2739,16 @@ Package: ros-lyrical-gz-physics-vendor
 Version: 0.4.8-1noble
 Architecture: amd64
 Maintainer: "Addisu Z. Taddese" <addisuzt@intrinsic.ai>
-Installed-Size: 6386
+Installed-Size: 6387
 Depends: libassimp5 (>= 5.3.1+ds), libbullet3.24t64 (>= 3.24+dfsg), libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libode8t64 (>= 2:0.16.2), libstdc++6 (>= 13.1), ros-lyrical-gz-common-vendor, ros-lyrical-gz-dartsim-vendor, ros-lyrical-gz-math-vendor, ros-lyrical-sdformat-vendor, ros-lyrical-urdfdom, libbenchmark-dev, libbullet-dev, libeigen3-dev, ros-lyrical-gz-cmake-vendor, ros-lyrical-gz-plugin-vendor, ros-lyrical-gz-utils-vendor, ros-lyrical-ros-workspace
 Homepage: https://github.com/gazebosim/gz-physics
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-gz-physics-vendor/ros-lyrical-gz-physics-vendor_0.4.8-1noble_amd64.deb
-Size: 615048
-SHA256: 77d8734e627b2f7c8da50c7015d32967c5fae48f8626294c76dcf1e5518c2be1
-SHA1: eee642ec822001f3173d6baaea0af9c539150e75
-MD5sum: 45be65bcc62817a1ddde56665f894f01
+Size: 615296
+SHA256: a1af719a85d03ee0acf9480d236da24507f660fcad0a8c0a5b60ef297dd2a87a
+SHA1: 2cd21eba0e2470dd3df8b984f7a3d8b6f700dd24
+MD5sum: 9290e87a8e65b5b1998ad073772291b7
 Description: Vendor package for: gz-physics 9.5.2 Gazebo Physics : Physics classes and functions for robot applications
 
 Package: ros-lyrical-gz-plugin-vendor
@@ -2456,10 +2761,10 @@ Homepage: https://github.com/gazebosim/gz-plugin
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-gz-plugin-vendor/ros-lyrical-gz-plugin-vendor_0.3.1-3noble_amd64.deb
-Size: 180194
-SHA256: 5d29fc1c6490d1e3b3fdded1cf7379f50b3804f08314d764d9839a245334e909
-SHA1: 6b67d5c21accef209f12ad82e1d1dd6177d9eeb5
-MD5sum: b3a42edec4e22dfd2f40895673abc53e
+Size: 180270
+SHA256: 648617c49f06df0ac5e906bff41de046cbfe6042a901b57e91bb292c6bec7305
+SHA1: 968a91acb0f28bb1092178cb7a0986c1c79fdea0
+MD5sum: bb6df0c5882d4a8009ab0eb164aaf8b8
 Description: Vendor package for: gz-plugin 4.0.0 Gazebo Plugin : Cross-platform C++ library for dynamically loading plugins.
 
 Package: ros-lyrical-gz-rendering-vendor
@@ -2472,11 +2777,27 @@ Homepage: https://github.com/gazebosim/gz-rendering
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-gz-rendering-vendor/ros-lyrical-gz-rendering-vendor_0.4.4-1noble_amd64.deb
-Size: 3969884
-SHA256: 9e9068d8f6edb65fb42695bdb4f9820702dc81133a134245eb36e2759b96b37c
-SHA1: 37c37421c643ab3e1bdbe85468b740df442aef57
-MD5sum: 3628c43e3fde75a69013b4bf304c30b1
+Size: 3969896
+SHA256: 5fd267080612b92d5688ff2cadaec147ee5c8dd68f3dd665207b35ea1d81a917
+SHA1: 4f2616d33955e85a27454ac5aeb643015fcc90d2
+MD5sum: 456bf7478478bdd326a5772ed1161e07
 Description: Vendor package for: gz-rendering 10.0.2 Gazebo Rendering: Rendering library for robot applications
+
+Package: ros-lyrical-gz-ros2-control
+Version: 3.0.9-1noble
+Architecture: amd64
+Maintainer: "Alejandro Hernández" <alejandro@openrobotics.com>
+Installed-Size: 718
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), ros-lyrical-gz-common-vendor, ros-lyrical-gz-msgs-vendor, ros-lyrical-gz-sim-vendor, ros-lyrical-gz-transport-vendor, ros-lyrical-sdformat-vendor, ros-lyrical-controller-manager, ros-lyrical-gz-plugin-vendor, ros-lyrical-hardware-interface, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-lifecycle, ros-lyrical-ros2-control-cmake, ros-lyrical-yaml-cpp-vendor, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/gz_ros2_control/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-gz-ros2-control/ros-lyrical-gz-ros2-control_3.0.9-1noble_amd64.deb
+Size: 194722
+SHA256: b82e179f9b81edb18831294e9ae7fef86fa92e66de097c0c49b2cc8b21782c64
+SHA1: 0c9f22cb74dee1fc587ba933655d9bd8ab95a5e6
+MD5sum: ea7c697248dc56f0d984397b1e059d32
+Description: Gazebo ros2_control package allows to control simulated robots using ros2_control framework.
 
 Package: ros-lyrical-gz-sensors-vendor
 Version: 0.3.5-1noble
@@ -2488,42 +2809,42 @@ Homepage: https://github.com/gazebosim/gz-sensors
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-gz-sensors-vendor/ros-lyrical-gz-sensors-vendor_0.3.5-1noble_amd64.deb
-Size: 394954
-SHA256: 576d5930616b406d8037a002361fb132ce359ee6d7b030e6e4db5c4f903cbda4
-SHA1: eb4f5ad6a1eead39226b2bf7e956318f109951db
-MD5sum: 75ad4b31e3bbb4b5f1457c6d4dee7669
+Size: 395198
+SHA256: edac07d4269c93236bb062e1800286172066374f96f9edb9ca558efd89a76065
+SHA1: 1f777fa12e5c16c5c35546e3832e0bc60b851453
+MD5sum: 88ba2218aaf262219db45850e94e7339
 Description: Vendor package for: gz-sensors 10.1.1 Gazebo Sensors : Sensor models for simulation
 
 Package: ros-lyrical-gz-sim-vendor
 Version: 0.4.6-1noble
 Architecture: amd64
 Maintainer: "Addisu Z. Taddese" <addisuzt@intrinsic.ai>
-Installed-Size: 50102
+Installed-Size: 50107
 Depends: libc6 (>= 2.38), libdw1t64 (>= 0.126), libgcc-s1 (>= 4.2), libprotobuf32t64 (>= 3.21.12), libpython3.12t64 (>= 3.12.1), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.1.2), libqt6qml6 (>= 6.2.0), libqt6quick6 (>= 6.2.0), libqt6widgets6t64 (>= 6.1.2), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), libwebsockets19t64 (>= 1.7.0), ros-lyrical-gz-common-vendor, ros-lyrical-gz-fuel-tools-vendor, ros-lyrical-gz-gui-vendor, ros-lyrical-gz-math-vendor, ros-lyrical-gz-msgs-vendor, ros-lyrical-gz-physics-vendor, ros-lyrical-gz-plugin-vendor, ros-lyrical-gz-rendering-vendor, ros-lyrical-gz-sensors-vendor, ros-lyrical-gz-transport-vendor, ros-lyrical-gz-utils-vendor, ros-lyrical-sdformat-vendor, binutils-dev, freeglut3-dev, libbenchmark-dev, libdw-dev, libdwarf-dev, libfreeimage-dev, libglew-dev, libprotobuf-dev, libprotoc-dev, libtinyxml2-dev, libwebsockets-dev, libxi-dev, libxmu-dev, protobuf-compiler, pybind11-dev, qml6-module-qt-labs-folderlistmodel, qml6-module-qt-labs-settings, qml6-module-qt5compat-graphicaleffects, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-layouts, qt6-5compat-dev, qt6-base-dev, qt6-base-private-dev, qt6-declarative-dev, ros-lyrical-gz-cmake-vendor, ros-lyrical-gz-tools-vendor, uuid-dev, ros-lyrical-ros-workspace
 Homepage: https://github.com/gazebosim/gz-sim
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-gz-sim-vendor/ros-lyrical-gz-sim-vendor_0.4.6-1noble_amd64.deb
-Size: 11017966
-SHA256: aa3e19395e59b2f5bdaeb31f63f6903f9a460d6abf03e10c14307c0d269fc406
-SHA1: ff513d591761fa258b5cae1933ca8cd8f6afc051
-MD5sum: 551468f5f8fa0b068fd206c0e9541ae2
+Size: 11019274
+SHA256: 74fec5f39e3357bbc7509dcd6fd1d6694cb3d8e6da6e0a20df2b5d63699707aa
+SHA1: 3f9f2b7559423e2315a5140f0743305f3a116d05
+MD5sum: 2300d913437b78806a21ef709476f997
 Description: Vendor package for: gz-sim 10.5.0 Gazebo Sim : A Robotic Simulator
 
 Package: ros-lyrical-gz-tools-vendor
 Version: 0.2.2-1noble
 Architecture: amd64
 Maintainer: "Addisu Z. Taddese" <addisuzt@intrinsic.ai>
-Installed-Size: 60
-Depends: ros-lyrical-gz-cmake-vendor, ruby, ros-lyrical-ros-workspace
+Installed-Size: 154
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 4.2), libstdc++6 (>= 13.1), ros-lyrical-gz-cmake-vendor, ruby, ros-lyrical-ros-workspace
 Homepage: https://github.com/gazebosim/gz-tools
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-gz-tools-vendor/ros-lyrical-gz-tools-vendor_0.2.2-1noble_amd64.deb
-Size: 8652
-SHA256: baa3b4bba07d06f18f1ffaa71a26ed22add2057c8aa90372dec1886389b85339
-SHA1: ca9e805c5acd0a74b33e6e87a75725cef1de2929
-MD5sum: b840e4cc31d31e771799a641d1c9ec29
+Size: 32630
+SHA256: 165f496e4ddaecf3de808f01b2f71a05eafa32d2fc857d0db7d81af17df9a136
+SHA1: ee73c96784dd1dfc8019239a51f7935b2b249c1d
+MD5sum: b4e6887b3ebe8e0eaa367673f3579305
 Description: Vendor package for: gz-tools2 2.0.4 Gazebo Tools: Entrypoint to Gazebo's command line interface
 
 Package: ros-lyrical-gz-transport-vendor
@@ -2536,10 +2857,10 @@ Homepage: https://github.com/gazebosim/gz-transport
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-gz-transport-vendor/ros-lyrical-gz-transport-vendor_0.3.5-1noble_amd64.deb
-Size: 665458
-SHA256: aa52c160b483dd839d1bde8a60f135ce1739de46d8f75dd40e610fa3344c49cd
-SHA1: 9132be392669896787f9bf72ba0fa56952c508d3
-MD5sum: 27c76693e45d9f0c29e2a2edb9a57083
+Size: 665412
+SHA256: 5224a8ea257c22006f5946f57065d161baf8574f60a3a8649d8353d277740ad6
+SHA1: eb4692007678a2ba2c11748e3a5d7d68343eae00
+MD5sum: eebced6f6b54fb3bcd353fadf91a246d
 Description: Vendor package for: gz-transport 15.1.0 Gazebo Transport: Provides fast and efficient asynchronous message passing, services, and data logging.
 
 Package: ros-lyrical-gz-utils-vendor
@@ -2748,10 +3069,10 @@ Homepage: https://index.ros.org/p/image_tools/#lyrical
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-image-tools/ros-lyrical-image-tools_0.37.9-1noble_amd64.deb
-Size: 196280
-SHA256: 69b7cefd0441245dcb0e0423f8ac395ffd42129b8f233b021d4cb7b579fe373d
-SHA1: 81b1ad896fba5c3145ba7ea9b3ae89cb22445552
-MD5sum: 0b419f62b59044a1b563ceaf18fd93a4
+Size: 196284
+SHA256: abd960d142cd0dcecd32383950b9851b593280359fd904e053308ac7560b0c53
+SHA1: fe1b3002d90372babdcc10fa86982f1b2e005f02
+MD5sum: 2578b3494d2bcaaa88106632a96ce060
 Description: Tools to capture and play back images to and from DDS subscriptions and publications.
 
 Package: ros-lyrical-image-transport
@@ -3131,6 +3452,22 @@ SHA1: 5c081828b6c21424ed8d049715ce418517738a2f
 MD5sum: 638b350a4155aa02faa54a93bb2c011a
 Description: Python library for loading parameters in launch files
 
+Package: ros-lyrical-launch-pytest
+Version: 3.9.8-1noble
+Architecture: amd64
+Maintainer: "Aditya Pande" <aditya.pande@openrobotics.org>
+Installed-Size: 129
+Depends: python3-osrf-pycommon, python3-pytest, ros-lyrical-ament-index-python, ros-lyrical-launch, ros-lyrical-launch-testing, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/launch_pytest/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-launch-pytest/ros-lyrical-launch-pytest_3.9.8-1noble_amd64.deb
+Size: 28358
+SHA256: e7aa262b2f35eb18e019715cf3aa0cc2caaf965f052c612637435b56f35ab602
+SHA1: 8a8f573f9dc088f1db203157435fd81f3aed644b
+MD5sum: 78df24edd023b915981d232a88adb22f
+Description: A package to create tests which involve launch files and multiple processes.
+
 Package: ros-lyrical-launch-ros
 Version: 0.29.9-1noble
 Architecture: amd64
@@ -3226,6 +3563,38 @@ SHA256: 2bf79b8250eef1ff310492a0e916fa1b96ed12c4a66baa6d13d415b52e992bc5
 SHA1: 1d2c65efdbfbbff6d2205540be8edb5e0d17514e
 MD5sum: 7493da3c9c4353838ba58be361d4c1b4
 Description: YAML frontend for the launch package.
+
+Package: ros-lyrical-libg2o
+Version: 2020.5.29-7noble
+Architecture: amd64
+Maintainer: Christoph Rösmann <christoph.roesmann@tu-dortmund.de>
+Installed-Size: 7075
+Depends: libc6 (>= 2.38), libcamd3 (>= 1:7.0.1), libcholmod5 (>= 1:7.3.1), libcxsparse4 (>= 1:7.0.1), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 4.0), libglu1-mesa | libglu1, libopengl0, libspdlog1.12-fmt9, libstdc++6 (>= 13.1), libeigen3-dev, libgl1-mesa-dev, libglu1-mesa-dev, libsuitesparse-dev, ros-lyrical-ros-workspace
+Homepage: https://github.com/RainerKuemmerle/g2o
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-libg2o/ros-lyrical-libg2o_2020.5.29-7noble_amd64.deb
+Size: 1339544
+SHA256: 18698258533610d1195c53e9fbcd58adaadbc922765c8bcb800e20ee8f4201a2
+SHA1: ce9f0d30375fa0969f4a67da91fb3cdb21b330bd
+MD5sum: 1624ab808b6284c57bd116deda772365
+Description: The libg2o library from http://openslam.org/g2o.html
+
+Package: ros-lyrical-librealsense2
+Version: 2.58.4-1noble
+Architecture: amd64
+Maintainer: "LibRealSense ROS Team" <rsswsdk@realsensecloud.onmicrosoft.com>
+Installed-Size: 19313
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.16), libgl1-mesa-dev, libglfw3-dev, libglu1-mesa-dev, libx11-dev, ros-lyrical-ros-workspace
+Homepage: https://github.com/realsenseai/librealsense/
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-librealsense2/ros-lyrical-librealsense2_2.58.4-1noble_amd64.deb
+Size: 4748856
+SHA256: 5e3d6cbcd5b058a5438185ad16cd6260948fd6f6f1b6283f520bfed3f2cb5bed
+SHA1: 138908ac5fae1b6f27cc68b20317da7dcec7ba88
+MD5sum: 872a20a0ac358541f27bffebb2256aa4
+Description: Library for controlling and capturing data from the RealSense depth streaming devices.
 
 Package: ros-lyrical-libstatistics-collector
 Version: 2.1.2-1noble
@@ -4137,10 +4506,10 @@ Homepage: https://index.ros.org/p/nav2_bringup/#lyrical
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-nav2-bringup/ros-lyrical-nav2-bringup_1.5.2-2noble_amd64.deb
-Size: 46418
-SHA256: b0e65f5b8ae19c0dfe29ff989c9ba978a9c525e7af6f2e704168e1a585eaf79a
-SHA1: 365951524c4073abdb96df980ae3223757a4a6a5
-MD5sum: 19ae6a38dde3b9829aa5b520141fd904
+Size: 46442
+SHA256: 6d6080b81ee98948969160ad4ec4866a59cae347f64c456e29930929cd32d591
+SHA1: c7b60e7c0cc026d6d9d1e0fd16c06aa623fc12c6
+MD5sum: eed917fb2f8e5525600993b8170c0eb4
 Description: Bringup scripts and configurations for the Nav2 stack
 
 Package: ros-lyrical-nav2-bt-navigator
@@ -4346,10 +4715,10 @@ Homepage: https://index.ros.org/p/nav2_minimal_tb3_sim/#lyrical
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-nav2-minimal-tb3-sim/ros-lyrical-nav2-minimal-tb3-sim_1.3.0-1noble_amd64.deb
-Size: 45154
-SHA256: c1f83862f28c0f648bde3b9dfd9cd4eadd28a197075ac674c2af0e01ab4f1105
-SHA1: 4c049fcfef37fced528cbba6877ac6b0d2ce0c20
-MD5sum: 12ae9362007e383acdb51bef9262697a
+Size: 45152
+SHA256: 6cc1bdfcb0b312d6fb50e4a035a501a9fe0011f56be303b42b493508bb6a0ea8
+SHA1: fe70f77fe517cc6825093e1ad100902c12198761
+MD5sum: c2a49c5cde51bbd22b8f35c4e055e073
 Description: Nav2 Minimum TurtleBot3 Simulation
 
 Package: ros-lyrical-nav2-minimal-tb4-description
@@ -4378,10 +4747,10 @@ Homepage: https://index.ros.org/p/nav2_minimal_tb4_sim/#lyrical
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-nav2-minimal-tb4-sim/ros-lyrical-nav2-minimal-tb4-sim_1.3.0-1noble_amd64.deb
-Size: 10132
-SHA256: 179ea1cf3950b083925a268fa11bf50daf5183f09f3d713b5850aeb63ed5c017
-SHA1: f5f9decd0fef49f475c59b4504d72e854aa70400
-MD5sum: 29d21f8ca477f717e7c7ef7e52e3844e
+Size: 10126
+SHA256: 1919207e5b1fb155f8ae966400966867635feeee9223d5c4710b231ca3d5b6d4
+SHA1: e94b4b5d4fccd301ebe97ffe36737632f441d876
+MD5sum: 323b68b278ba2a1ddf66fc6b46a9252a
 Description: Nav2 Minimum TurtleBot4 Simulation
 
 Package: ros-lyrical-nav2-mppi-controller
@@ -4522,10 +4891,10 @@ Homepage: https://index.ros.org/p/nav2_rviz_plugins/#lyrical
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-nav2-rviz-plugins/ros-lyrical-nav2-rviz-plugins_1.5.2-2noble_amd64.deb
-Size: 591810
-SHA256: f3918ebadcb63e110678ecaaa5a3c5bf13e30cd3a65b994108172a56a654119f
-SHA1: e29bb1bab5c5f6b91d7bdc0f2e5a31532494b6c1
-MD5sum: 78de4cbd00239d5cd62dff2114d14eb2
+Size: 591802
+SHA256: 436f72efb9dd2974d525ee158bea64e20027390fea4b441281d8a3fd2742ac9d
+SHA1: a0bd4746e84360de20aaa671d1265b314436ba88
+MD5sum: 11c5a0eda18e35819e74de218a9b47fa
 Description: Navigation 2 plugins for rviz
 
 Package: ros-lyrical-nav2-simple-commander
@@ -4667,10 +5036,10 @@ Homepage: https://index.ros.org/p/navigation2/#lyrical
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-navigation2/ros-lyrical-navigation2_1.5.2-2noble_amd64.deb
-Size: 6044
-SHA256: a3cbbde31e2d28d23fd0b848a5773ba4c83bb3a552647aeb4cedae35616b46c3
-SHA1: 6b91010d223b70467111604f931a1336a0e51926
-MD5sum: f72d57ba7a5ff536d910c04a9a91e7d6
+Size: 6038
+SHA256: 74c275c5395a4de037a2b81750b9e695d947d1f91767b1ce61a58109abb3a996
+SHA1: 4f38f64cd22f85cb00a61c38d77ea2eebe1d88de
+MD5sum: 9847b7cdd7d8741d719c2fff67c1db4a
 Description: ROS2 Navigation Stack
 
 Package: ros-lyrical-nlohmann-json-schema-validator-vendor
@@ -4705,6 +5074,22 @@ SHA1: 50b63377a137a57b67659c7cf2932d9c8737206f
 MD5sum: cf3fb623ad05e32f706cadd76dd8f6a4
 Description: Object_recognition_msgs contains the ROS message and the actionlib definition used in object_recognition_core
 
+Package: ros-lyrical-octomap-mapping
+Version: 2.3.1-3noble
+Architecture: amd64
+Maintainer: Wolfgang Merkt <opensource@wolfgangmerkt.com>
+Installed-Size: 44
+Depends: ros-lyrical-octomap-server, ros-lyrical-ros-workspace
+Homepage: http://ros.org/wiki/octomap_mapping
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-octomap-mapping/ros-lyrical-octomap-mapping_2.3.1-3noble_amd64.deb
+Size: 5798
+SHA256: 9b312463f5003602f1213c3125a8956400ad4a1c210f70717e9c6c6fa2c64a04
+SHA1: a1674277b8a110242844bb3486e63b66cd390492
+MD5sum: 4cd458aa83562de5da12b1e397cd7680
+Description: Mapping tools to be used with the OctoMap library, implementing a 3D occupancy grid mapping.
+
 Package: ros-lyrical-octomap-msgs
 Version: 2.0.1-3noble
 Architecture: amd64
@@ -4721,6 +5106,88 @@ SHA1: 39da81165be479060dfb66277e28343ecfbedf01
 MD5sum: 67bde05de63d35d4115423cf8b088bd6
 Description: This package provides messages and serializations / conversion for the OctoMap library.
  This ROS2 version is based on version 0.3.3 of the ROS1 package.
+
+Package: ros-lyrical-octomap-ros
+Version: 0.4.5-3noble
+Architecture: amd64
+Maintainer: Wolfgang Merkt <opensource@wolfgangmerkt.com>
+Installed-Size: 90
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), liboctomap-dev, ros-lyrical-octomap-msgs, ros-lyrical-sensor-msgs, ros-lyrical-tf2, ros-lyrical-ros-workspace
+Homepage: http://ros.org/wiki/octomap_ros
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-octomap-ros/ros-lyrical-octomap-ros_0.4.5-3noble_amd64.deb
+Size: 17014
+SHA256: 26f7d4db2dda7ea54723bf4af5220ba1bd70a7f6f52866ed1eadea91b71f3033
+SHA1: 7b82d7edd35ee4a91406f7f3d5cefc0ac60d5bff
+MD5sum: 054ef720adfda7ccf265122396e84c00
+Description: octomap_ros provides conversion functions between ROS and OctoMap's native types.
+ This enables a convenvient use of the octomap package in ROS.
+
+Package: ros-lyrical-octomap-server
+Version: 2.3.1-3noble
+Architecture: amd64
+Maintainer: Wolfgang Merkt <opensource@wolfgangmerkt.com>
+Installed-Size: 4628
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgomp1 (>= 6), liboctomap1.9t64 (>= 1.9.7+dfsg), liborocos-kdl1.5 (>= 1.5.1), libpcl-common1.14 (>= 1.14.0+dfsg), libpcl-filters1.14 (>= 1.14.0+dfsg), libpcl-segmentation1.14 (>= 1.14.0+dfsg), libstdc++6 (>= 13.1), liboctomap-dev, libpcl-dev, ros-lyrical-geometry-msgs, ros-lyrical-message-filters, ros-lyrical-nav-msgs, ros-lyrical-octomap-msgs, ros-lyrical-octomap-ros, ros-lyrical-pcl-conversions, ros-lyrical-pcl-ros, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-std-srvs, ros-lyrical-tf2, ros-lyrical-tf2-eigen, ros-lyrical-tf2-geometry-msgs, ros-lyrical-tf2-ros, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Homepage: http://www.ros.org/wiki/octomap_server
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-octomap-server/ros-lyrical-octomap-server_2.3.1-3noble_amd64.deb
+Size: 700684
+SHA256: 88c57e540e78125c0c155ebd265bbb5257dd9c8363c642dda78519c69ab2bc52
+SHA1: 9c694fef4295cd9f3cb301e0f78fbe010e831161
+MD5sum: 7e722d1c9751331c2ccf0626012823e1
+Description: octomap_server loads a 3D map (as Octree-based OctoMap) and distributes it to other nodes in a compact binary format.
+ It also allows to incrementally build 3D OctoMaps, and provides map saving in the node octomap_saver.
+
+Package: ros-lyrical-om-gravity-compensation-controller
+Version: 4.1.2-3noble
+Architecture: amd64
+Maintainer: Pyo <pyo@robotis.com>
+Installed-Size: 892
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 13.1), ros-lyrical-angles, ros-lyrical-backward-ros, ros-lyrical-control-msgs, ros-lyrical-control-toolbox, ros-lyrical-controller-interface, ros-lyrical-generate-parameter-library, ros-lyrical-hardware-interface, ros-lyrical-kdl-parser, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-lifecycle, ros-lyrical-realtime-tools, ros-lyrical-rsl, ros-lyrical-urdf, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/om_gravity_compensation_controller/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-om-gravity-compensation-controller/ros-lyrical-om-gravity-compensation-controller_4.1.2-3noble_amd64.deb
+Size: 176236
+SHA256: faa6a6b013ec931a8a8eac0af7721a10440046c5cbb39acaa0ba2265a653a232
+SHA1: 3842b033633e35ae0648f21a20a5927ba434d485
+MD5sum: 85c54d9e7fe145f03b88f7ab2b226364
+Description: Controller for compensating for gravity on a group of joints
+
+Package: ros-lyrical-om-joint-trajectory-command-broadcaster
+Version: 4.1.2-3noble
+Architecture: amd64
+Maintainer: Pyo <pyo@robotis.com>
+Installed-Size: 687
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-backward-ros, ros-lyrical-builtin-interfaces, ros-lyrical-control-msgs, ros-lyrical-controller-interface, ros-lyrical-generate-parameter-library, ros-lyrical-pluginlib, ros-lyrical-rclcpp-lifecycle, ros-lyrical-rcutils, ros-lyrical-realtime-tools, ros-lyrical-sensor-msgs, ros-lyrical-trajectory-msgs, ros-lyrical-urdf, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/om_joint_trajectory_command_broadcaster/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-om-joint-trajectory-command-broadcaster/ros-lyrical-om-joint-trajectory-command-broadcaster_4.1.2-3noble_amd64.deb
+Size: 158074
+SHA256: a1a92efa1ad09907db38f5fec2d034da1b17aa76edd7fa73c7f96f76d90cea12
+SHA1: cdd2a3be983da682b71a684b111d007e02375d66
+MD5sum: 50f29312ff5e810dbe5dfb05215d770f
+Description: Joint Trajectory Command Broadcaster ROS 2 package.
+
+Package: ros-lyrical-om-spring-actuator-controller
+Version: 4.1.2-3noble
+Architecture: amd64
+Maintainer: Pyo <pyo@robotis.com>
+Installed-Size: 252
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-controller-interface, ros-lyrical-generate-parameter-library, ros-lyrical-hardware-interface, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-lifecycle, ros-lyrical-urdf, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/om_spring_actuator_controller/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-om-spring-actuator-controller/ros-lyrical-om-spring-actuator-controller_4.1.2-3noble_amd64.deb
+Size: 64786
+SHA256: 26ff2b562d3dcba889fd8df29fdbc9486c2f51a506d4ec72438a251dada0168f
+SHA1: b24754af96be6f41a172530c7446cf3323b57f0c
+MD5sum: ecaade175f7ba1871f5142bd81ff91e9
+Description: Spring Actuator Controller ROS 2 package.
 
 Package: ros-lyrical-omni-wheel-drive-controller
 Version: 6.9.0-1noble
@@ -4753,6 +5220,135 @@ SHA256: 5d08f762202ed4144d5b5fa3c4bf354ceb1edd7548935f2c661fa4b6cefb5199
 SHA1: 1754a29826249bdf52f85ab6690fb0fb02df1b2e
 MD5sum: 8c4cfabb903ede3ff264dce94b5a4780
 Description: OMPL is a free sampling-based motion planning library.
+
+Package: ros-lyrical-open-manipulator
+Version: 4.1.2-3noble
+Architecture: amd64
+Maintainer: Pyo <pyo@robotis.com>
+Installed-Size: 46
+Depends: ros-lyrical-om-gravity-compensation-controller, ros-lyrical-om-joint-trajectory-command-broadcaster, ros-lyrical-om-spring-actuator-controller, ros-lyrical-open-manipulator-bringup, ros-lyrical-open-manipulator-collision, ros-lyrical-open-manipulator-description, ros-lyrical-open-manipulator-gui, ros-lyrical-open-manipulator-moveit-config, ros-lyrical-open-manipulator-playground, ros-lyrical-open-manipulator-teleop, ros-lyrical-ros-workspace
+Homepage: http://wiki.ros.org/open_manipulator
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-open-manipulator/ros-lyrical-open-manipulator_4.1.2-3noble_amd64.deb
+Size: 7394
+SHA256: d784fd3a1bbdcfd2298caf14f26ac35dd060ec5c127447c6e14378c63881d080
+SHA1: e9c0f7586cc0eddb55dfd063c98451f62d87a455
+MD5sum: ef99fc333e1c7cb015d53a00fac85128
+Description: OpenMANIPULATOR meta ROS 2 package.
+
+Package: ros-lyrical-open-manipulator-bringup
+Version: 4.1.2-3noble
+Architecture: amd64
+Maintainer: Pyo <pyo@robotis.com>
+Installed-Size: 232
+Depends: ros-lyrical-dynamixel-hardware-interface, ros-lyrical-gz-ros2-control, ros-lyrical-open-manipulator-description, ros-lyrical-rclpy, ros-lyrical-robot-state-publisher, ros-lyrical-ros-gz-bridge, ros-lyrical-ros-gz-image, ros-lyrical-ros-gz-sim, ros-lyrical-ros2-control, ros-lyrical-ros2-controllers, ros-lyrical-rviz2, ros-lyrical-xacro, ros-lyrical-ros-workspace
+Homepage: http://wiki.ros.org/open_manipulator
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-open-manipulator-bringup/ros-lyrical-open-manipulator-bringup_4.1.2-3noble_amd64.deb
+Size: 22780
+SHA256: bc5a4d32d4e7d46167b76cd04829888fc6b1ca4c83bda19a884f2eecdf8e24b6
+SHA1: 84c1369daa56a966d33b9bc8a1b637fdaba785f2
+MD5sum: 8f206d3d9edcd80cdabab64957852876
+Description: OpenMANIPULATOR bringup ROS 2 package.
+
+Package: ros-lyrical-open-manipulator-collision
+Version: 4.1.2-3noble
+Architecture: amd64
+Maintainer: Pyo <pyo@robotis.com>
+Installed-Size: 637
+Depends: libc6 (>= 2.34), libfcl0.7 (>= 0.7.0), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 13.1), libeigen3-dev, libfcl-dev, ros-lyrical-kdl-parser, ros-lyrical-rclcpp, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-urdf, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Homepage: http://wiki.ros.org/open_manipulator
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-open-manipulator-collision/ros-lyrical-open-manipulator-collision_4.1.2-3noble_amd64.deb
+Size: 145512
+SHA256: c258ffa80725fbc5fb9bbfc91041f51ecf7dcf4587cfe5260a85729822b3d900
+SHA1: 2a1e5c2cf4a5ffad701f90e3a85dd7622d386b3a
+MD5sum: 724c3974c21fd3156625800402550869
+Description: This package implements a self-collision detection system for the follower robot during leader-follower teleoperation.
+ Its primary purpose is to enhance safety by detecting potential self-collisions in real time while the robot is being remotely operated.
+
+Package: ros-lyrical-open-manipulator-description
+Version: 4.1.2-3noble
+Architecture: amd64
+Maintainer: Pyo <pyo@robotis.com>
+Installed-Size: 55200
+Depends: ros-lyrical-joint-state-publisher, ros-lyrical-joint-state-publisher-gui, ros-lyrical-robot-state-publisher, ros-lyrical-rviz2, ros-lyrical-ros-workspace
+Homepage: http://wiki.ros.org/open_manipulator
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-open-manipulator-description/ros-lyrical-open-manipulator-description_4.1.2-3noble_amd64.deb
+Size: 13089470
+SHA256: 0ce2b7609fc6a88e8f9fe977f46f724768d5f660534634e103e823fa65e18753
+SHA1: 6f754944a5a40a1a87ea525300c9f939ec150659
+MD5sum: a01497c7820f9e935f20d67e8a4e1adf
+Description: open_manipulator_description ROS 2 package.
+
+Package: ros-lyrical-open-manipulator-gui
+Version: 4.1.2-3noble
+Architecture: amd64
+Maintainer: Pyo <pyo@robotis.com>
+Installed-Size: 1073
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5t64 (>= 5.0.2), libstdc++6 (>= 13.1), ros-lyrical-moveit-core, ros-lyrical-moveit-ros-planning-interface, libqt5gui5t64, qt5-qmake, qtbase5-dev, ros-lyrical-eigen3-cmake-module, ros-lyrical-geometry-msgs, ros-lyrical-moveit-msgs, ros-lyrical-moveit-ros-planning, ros-lyrical-rclcpp, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-ros-workspace
+Homepage: http://wiki.ros.org/open_manipulator
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-open-manipulator-gui/ros-lyrical-open-manipulator-gui_4.1.2-3noble_amd64.deb
+Size: 182196
+SHA256: 7e5c41ae915edbd9c1bc6cc094fcffa361429d6f0421ddc1a3425bfbf8cba8b4
+SHA1: 1d29a949d7e9f0c57dba5fe0925e3e52bdabc162
+MD5sum: 9e8ead826f033e90fa7c22ed24c5e9da
+Description: The OpenMANIPULATOR GUI ROS 2 package enables users to explore Joint Space, Task Space, and even work with the Task Constructor functionality.
+
+Package: ros-lyrical-open-manipulator-moveit-config
+Version: 4.1.2-3noble
+Architecture: amd64
+Maintainer: Pyo <pyo@robotis.com>
+Installed-Size: 110
+Depends: ros-lyrical-controller-manager, ros-lyrical-joint-state-publisher, ros-lyrical-joint-state-publisher-gui, ros-lyrical-moveit-configs-utils, ros-lyrical-moveit-kinematics, ros-lyrical-moveit-planners, ros-lyrical-moveit-ros-move-group, ros-lyrical-moveit-ros-visualization, ros-lyrical-moveit-ros-warehouse, ros-lyrical-moveit-setup-assistant, ros-lyrical-moveit-simple-controller-manager, ros-lyrical-open-manipulator-description, ros-lyrical-robot-state-publisher, ros-lyrical-rviz-common, ros-lyrical-rviz-default-plugins, ros-lyrical-rviz2, ros-lyrical-tf2-ros, ros-lyrical-warehouse-ros-sqlite, ros-lyrical-xacro, ros-lyrical-ros-workspace
+Homepage: http://wiki.ros.org/open_manipulator
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-open-manipulator-moveit-config/ros-lyrical-open-manipulator-moveit-config_4.1.2-3noble_amd64.deb
+Size: 12704
+SHA256: 76f705bef7da3dcf10c57f07f9afeed62f2f1fba97a53389e1257f28560cc3e1
+SHA1: 5fd0ccad1f893c524deb263f50a95e09d1b36ff7
+MD5sum: 64108e4229a440f3a8605efbc99d410c
+Description: An automatically generated package with all the configuration and launch files for using the open_manipulator_x with the MoveIt Motion Planning Framework
+
+Package: ros-lyrical-open-manipulator-playground
+Version: 4.1.2-3noble
+Architecture: amd64
+Maintainer: Pyo <pyo@robotis.com>
+Installed-Size: 201
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-moveit-ros-planning-interface, ros-lyrical-rclcpp, ros-lyrical-ros-workspace
+Homepage: http://wiki.ros.org/open_manipulator
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-open-manipulator-playground/ros-lyrical-open-manipulator-playground_4.1.2-3noble_amd64.deb
+Size: 27566
+SHA256: d59c23ffade979bcbc257be1119c15a6b46018d24e0394a0910d9cb76a53c40d
+SHA1: 1b7aba1eea3cc5a6b239cab896e085facaa2f1b1
+MD5sum: 53173c0fae01967ef4c6e361d86202e1
+Description: This package provides an example for utilizing the MoveIt API with the OpenMANIPULATOR, allowing users to practice and experiment freely.
+
+Package: ros-lyrical-open-manipulator-teleop
+Version: 4.1.2-3noble
+Architecture: amd64
+Maintainer: Pyo <pyo@robotis.com>
+Installed-Size: 115
+Depends: ros-lyrical-control-msgs, ros-lyrical-rclpy, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-trajectory-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/open_manipulator_teleop/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-open-manipulator-teleop/ros-lyrical-open-manipulator-teleop_4.1.2-3noble_amd64.deb
+Size: 12354
+SHA256: 9339413d6c941d65ec64f48b4d8e2b4d8c4e0bebca43ee80288a7a450845c361
+SHA1: 6f7fecf3ce15860f5b7f72da3f44969219c4f1d1
+MD5sum: 3db4209fa6e954b9cf6259c3c6f0f2ed
+Description: OpenManipulator teleoperation package
 
 Package: ros-lyrical-opennav-docking
 Version: 1.5.2-2noble
@@ -4925,10 +5521,10 @@ Homepage: http://wiki.ros.org/pcl_conversions
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-pcl-conversions/ros-lyrical-pcl-conversions_2.10.0-1noble_amd64.deb
-Size: 14614
-SHA256: ef13dfdd73843a313d2e51fc7918b774ed83a6b03a69194cfca5f7dcc4a7661b
-SHA1: 4492a54956ea434ad525bdb0d9bc1a61b43f9259
-MD5sum: f8c27604744ef2728200a77916d9a0e1
+Size: 14618
+SHA256: 572c561f377792d73e10550595db2b5076b91e246c19dadaa4051a9b203ab105
+SHA1: ae29bbd0081f67ee1867e6e7481e5a893a214ab1
+MD5sum: 12f4caa107a88161f1e7a379b991a056
 Description: Provides conversions from PCL data types and ROS message types
 
 Package: ros-lyrical-pcl-msgs
@@ -4958,9 +5554,9 @@ Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-pcl-ros/ros-lyrical-pcl-ros_2.10.0-1noble_amd64.deb
 Size: 640916
-SHA256: 3bd3beb2e9487c42a15b6da31a5bd55ba216dd46a41065860c8436b8f5ef75b3
-SHA1: b65a2174093b9fd4c2c5b6e089a9d4403c0f239d
-MD5sum: 6729e41f77ca2a427ade1a2d1b389680
+SHA256: ac19446e2e273d517915c324a632839e230ac22618f006646382ce5c9d67af6d
+SHA1: ba21b2d0fea4938c0fd4b7eac9576b424fe611fa
+MD5sum: 131114508e8558524eb54ca101eff368
 Description: PCL (Point Cloud Library) ROS interface stack.
  PCL-ROS is the preferred bridge for 3D applications involving n-D Point Clouds and 3D geometry processing in ROS.
 
@@ -5628,6 +6224,38 @@ SHA256: a176288977c1bd55bd31824fdafc1a47b746e2485e82287e6decd696158aaf08
 SHA1: 9366429f567dc4b5d27163d1348f69054a1ef000
 MD5sum: 06fcdf75cb1e6c95db747612091af4cb
 Description: Package containing various utility types and functions for C
+
+Package: ros-lyrical-realsense2-camera
+Version: 4.58.4-1noble
+Architecture: amd64
+Maintainer: "LibRealSense ROS Team" <rsswsdk@realsensecloud.onmicrosoft.com>
+Installed-Size: 2184
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core406t64 (>= 4.6.0+dfsg), libstdc++6 (>= 13.1), ros-lyrical-fastdds, ros-lyrical-librealsense2, libeigen3-dev, ros-lyrical-builtin-interfaces, ros-lyrical-cv-bridge, ros-lyrical-diagnostic-updater, ros-lyrical-geometry-msgs, ros-lyrical-image-transport, ros-lyrical-launch-ros, ros-lyrical-lifecycle-msgs, ros-lyrical-nav-msgs, ros-lyrical-rclcpp, ros-lyrical-rclcpp-action, ros-lyrical-rclcpp-components, ros-lyrical-rclcpp-lifecycle, ros-lyrical-realsense2-camera-msgs, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-std-srvs, ros-lyrical-tf2, ros-lyrical-tf2-ros, ros-lyrical-ros-workspace
+Homepage: http://www.ros.org/wiki/RealSense
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-realsense2-camera/ros-lyrical-realsense2-camera_4.58.4-1noble_amd64.deb
+Size: 563358
+SHA256: 290f286d84350a22513f2ae0b61149610b74c91ef180e91b4e71120f3afa0f6c
+SHA1: 7adf77d761a06f8a190163fd05471b47ddd52562
+MD5sum: 3312d218034e4f78b3a19dfddafbf1f6
+Description: RealSense camera package allowing access to RealSense D400 3D cameras
+
+Package: ros-lyrical-realsense2-camera-msgs
+Version: 4.58.4-1noble
+Architecture: amd64
+Maintainer: "LibRealSense ROS Team" <rsswsdk@realsensecloud.onmicrosoft.com>
+Installed-Size: 7105
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 13), ros-lyrical-fastcdr, ros-lyrical-action-msgs, ros-lyrical-builtin-interfaces, ros-lyrical-rosidl-default-runtime, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-ros-workspace
+Homepage: http://www.ros.org/wiki/RealSense
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-realsense2-camera-msgs/ros-lyrical-realsense2-camera-msgs_4.58.4-1noble_amd64.deb
+Size: 465556
+SHA256: b7246ff7051b65eb7b44f9eb5aad59d3dddbdefdc77c41886bffb2b4d1262802
+SHA1: 9f2b42d706611c0b36aba2d5cc77588e5c8bc0d0
+MD5sum: 29179e73a2f910c3f9c82d87db8dc0cd
+Description: RealSense camera_msgs package containing realsense camera messages definitions
 
 Package: ros-lyrical-realtime-tools
 Version: 5.4.0-1noble
@@ -6622,6 +7250,22 @@ SHA1: 3b724dec778d810863949497707b235d1ca0ae51
 MD5sum: e593e9116c0e993b4825ff4deb2a0e6a
 Description: The package provides the environment variables `ROS_VERSION` and `ROS_DISTRO`.
 
+Package: ros-lyrical-ros-gz
+Version: 3.0.10-1noble
+Architecture: amd64
+Maintainer: "Aditya Pande" <adityapande@intrinsic.ai>
+Installed-Size: 46
+Depends: ros-lyrical-ros-gz-bridge, ros-lyrical-ros-gz-image, ros-lyrical-ros-gz-sim, ros-lyrical-ros-gz-sim-demos, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/ros_gz/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-ros-gz/ros-lyrical-ros-gz_3.0.10-1noble_amd64.deb
+Size: 7392
+SHA256: f322228b20cf74a130598617ba324c4c0784692a0a02c32159450d885c3e1eae
+SHA1: aadd2636d61513ed46dabff5a9d0d7939b9e9673
+MD5sum: 83bde1fbcc625b13e6c254ec4d4003d7
+Description: Meta-package containing interfaces for using ROS 2 with Gazebo simulation.
+
 Package: ros-lyrical-ros-gz-bridge
 Version: 3.0.10-1noble
 Architecture: amd64
@@ -6632,10 +7276,10 @@ Homepage: https://index.ros.org/p/ros_gz_bridge/#lyrical
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-ros-gz-bridge/ros-lyrical-ros-gz-bridge_3.0.10-1noble_amd64.deb
-Size: 2044682
-SHA256: 649161637d645ac34af9bab359e72fc8236f9a272adba7357e15f3b5846dba71
-SHA1: 9163b5a7da7092405fa8b79ae4739917edc8414f
-MD5sum: af3fd972565de50b5e1e5593c880c723
+Size: 2044698
+SHA256: 157c7605bb9adfb6b5d22e3ef91eed8899a2582650e16b54e2afed85d242e733
+SHA1: c596b6c35a67f4a552864c8719ff300507180c40
+MD5sum: 78fdae3eda611cf186473ea8def1696b
 Description: Bridge communication between ROS and Gazebo Transport
 
 Package: ros-lyrical-ros-gz-image
@@ -6674,16 +7318,16 @@ Package: ros-lyrical-ros-gz-sim
 Version: 3.0.10-1noble
 Architecture: amd64
 Maintainer: "Aditya Pande" <adityapande@intrinsic.ai>
-Installed-Size: 3869
+Installed-Size: 3870
 Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgflags2.2 (>= 2.2.2), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1), ros-lyrical-gz-common-vendor, ros-lyrical-gz-msgs-vendor, ros-lyrical-gz-sim-vendor, ros-lyrical-gz-transport-vendor, ros-lyrical-sdformat-vendor, libcli11-dev, libgflags-dev, ros-lyrical-ament-index-python, ros-lyrical-builtin-interfaces, ros-lyrical-geometry-msgs, ros-lyrical-gz-math-vendor, ros-lyrical-launch, ros-lyrical-launch-ros, ros-lyrical-rclcpp, ros-lyrical-rclcpp-action, ros-lyrical-rclcpp-components, ros-lyrical-rcpputils, ros-lyrical-ros-gz-interfaces, ros-lyrical-ros2pkg, ros-lyrical-simulation-interfaces, ros-lyrical-std-msgs, ros-lyrical-tf2, ros-lyrical-tf2-ros, ros-lyrical-ros-workspace
 Homepage: https://index.ros.org/p/ros_gz_sim/#lyrical
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-ros-gz-sim/ros-lyrical-ros-gz-sim_3.0.10-1noble_amd64.deb
-Size: 710456
-SHA256: 3f8fdae7e9451ee79cd635bf284c2ec5e666b85ca77a4e653512cb2e74f15c5d
-SHA1: 30be5e0b760691e2e97e45d747cb175fd2849966
-MD5sum: d360331c6c9592c00b31f6c794e5c887
+Size: 710436
+SHA256: fbcff503941e5490382f52c9966c49e49cc720fe78eecc714a2e46523784a0ca
+SHA1: d01e01586621dc7b821d9e18a9732bc188c5b3a0
+MD5sum: 7facc16545b73b1853d10cdd675a0fce
 Description: Tools for using Gazebo Sim simulation with ROS.
 
 Package: ros-lyrical-ros-gz-sim-demos
@@ -7871,6 +8515,22 @@ SHA1: 9d6be4be6f629693149174c9b38403df47b1c0ba
 MD5sum: 535469e8b783ff8ed1c9f4dd9e5d94da
 Description: Generate the message type support for dynamic message construction in C++.
 
+Package: ros-lyrical-rosx-introspection
+Version: 2.3.0-3noble
+Architecture: amd64
+Maintainer: Davide Faconti <davide.faconti@gmail.com>
+Installed-Size: 574
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), rapidjson-dev, ros-lyrical-ament-index-cpp, ros-lyrical-rclcpp, ros-lyrical-rosbag2-cpp, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rosx_introspection/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-rosx-introspection/ros-lyrical-rosx-introspection_2.3.0-3noble_amd64.deb
+Size: 169228
+SHA256: a7999d34f907b1ef86180ac5fbd0adeae4d9bae94f8838e9cbe11d08502a9019
+SHA1: dbf7580f6de113e1a33a0031b2134480e0a40426
+MD5sum: 40fa85623f0516139e0b1846cf8888c5
+Description: Parse any ROS/ROS2 message without compile-time information
+
 Package: ros-lyrical-rpyutils
 Version: 0.7.2-3noble
 Architecture: amd64
@@ -7886,6 +8546,22 @@ SHA256: a29ab157df6c13aee95515265d0fdf6cbcdd0316966e9c59ef93c97df720f415
 SHA1: efbcc85bccf7b5f505550b98ce367265ca663f3d
 MD5sum: e2163903a5fc5622f97a88a1f3032074
 Description: Package containing various utility types and functions for Python
+
+Package: ros-lyrical-rqt
+Version: 1.10.6-1noble
+Architecture: amd64
+Maintainer: "Dharini Dutia" <dharini@openrobotics.org>
+Installed-Size: 26
+Depends: ros-lyrical-rqt-gui (>= 0.3.0), ros-lyrical-rqt-gui-cpp (>= 0.3.0), ros-lyrical-rqt-gui-py (>= 0.3.0), ros-lyrical-rqt-py-common, ros-lyrical-ros-workspace
+Homepage: http://ros.org/wiki/rqt
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-rqt/ros-lyrical-rqt_1.10.6-1noble_amd64.deb
+Size: 3486
+SHA256: a74c3cf3fef8d6346aef58d824808ed9248c0bc9344ae3f00baf97737a6e81b9
+SHA1: 3e70037361f61fdefb5a6afd4c76ef6855abb504
+MD5sum: f84b43331e530a6614a8b00e1e3bb404
+Description: rqt is a Qt-based framework for GUI development for ROS.
 
 Package: ros-lyrical-rqt-action
 Version: 2.5.0-1noble
@@ -7968,6 +8644,22 @@ SHA1: 9a13dfbccd862841f1ed1cefb15251480e4e0ee1
 MD5sum: ef353ce2f342090695d78e30c7c562f2
 Description: rqt_console provides a GUI plugin for displaying and filtering ROS messages.
 
+Package: ros-lyrical-rqt-dotgraph
+Version: 0.0.5-3noble
+Architecture: amd64
+Maintainer: Alexander Xydes <alexander.l.xydes.civ@us.navy.mil>
+Installed-Size: 297
+Depends: libpyside2-dev, libshiboken2-dev, pyqt5-dev, python3-pyqt5, python3-pyqt5.qtsvg, python3-pyside2.qtsvg, python3-sip-dev, ros-lyrical-ament-index-python, ros-lyrical-python-qt-binding, ros-lyrical-qt-dotgraph (>= 1.1.2), ros-lyrical-qt-gui-py-common, ros-lyrical-rqt-graph, ros-lyrical-rqt-gui, ros-lyrical-rqt-gui-py, ros-lyrical-std-msgs, shiboken2, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rqt_dotgraph/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-rqt-dotgraph/ros-lyrical-rqt-dotgraph_0.0.5-3noble_amd64.deb
+Size: 68178
+SHA256: feacda3cde12d0bd8852dca9bb1099139ee196d806875779faa00d1ee8016e7d
+SHA1: 8687041423b37d298d0fc7cff7033f0b3ac6907a
+MD5sum: 41f1b1743cef5a5d5e37a8d6a295ac08
+Description: rqt GUI plugin to visualize dot graphs.
+
 Package: ros-lyrical-rqt-graph
 Version: 1.8.5-1noble
 Architecture: amd64
@@ -8048,6 +8740,23 @@ SHA256: e4bf991badcfd6a9c449d99e1dcf895f58270ae86d470bdcea497656901dca43
 SHA1: b10dc8a5bdf9a3b3c62ee052afaa7413ca8360df
 MD5sum: 4416cba7fcdc3032c3dac6bf1d677a46
 Description: rqt_image_view provides a GUI plugin for displaying images using image_transport.
+
+Package: ros-lyrical-rqt-moveit
+Version: 1.0.1-6noble
+Architecture: amd64
+Maintainer: Isaac I.Y. Saito <iisaito@kinugarage.com>
+Installed-Size: 81
+Depends: ros-lyrical-python-qt-binding (>= 0.2.19), ros-lyrical-rclpy, ros-lyrical-rqt-gui, ros-lyrical-rqt-gui-py, ros-lyrical-rqt-py-common, ros-lyrical-rqt-topic, ros-lyrical-sensor-msgs, ros-lyrical-ros-workspace
+Homepage: http://wiki.ros.org/rqt_moveit
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-rqt-moveit/ros-lyrical-rqt-moveit_1.0.1-6noble_amd64.deb
+Size: 17188
+SHA256: b941ce691edef1be2b1bd415ea4f2821d4480e35ffb5d834e37ef315d72e0887
+SHA1: 3ada96da358c91757b2a61f3449516d9fb2e820e
+MD5sum: e51894663281bb3c50f4ea9629502ebd
+Description: An rqt-based tool that assists monitoring tasks for MoveIt! motion planner developers and users.
+ Currently the following items are monitored if they are either running, existing or published: Node: /move_group Parameter: [/robot_description, /robot_description_semantic] Topic: Following types are monitored. Published "names" are ignored. [sensor_msgs/PointCloud, sensor_msgs/PointCloud2, sensor_msgs/Image, sensor_msgs/CameraInfo] Since this package is not made by the MoveIt! development team (although with assistance from the them), please post issue reports to the designated tracker (not MoveIt!'s main tracker).
 
 Package: ros-lyrical-rqt-msg
 Version: 1.7.4-1noble
@@ -8194,6 +8903,22 @@ SHA1: 76800c3ae580e7445544a2d2d369e21bc103dc17
 MD5sum: b33553804f73721b32e4c6154acf1d5d
 Description: A Python GUI plugin for introspecting available ROS service types.
 
+Package: ros-lyrical-rqt-tf-tree
+Version: 1.1.1-1noble
+Architecture: amd64
+Maintainer: "Isaac I.Y. Saito" <gm130s@gmail.com>
+Installed-Size: 83
+Depends: ros-lyrical-python-qt-binding (>= 0.2.19), ros-lyrical-qt-dotgraph, ros-lyrical-rclpy, ros-lyrical-rqt-graph, ros-lyrical-rqt-gui, ros-lyrical-rqt-gui-py, ros-lyrical-tf2-msgs, ros-lyrical-tf2-ros, ros-lyrical-tf2-ros-py, ros-lyrical-ros-workspace
+Homepage: http://wiki.ros.org/rqt_tf_tree
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-rqt-tf-tree/ros-lyrical-rqt-tf-tree_1.1.1-1noble_amd64.deb
+Size: 18430
+SHA256: ad84093920650a22d4a6f2200e72ddd9ea9a4037c07b2d9d228d18130bcd16f1
+SHA1: 7d79f05860b86e9534a2a0d72bf2303d6308f645
+MD5sum: aae94f4757187a41f6eba1031275f2c8
+Description: rqt_tf_tree provides a GUI plugin for visualizing the ROS TF frame tree.
+
 Package: ros-lyrical-rqt-topic
 Version: 2.1.2-1noble
 Architecture: amd64
@@ -8225,6 +8950,248 @@ SHA256: d029ffa9ffd82cd98ae6d89d4a4cd67542325a9e47b32daeed947fd4e309f3b8
 SHA1: 7d89c9dd3e8f676fb7fee0c26c3bd42a5011f1bc
 MD5sum: 9e9125837549107fab521a1070859f11
 Description: ROS Support Library
+
+Package: ros-lyrical-rtabmap
+Version: 0.23.13-1noble
+Architecture: amd64
+Maintainer: "Mathieu Labbe" <matlabbe@gmail.com>
+Installed-Size: 17624
+Depends: libc6 (>= 2.38), libdc1394-25 (>= 2.2.6), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.3.1), libgomp1 (>= 6), liboctomap1.9t64 (>= 1.9.7+dfsg), libopencv-calib3d406t64 (>= 4.6.0+dfsg), libopencv-contrib406t64 (>= 4.6.0+dfsg), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-features2d406t64 (>= 4.6.0+dfsg), libopencv-highgui406t64 (>= 4.6.0+dfsg), libopencv-imgcodecs406t64 (>= 4.6.0+dfsg), libopencv-imgproc406t64 (>= 4.6.0+dfsg), libopencv-photo406t64 (>= 4.6.0+dfsg), libopencv-stitching406t64 (>= 4.6.0+dfsg), libopencv-video406t64 (>= 4.6.0+dfsg), libopencv-videoio406t64 (>= 4.6.0+dfsg), libopenni2-0 (>= 2.2.0.33+dfsg), libpcl-common1.14 (>= 1.14.0+dfsg), libpcl-features1.14 (>= 1.14.0+dfsg), libpcl-filters1.14 (>= 1.14.0+dfsg), libpcl-io1.14 (>= 1.14.0+dfsg), libpcl-kdtree1.14 (>= 1.14.0+dfsg), libpcl-registration1.14 (>= 1.14.0+dfsg), libpcl-search1.14 (>= 1.14.0+dfsg), libpcl-segmentation1.14 (>= 1.14.0+dfsg), libpcl-surface1.14 (>= 1.14.0+dfsg), libpcl-visualization1.14 (>= 1.14.0+dfsg), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5printsupport5t64 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5t64 (>= 5.15.1), libspdlog1.12-fmt9, libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 13.1), libtbb12 (>= 2021.4.0), libvtk9.1t64 (>= 9.1.0+really9.1.0+dfsg2), libvtk9.1t64-qt (>= 9.1.0+really9.1.0+dfsg2), libyaml-cpp0.8 (>= 0.7.0), ros-lyrical-gtsam, ros-lyrical-libg2o, ros-lyrical-librealsense2, zlib1g (>= 1:1.2.0), liboctomap-dev, libpcl-dev, libsqlite3-dev, ros-lyrical-cv-bridge, ros-lyrical-qt-gui-cpp, zlib1g-dev, ros-lyrical-ros-workspace
+Homepage: http://introlab.github.io/rtabmap
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-rtabmap/ros-lyrical-rtabmap_0.23.13-1noble_amd64.deb
+Size: 5131282
+SHA256: 517cb8d0152cffedd9b3e6168646730e8546f63cfb44d10b1c712b45ae41f250
+SHA1: 9033a2a90ed4be6e304325834926bc81a76e8ea8
+MD5sum: 0878485dad5684735f117a9c212b9365
+Description: RTAB-Map's standalone library.
+ RTAB-Map is a RGB-D SLAM approach with real-time constraints.
+
+Package: ros-lyrical-rtabmap-conversions
+Version: 0.23.13-1noble
+Architecture: amd64
+Maintainer: "Mathieu Labbe" <matlabbe@gmail.com>
+Installed-Size: 539
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-stitching406t64 (>= 4.6.0+dfsg), libpcl-common1.14 (>= 1.14.0+dfsg), libstdc++6 (>= 13.1), ros-lyrical-rtabmap, ros-lyrical-cv-bridge, ros-lyrical-geometry-msgs, ros-lyrical-image-geometry, ros-lyrical-laser-geometry, ros-lyrical-pcl-conversions, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rtabmap-msgs, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-tf2, ros-lyrical-tf2-eigen, ros-lyrical-tf2-geometry-msgs, ros-lyrical-tf2-ros, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rtabmap_conversions/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-rtabmap-conversions/ros-lyrical-rtabmap-conversions_0.23.13-1noble_amd64.deb
+Size: 179990
+SHA256: 9910f226c5d9733bea4cd520ce7698e20ccfa5cb0b03a9713df3b123c9996338
+SHA1: b5237112cbe6266f5b1f9ef880326c33d5ca7daf
+MD5sum: 5b7a9bb4b2de20b0ac39309b131f26ee
+Description: RTAB-Map's conversions package.
+ This package can be used to convert rtabmap_msgs's msgs into RTAB-Map's library objects.
+
+Package: ros-lyrical-rtabmap-costmap-plugins
+Version: 0.23.13-1noble
+Architecture: amd64
+Maintainer: "Mathieu Labbe" <matlabbe@gmail.com>
+Installed-Size: 829
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-nav2-costmap-2d, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rtabmap_costmap_plugins/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-rtabmap-costmap-plugins/ros-lyrical-rtabmap-costmap-plugins_0.23.13-1noble_amd64.deb
+Size: 185524
+SHA256: 3beb4633346e60572025aa4478bd418bb72f7901396d2a967c61a1cde54173df
+SHA1: e5e6e77611968606dcb7b69f568db50f581283e1
+MD5sum: 61aa32f3b053ba2bcd21c9f003c91ba1
+Description: RTAB-Map's costmap plugins.
+
+Package: ros-lyrical-rtabmap-demos
+Version: 0.23.13-1noble
+Architecture: amd64
+Maintainer: "Mathieu Labbe" <matlabbe@gmail.com>
+Installed-Size: 461
+Depends: ros-lyrical-nav2-bringup, ros-lyrical-rtabmap-odom, ros-lyrical-rtabmap-rviz-plugins, ros-lyrical-rtabmap-slam, ros-lyrical-rtabmap-util, ros-lyrical-rtabmap-viz, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rtabmap_demos/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-rtabmap-demos/ros-lyrical-rtabmap-demos_0.23.13-1noble_amd64.deb
+Size: 126296
+SHA256: 61f64b01af56ddf964500af9fc202ef2823368448e9debfedeb6a6beb354f4c6
+SHA1: 1d8351a62210994c1a25f89e5c22c2472cacce55
+MD5sum: 09fe654b88514865c03fb850e1285c32
+Description: RTAB-Map's demo launch files.
+
+Package: ros-lyrical-rtabmap-examples
+Version: 0.23.13-1noble
+Architecture: amd64
+Maintainer: "Mathieu Labbe" <matlabbe@gmail.com>
+Installed-Size: 241
+Depends: ros-lyrical-imu-filter-madgwick, ros-lyrical-realsense2-camera, ros-lyrical-rtabmap-odom, ros-lyrical-rtabmap-rviz-plugins, ros-lyrical-rtabmap-slam, ros-lyrical-rtabmap-util, ros-lyrical-rtabmap-viz, ros-lyrical-tf2-ros, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rtabmap_examples/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-rtabmap-examples/ros-lyrical-rtabmap-examples_0.23.13-1noble_amd64.deb
+Size: 29278
+SHA256: deb9217a29fb8d43e15b18e3a5201aab4ed5172e411142f85c483057f0a3d939
+SHA1: 2330ae486876de9b5fa983cffc9cf08a74ecbd96
+MD5sum: 8f1d4337fdb72bd4a20d6c7860c97484
+Description: RTAB-Map's example launch files.
+
+Package: ros-lyrical-rtabmap-launch
+Version: 0.23.13-1noble
+Architecture: amd64
+Maintainer: "Mathieu Labbe" <matlabbe@gmail.com>
+Installed-Size: 101
+Depends: ros-lyrical-rtabmap-msgs, ros-lyrical-rtabmap-odom, ros-lyrical-rtabmap-rviz-plugins, ros-lyrical-rtabmap-slam, ros-lyrical-rtabmap-util, ros-lyrical-rtabmap-viz, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rtabmap_launch/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-rtabmap-launch/ros-lyrical-rtabmap-launch_0.23.13-1noble_amd64.deb
+Size: 13320
+SHA256: d8968fc79894833db5df555963bac9d40efaada0d4ab5e0e055252e3c4508489
+SHA1: b71f5a0798fae4f37eb046edc8cb213d88e9ab8e
+MD5sum: f6bc6c119ffeed996d6ef84b554aa4f2
+Description: RTAB-Map's main launch files.
+
+Package: ros-lyrical-rtabmap-msgs
+Version: 0.23.13-1noble
+Architecture: amd64
+Maintainer: "Mathieu Labbe" <matlabbe@gmail.com>
+Installed-Size: 13033
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 13), ros-lyrical-fastcdr, ros-lyrical-builtin-interfaces, ros-lyrical-geometry-msgs, ros-lyrical-rosidl-default-runtime, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-std-srvs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rtabmap_msgs/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-rtabmap-msgs/ros-lyrical-rtabmap-msgs_0.23.13-1noble_amd64.deb
+Size: 909588
+SHA256: cf3710883b3db44199a02dd433e5c454d69ca7af9253dfc6a0563b1330faadb4
+SHA1: bcb61e72f6028f492dd42f6655b3087d5eff5a1a
+MD5sum: eb43b9f74264e0f4f4a87d790ba7eafc
+Description: RTAB-Map's msgs package.
+
+Package: ros-lyrical-rtabmap-odom
+Version: 0.23.13-1noble
+Architecture: amd64
+Maintainer: "Mathieu Labbe" <matlabbe@gmail.com>
+Installed-Size: 4268
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-stitching406t64 (>= 4.6.0+dfsg), libpcl-common1.14 (>= 1.14.0+dfsg), libstdc++6 (>= 13.1), ros-lyrical-rtabmap, ros-lyrical-cv-bridge, ros-lyrical-image-geometry, ros-lyrical-laser-geometry, ros-lyrical-message-filters, ros-lyrical-nav-msgs, ros-lyrical-pcl-conversions, ros-lyrical-pcl-ros, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rtabmap-conversions, ros-lyrical-rtabmap-msgs, ros-lyrical-rtabmap-sync, ros-lyrical-rtabmap-util, ros-lyrical-sensor-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rtabmap_odom/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-rtabmap-odom/ros-lyrical-rtabmap-odom_0.23.13-1noble_amd64.deb
+Size: 767690
+SHA256: abffbe7b22fc4a418fd6e079c789564c900d53927933b430bfab6cd90ee008d8
+SHA1: d4ab94c87ffd3eda2d9c409c7ed6e25ff5ba55d9
+MD5sum: 1e498023b1f970a46cfcc505248bf58a
+Description: RTAB-Map's odometry package.
+
+Package: ros-lyrical-rtabmap-python
+Version: 0.23.13-1noble
+Architecture: amd64
+Maintainer: "Mathieu Labbe" <matlabbe@gmail.com>
+Installed-Size: 42
+Depends: python3-numpy, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rtabmap_python/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-rtabmap-python/ros-lyrical-rtabmap-python_0.23.13-1noble_amd64.deb
+Size: 6244
+SHA256: 529b44d92535668ce8ae43ae92a5c70d4d522781b752a31f553eafd9fc78f241
+SHA1: 8f66645b1b94223d68b130d386f2b29230a95932
+MD5sum: 08454677579d4e299f236ee9b9e59730
+Description: RTAB-Map's python package.
+
+Package: ros-lyrical-rtabmap-ros
+Version: 0.23.13-1noble
+Architecture: amd64
+Maintainer: "Mathieu Labbe" <matlabbe@gmail.com>
+Installed-Size: 45
+Depends: ros-lyrical-rtabmap-conversions, ros-lyrical-rtabmap-costmap-plugins, ros-lyrical-rtabmap-demos, ros-lyrical-rtabmap-examples, ros-lyrical-rtabmap-launch, ros-lyrical-rtabmap-msgs, ros-lyrical-rtabmap-odom, ros-lyrical-rtabmap-python, ros-lyrical-rtabmap-rviz-plugins, ros-lyrical-rtabmap-slam, ros-lyrical-rtabmap-sync, ros-lyrical-rtabmap-util, ros-lyrical-rtabmap-viz, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rtabmap_ros/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-rtabmap-ros/ros-lyrical-rtabmap-ros_0.23.13-1noble_amd64.deb
+Size: 5552
+SHA256: 92bf5b52347e218ee9302c5312909446b7bb90becdef0ae2772099b261191944
+SHA1: ba4af807cadb054a4adc915ab07f057ab26bbbdc
+MD5sum: 009f327972cae1aeb1a26913fdf851bd
+Description: RTAB-Map Stack
+
+Package: ros-lyrical-rtabmap-rviz-plugins
+Version: 0.23.13-1noble
+Architecture: amd64
+Maintainer: "Mathieu Labbe" <matlabbe@gmail.com>
+Installed-Size: 1531
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-stitching406t64 (>= 4.6.0+dfsg), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.1.2), libqt6widgets6t64 (>= 6.1.2), libstdc++6 (>= 13.1), ros-lyrical-rtabmap, ros-lyrical-rviz-ogre-vendor, ros-lyrical-pcl-conversions, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rtabmap-conversions, ros-lyrical-rtabmap-msgs, ros-lyrical-rviz-common, ros-lyrical-rviz-default-plugins, ros-lyrical-rviz-rendering, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-tf2, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rtabmap_rviz_plugins/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-rtabmap-rviz-plugins/ros-lyrical-rtabmap-rviz-plugins_0.23.13-1noble_amd64.deb
+Size: 306194
+SHA256: c21d98056f0a73424629921b742a70b1aad7d7f57ff9341d6e1b6739df01bb84
+SHA1: 3ab45f1276a3456911cff3563b9021197b5e094d
+MD5sum: 0757569a423ea0a2387d3cf3fda66990
+Description: RTAB-Map's rviz plugins.
+
+Package: ros-lyrical-rtabmap-slam
+Version: 0.23.13-1noble
+Architecture: amd64
+Maintainer: "Mathieu Labbe" <matlabbe@gmail.com>
+Installed-Size: 6097
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-imgproc406t64 (>= 4.6.0+dfsg), libopencv-stitching406t64 (>= 4.6.0+dfsg), libstdc++6 (>= 13.1), ros-lyrical-rtabmap, ros-lyrical-apriltag-msgs, ros-lyrical-aruco-msgs, ros-lyrical-aruco-opencv-msgs, ros-lyrical-cv-bridge, ros-lyrical-geometry-msgs, ros-lyrical-nav-msgs, ros-lyrical-nav2-msgs, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rtabmap-msgs, ros-lyrical-rtabmap-sync, ros-lyrical-rtabmap-util, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-std-srvs, ros-lyrical-tf2, ros-lyrical-tf2-ros, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rtabmap_slam/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-rtabmap-slam/ros-lyrical-rtabmap-slam_0.23.13-1noble_amd64.deb
+Size: 880040
+SHA256: b7d619c936f835948c39cf146d09f6d55553e7842c225474658e88bbc128644e
+SHA1: de374652493068cfbbc5ec5bae51e28e5b2eafea
+MD5sum: b550e812eefaab35a486a08ca432fe4e
+Description: RTAB-Map's SLAM package.
+
+Package: ros-lyrical-rtabmap-sync
+Version: 0.23.13-1noble
+Architecture: amd64
+Maintainer: "Mathieu Labbe" <matlabbe@gmail.com>
+Installed-Size: 11544
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-stitching406t64 (>= 4.6.0+dfsg), libstdc++6 (>= 13.1), ros-lyrical-rtabmap, ros-lyrical-cv-bridge, ros-lyrical-diagnostic-updater, ros-lyrical-image-transport, ros-lyrical-message-filters, ros-lyrical-nav-msgs, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rtabmap-conversions, ros-lyrical-rtabmap-msgs, ros-lyrical-sensor-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rtabmap_sync/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-rtabmap-sync/ros-lyrical-rtabmap-sync_0.23.13-1noble_amd64.deb
+Size: 1487744
+SHA256: cb4f6b6e6a65d2ce9154c4d6a532dfddde1e9b693d2a294759ef7b54623cae57
+SHA1: 1e507fd819b22f8db31a414bf5fd6cec86b0a62a
+MD5sum: c5a9858a85eb380001c4c2755ecd0402
+Description: RTAB-Map's synchronization package.
+
+Package: ros-lyrical-rtabmap-util
+Version: 0.23.13-1noble
+Architecture: amd64
+Maintainer: "Mathieu Labbe" <matlabbe@gmail.com>
+Installed-Size: 5688
+Depends: libc6 (>= 2.35), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-stitching406t64 (>= 4.6.0+dfsg), libpcl-common1.14 (>= 1.14.0+dfsg), libpcl-filters1.14 (>= 1.14.0+dfsg), libstdc++6 (>= 13.1), ros-lyrical-rtabmap, ros-lyrical-cv-bridge, ros-lyrical-image-geometry, ros-lyrical-image-transport, ros-lyrical-laser-geometry, ros-lyrical-message-filters, ros-lyrical-nav-msgs, ros-lyrical-octomap-msgs, ros-lyrical-pcl-conversions, ros-lyrical-pcl-ros, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rtabmap-conversions, ros-lyrical-rtabmap-msgs, ros-lyrical-rtabmap-sync, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-stereo-msgs, ros-lyrical-tf2, ros-lyrical-tf2-geometry-msgs, ros-lyrical-tf2-ros, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rtabmap_util/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-rtabmap-util/ros-lyrical-rtabmap-util_0.23.13-1noble_amd64.deb
+Size: 990754
+SHA256: cf5b55da5a12c24fc0f5c7b24d4fc53e4ad3db7d6055cab968df9de1eea6008f
+SHA1: f6f021ba8396f483a083b7aa179f6eea0b4f74e2
+MD5sum: 344382eb47e085ee3d614fae3c1c82e3
+Description: RTAB-Map's various useful nodes and nodelets.
+
+Package: ros-lyrical-rtabmap-viz
+Version: 0.23.13-1noble
+Architecture: amd64
+Maintainer: "Mathieu Labbe" <matlabbe@gmail.com>
+Installed-Size: 2580
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-stitching406t64 (>= 4.6.0+dfsg), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5t64 (>= 5.0.2), libstdc++6 (>= 13.1), ros-lyrical-rtabmap, ros-lyrical-cv-bridge, ros-lyrical-geometry-msgs, ros-lyrical-nav-msgs, ros-lyrical-rclcpp, ros-lyrical-rtabmap-msgs, ros-lyrical-rtabmap-sync, ros-lyrical-std-msgs, ros-lyrical-std-srvs, ros-lyrical-tf2, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rtabmap_viz/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-rtabmap-viz/ros-lyrical-rtabmap-viz_0.23.13-1noble_amd64.deb
+Size: 466658
+SHA256: f03a3213f3b5da335f58f43121b36a14f01029590dee14f190edf37e293850f2
+SHA1: c8697c3305b5982125e30fb1d341c62f4d08505d
+MD5sum: e616a7cae32ef5b38447368676ed6739
+Description: RTAB-Map's visualization package.
 
 Package: ros-lyrical-rttest
 Version: 0.20.1-1noble
@@ -8268,10 +9235,10 @@ Homepage: https://github.com/ros2/rviz/blob/ros2/README.md
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-rviz-common/ros-lyrical-rviz-common_15.2.6-1noble_amd64.deb
-Size: 677116
-SHA256: 4e7d4fa8e91f802ca664bd1aa6cb49bc826ace9a272604ab93da32a934d22785
-SHA1: e7600b7e48e0ef162bdbbc32ada855b9c0ab8c25
-MD5sum: 50be26b69da720e5dcdbe478bc758936
+Size: 677136
+SHA256: cb7865a49ac89fc5073f8fbe6765ad90b0a8d0b837557994509e711fe361d260
+SHA1: ac3709c18cd907a3ac99d986b39f1bec8bfcebe3
+MD5sum: cd31f8cc4bfecfaf85583d6a51ce3518
 Description: Common rviz API, used by rviz plugins and applications.
 
 Package: ros-lyrical-rviz-default-plugins
@@ -8284,10 +9251,10 @@ Homepage: https://github.com/ros2/rviz/blob/ros2/README.md
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-rviz-default-plugins/ros-lyrical-rviz-default-plugins_15.2.6-1noble_amd64.deb
-Size: 1647196
-SHA256: bc1b4ef8a67badb4a56aca60f015a1694eff8250e1b692644505e3eede5863da
-SHA1: e122cef7b68cd55cacfe9795390a8b841136f264
-MD5sum: 6c6232da8dacfcc8951bdfdf94e27b49
+Size: 1647186
+SHA256: 4588d4e649f36b34fed8979edf25110a3a7aa004adfaeee5869b3a0cb0dd85d7
+SHA1: 5844b96102b693d34e862a743a065d85a3a24b63
+MD5sum: 2e28fc00adb1cb07c84ac56ebe46a01f
 Description: Several default plugins for rviz to cover the basic functionality.
 
 Package: ros-lyrical-rviz-imu-plugin
@@ -8332,10 +9299,10 @@ Homepage: https://github.com/ros2/rviz/blob/ros2/README.md
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-rviz-rendering/ros-lyrical-rviz-rendering_15.2.6-1noble_amd64.deb
-Size: 793900
-SHA256: 0b33d815fc74afa143ce35ebab6514b2175524233a74c00999e1da1286e15f42
-SHA1: be29edd5265660e5154c7dbfe91cf61b1ab87b2c
-MD5sum: 3fe31f8f481820c42c9c409264db5446
+Size: 794090
+SHA256: 7cc7f2cc3c39c3a0e5f24bb40973e0d0ac79217687367be1933400eec6b1a6d0
+SHA1: 26fedfd268cbcb3d634c64a23e0e7fae52dd6f2c
+MD5sum: ab72f9d95b5d2e5526331073659a73b1
 Description: Library which provides the 3D rendering functionality in rviz.
 
 Package: ros-lyrical-rviz-rendering-tests
@@ -8365,10 +9332,26 @@ Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-rviz-visual-testing-framework/ros-lyrical-rviz-visual-testing-framework_15.2.6-1noble_amd64.deb
 Size: 83972
-SHA256: f185f6ee5264a523e1138e5058586c665afeb5553d0d8c16a13c50ca7f5d7b89
-SHA1: 41b6199c529cb8ebf30c12aadc8368654b881ee9
-MD5sum: 83123d7fc76b9f57a9b4e82b936029d3
+SHA256: b725be44278b7dfcccdba83c3dd91a10406a120c41388ae9b730ee55bee62424
+SHA1: 083b4176a154fafcc0625be2d92973b88df7f45d
+MD5sum: 2b95c5e6e6ae6adb8e5f725c39a3a776
 Description: 3D testing framework for RViz.
+
+Package: ros-lyrical-rviz-visual-tools
+Version: 4.2.0-1noble
+Architecture: amd64
+Maintainer: "Mike Lautman" <mike@picknik.ai>
+Installed-Size: 1557
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libqt6core6t64 (>= 6.4.0), libqt6widgets6t64 (>= 6.1.2), libstdc++6 (>= 13.1), libeigen3-dev, libqt6widgets6, ros-lyrical-ament-index-python, ros-lyrical-eigen-stl-containers, ros-lyrical-eigen3-cmake-module, ros-lyrical-geometry-msgs, ros-lyrical-interactive-markers, ros-lyrical-launch, ros-lyrical-launch-ros, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rviz-common, ros-lyrical-rviz-default-plugins, ros-lyrical-rviz-ogre-vendor, ros-lyrical-rviz-rendering, ros-lyrical-rviz2, ros-lyrical-sensor-msgs, ros-lyrical-shape-msgs, ros-lyrical-std-msgs, ros-lyrical-tf2, ros-lyrical-tf2-eigen, ros-lyrical-tf2-geometry-msgs, ros-lyrical-trajectory-msgs, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Homepage: https://github.com/PickNikRobotics/rviz_visual_tools
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-rviz-visual-tools/ros-lyrical-rviz-visual-tools_4.2.0-1noble_amd64.deb
+Size: 318108
+SHA256: 82acb62c8ef31dc11a39490a8201dbbcd1e47ee1a2ff4464aae46ab23d032abc
+SHA1: 30dec7eacc340ce7e3c388ad2a2158f4108e68f7
+MD5sum: d3373ca76f1c893e491cb40716d8a64f
+Description: Utility functions for displaying and debugging data in Rviz via published markers
 
 Package: ros-lyrical-rviz2
 Version: 15.2.6-1noble
@@ -8412,10 +9395,10 @@ Homepage: https://index.ros.org/p/sdformat_urdf/#lyrical
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-sdformat-urdf/ros-lyrical-sdformat-urdf_2.1.1-1noble_amd64.deb
-Size: 52384
-SHA256: 24e27efe9dc13842685b6e246a66e280b30efd0878ab2d13f9c99e49bfab2e69
-SHA1: f7ee3185114a6f1b3e50885f49d7631e491b16ce
-MD5sum: 6ace982ee5b8fddb477ea88d887c42e2
+Size: 52398
+SHA256: 769377a78a2f51c24d60b3d28aa57e33a3a51c5f7b365c62a23d23d32ca4ab4e
+SHA1: 3560a499b61bc789d8b7afddb19d1169d64ac2da
+MD5sum: 6b56d91efad7e4cbf666d2f9a74d3229
 Description: URDF plugin to parse SDFormat XML into URDF C++ DOM objects.
 
 Package: ros-lyrical-sdformat-vendor
@@ -8428,10 +9411,10 @@ Homepage: https://github.com/gazebosim/sdformat
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-sdformat-vendor/ros-lyrical-sdformat-vendor_0.3.4-1noble_amd64.deb
-Size: 1419010
-SHA256: 30ced19012c7a421831948df4faf073e594fc0b2ee82849028d84c524554f3d4
-SHA1: 6aae61195bb24368b5b9a25c2ab2b9ec5425ee5c
-MD5sum: ece5f83d97937a2c5a87443d9584b983
+Size: 1419112
+SHA256: f933f0386c68459ea188409e3f03cf0019ee56e97aab365fe5095bb83dd02667
+SHA1: 080582484ec0c924417cf294da575e633ba616e9
+MD5sum: c2e165b09a779a94a28dce8e4ed77526
 Description: Vendor package for: sdformat 16.1.0 SDFormat is an XML file format that describes environments, objects, and robots in a manner suitable for robotic applications
 
 Package: ros-lyrical-sdl2-vendor
@@ -8556,10 +9539,10 @@ Homepage: https://index.ros.org/p/slam_toolbox/#lyrical
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-lyrical-slam-toolbox/ros-lyrical-slam-toolbox_2.10.0-2noble_amd64.deb
-Size: 2066090
-SHA256: aca575b544785a3a309e374536b818429ddde09e9bce631e905d00321cc1985b
-SHA1: 15cd09850ec577162da38cb560865008590ff9bc
-MD5sum: a4907bb5f4e107c1f3a25d1b3cbaab6e
+Size: 2065708
+SHA256: 71c5391c446326b074b2a8c73aab9d6e7043be0a41194ab50af779d5a1dea5ef
+SHA1: f2ddf1a6e5636507b03ce533eb9c6e2d67d51ee7
+MD5sum: 31b31537b5673ed25c0d6255fd0f7afc
 Description: This package provides a sped up improved slam karto with updated SDK and visualization and modification toolsets
 
 Package: ros-lyrical-smclib
@@ -8867,6 +9850,22 @@ SHA256: f00ebd9e290d8fc491f41ee9e95ddaf7363ed3b767856b82bac1aab2dcd99923
 SHA1: 5c2db0f34f8998f43d5c74f93c0ef658327ba76f
 MD5sum: df66bd5ebff130d2c7e95173a867e9b1
 Description: A package containing message definitions and fixtures used exclusively for testing purposes.
+
+Package: ros-lyrical-tf-transformations
+Version: 1.1.1-3noble
+Architecture: amd64
+Maintainer: David V. Lu!! <david@metrorobots.com>
+Installed-Size: 121
+Depends: python3-numpy, python3-transforms3d, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/tf_transformations/#lyrical
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-tf-transformations/ros-lyrical-tf-transformations_1.1.1-3noble_amd64.deb
+Size: 23882
+SHA256: 4e153eb18c172f091fc6fc91af9fd5c0efc56d3aeb153369650b44e637f3c274
+SHA1: 815c7d1f6b0dd714480c5fb43aa322b019b0be7b
+MD5sum: 50784c7215be94ee19489bee3f502b0d
+Description: Reimplementation of the tf/transformations.py library for common Python spatial operations
 
 Package: ros-lyrical-tf2
 Version: 0.45.10-1noble
@@ -9480,6 +10479,22 @@ SHA256: d3387c88759774a6955890d41813bfeef1aec04899a6e74926c6cca17f0429cf
 SHA1: d9b229ddfa808b871046eff56a67584d6b8d34e6
 MD5sum: 58945d721e547c16d8c86f940565792b
 Description: Persistent storage of ROS messages
+
+Package: ros-lyrical-warehouse-ros-sqlite
+Version: 1.0.9-1noble
+Architecture: amd64
+Maintainer: "MoveIt Release Team" <moveit_releasers@googlegroups.com>
+Installed-Size: 224
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libsqlite3-0 (>= 3.8.7), libstdc++6 (>= 13.1), libsqlite3-dev, ros-lyrical-class-loader, ros-lyrical-rclcpp, ros-lyrical-warehouse-ros, ros-lyrical-ros-workspace
+Homepage: http://ros.org/wiki/warehouse_ros
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-warehouse-ros-sqlite/ros-lyrical-warehouse-ros-sqlite_1.0.9-1noble_amd64.deb
+Size: 67260
+SHA256: 801248aa439c9df94e886e21fcfbd653ff7e40f78ee9d530c79247e6b1534ce4
+SHA1: ee76c8372843b6db0d5de841a30564289ce350cf
+MD5sum: 692ae37dad46ecda38c6e7fd54c71863
+Description: Implementation of warehouse_ros for sqlite
 
 Package: ros-lyrical-xacro
 Version: 2.1.1-3noble

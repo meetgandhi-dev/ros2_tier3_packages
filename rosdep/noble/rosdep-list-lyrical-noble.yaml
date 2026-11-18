@@ -3574,3 +3574,381 @@ rmf_traffic_editor_assets:
       apt:
         packages:
         - ros-lyrical-rmf-traffic-editor-assets
+dynamixel_sdk:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-dynamixel-sdk
+dynamixel_interfaces:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-dynamixel-interfaces
+open_manipulator_collision:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-open-manipulator-collision
+open_manipulator_teleop:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-open-manipulator-teleop
+dynamixel_hardware_interface:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-dynamixel-hardware-interface
+om_gravity_compensation_controller:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-om-gravity-compensation-controller
+om_joint_trajectory_command_broadcaster:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-om-joint-trajectory-command-broadcaster
+om_spring_actuator_controller:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-om-spring-actuator-controller
+warehouse_ros_sqlite:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-warehouse-ros-sqlite
+gz_ros2_control:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-gz-ros2-control
+open_manipulator_description:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-open-manipulator-description
+open_manipulator_bringup:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-open-manipulator-bringup
+open_manipulator_gui:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-open-manipulator-gui
+open_manipulator_playground:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-open-manipulator-playground
+open_manipulator_moveit_config:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-open-manipulator-moveit-config
+open_manipulator:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-open-manipulator
+rqt_moveit:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt-moveit
+rqt_dotgraph:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt-dotgraph
+gtsam:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-gtsam
+librealsense2:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-librealsense2
+rtabmap_python:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rtabmap-python
+libg2o:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-libg2o
+launch_pytest:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-launch-pytest
+apriltag_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-apriltag-msgs
+aruco_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-aruco-msgs
+aruco_opencv_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-aruco-opencv-msgs
+realsense2_camera_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-realsense2-camera-msgs
+rtabmap_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rtabmap-msgs
+rtabmap:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rtabmap
+rtabmap_conversions:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rtabmap-conversions
+rtabmap_sync:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rtabmap-sync
+rtabmap_rviz_plugins:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rtabmap-rviz-plugins
+rtabmap_viz:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rtabmap-viz
+rtabmap_costmap_plugins:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rtabmap-costmap-plugins
+rtabmap_util:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rtabmap-util
+realsense2_camera:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-realsense2-camera
+rtabmap_odom:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rtabmap-odom
+rtabmap_slam:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rtabmap-slam
+rtabmap_examples:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rtabmap-examples
+rtabmap_launch:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rtabmap-launch
+rtabmap_demos:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rtabmap-demos
+rtabmap_ros:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rtabmap-ros
+apriltag_detector:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-apriltag-detector
+apriltag_draw:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-apriltag-draw
+apriltag_tools:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-apriltag-tools
+apriltag_mit:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-apriltag-mit
+apriltag:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-apriltag
+apriltag_detector_umich:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-apriltag-detector-umich
+ament_black:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-black
+ament_cmake_black:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ament-cmake-black
+ffmpeg_image_transport_msgs:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ffmpeg-image-transport-msgs
+ffmpeg_encoder_decoder:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ffmpeg-encoder-decoder
+ffmpeg_image_transport:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ffmpeg-image-transport
+ffmpeg_image_transport_tools:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ffmpeg-image-transport-tools
+tf_transformations:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-tf-transformations
+rviz_visual_tools:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rviz-visual-tools
+rqt_tf_tree:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt-tf-tree
+rqt:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rqt
+rosx_introspection:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-rosx-introspection
+ros_gz:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-ros-gz
+octomap_ros:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-octomap-ros
+octomap_server:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-octomap-server
+octomap_mapping:
+  ubuntu:
+    noble:
+      apt:
+        packages:
+        - ros-lyrical-octomap-mapping
